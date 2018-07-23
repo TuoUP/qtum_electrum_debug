@@ -1,0 +1,18 @@
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7efd60e23ca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7efd60e23ca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7efd60e23ca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7efd60e23ca8>
+
+prev_tx:{'0d2cf239ddbb86b1346a0e8d7397d173a833d8d3bbce4dad00956619bf27a5db': <qtum_electrum.transaction.Transaction object at 0x7efd60fae3c8>}
+
+xpub_path:{'tpubDCQmhcD9byxAgNereGYygKsmhPsGYzNE9HRMvjGsd2YMms8aDN8FGiARE25dVVBHnVZiD2LXvq8ubHU2YGpKUgdZ3fcthdpDDu97GuNBQ7Z': "m/44'/88'/0'"}
+
+client_type:TrezorClient
+
+inputs:[<TxInputType: {'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'amount': 1599011000, 'sequence': 4294967293, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'prev_index': 1}>]
+
+outputs:[<TxOutputType: {'amount': 100000000, 'script_type': 0, 'address': 'qdBDeM1aJgbTvLsgZbu6cnk5WCKqhTX8zy'}>, <TxOutputType: {'amount': 1498869700, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+

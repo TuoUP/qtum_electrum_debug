@@ -1,0 +1,36 @@
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7efd60e23ca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7efd60e23ca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7efd60e23ca8>
+
+prev_tx:{'d42d75370f28478e0d474b340450816dc0ab6eac97a50d4c4c57da2434080244': <qtum_electrum.transaction.Transaction object at 0x7efd60faea58>}
+
+xpub_path:{'tpubDCQmhcD9byxAgNereGYygKsmhPsGYzNE9HRMvjGsd2YMms8aDN8FGiARE25dVVBHnVZiD2LXvq8ubHU2YGpKUgdZ3fcthdpDDu97GuNBQ7Z': "m/44'/88'/0'"}
+
+client_type:TrezorClient
+
+inputs:[<TxInputType: {'prev_hash': b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D', 'amount': 100000000, 'sequence': 4294967293, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'prev_index': 0}>]
+
+outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': '040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 60000000, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f336aaccca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f336aaccca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f336aaccca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f336aaccca8>
+
+prev_tx:{'d42d75370f28478e0d474b340450816dc0ab6eac97a50d4c4c57da2434080244': <qtum_electrum.transaction.Transaction object at 0x7f336ac57588>}
+
+xpub_path:{'tpubDCQmhcD9byxAgNereGYygKsmhPsGYzNE9HRMvjGsd2YMms8aDN8FGiARE25dVVBHnVZiD2LXvq8ubHU2YGpKUgdZ3fcthdpDDu97GuNBQ7Z': "m/44'/88'/0'"}
+
+client_type:TrezorClient
+
+inputs:[<TxInputType: {'sequence': 4294967293, 'prev_index': 0, 'script_type': 0, 'amount': 100000000, 'prev_hash': b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D', 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+outputs:[<TxOutputType: {'amount': 0, 'script_type': 2, 'op_return_data': '040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 60000000, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fd732f9cca8>
+
