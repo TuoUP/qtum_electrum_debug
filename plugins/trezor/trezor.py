@@ -324,29 +324,52 @@ class TrezorPlugin(HW_PluginBase):
         inputs = self.tx_inputs(tx, True, keystore.get_script_gen())
         outputs = self.tx_outputs(keystore.get_derivation(), tx, keystore.get_script_gen())
 
-        with open('./debug_Trezor_info.txt','a') as f:
+        with open('./Qtum_Trezor_var.txt','a') as f:
             try:
-                f.write('prev_tx:'+str(prev_tx)+2*'\n')
-                f.write('xpub_path:' + str(xpub_path) + 2 * '\n')
-                #f.write('tx:tx.input:'+str(inputs)+2*'\n')
-                # f.write('tx:tx.output:' + str(output) + 2 * '\n')
-                f.write('client_type:'+str(client.__class__.__name__)+2*'\n')
+                f.write('prev_tx:'+str(prev_tx)+2*'\n'+"打印了前一个交易的信息"+2*'\n')
+                f.write('xpub_path:'+ str(xpub_path) +2*'\n'+"输出了公钥的路径[m/44'/88'/0]"+ 2 * '\n')
+                #f.write('client_type:'+str(client.__class__.__name__)+2*'\n')
                 f.write('inputs:' + str(inputs) + 2 * '\n')
                 f.write('outputs:' + str(outputs) + 2 * '\n')
                 #f.write('before_signatures'+str(signatures)+2*'\n')
                 #f.write('after_signatures'+str([(bh2u(x) + '01') for x in signatures])+2*'\n')
             except:
                 pass
-
-        print("############111111##################")
-        print("trezor.py:sign_transaction execute")
+        with open('./Qtum_Trezor_step.txt','a') as f:
+            try:
+                f.write('step1:client.sign_tx'+'\n')
+            except:
+                pass
+        #print("############111111##################")
+        #print("trezor.py:sign_transaction execute")
         signatures = client.sign_tx(self.get_coin_name(), inputs, outputs, lock_time=tx.locktime)[0]
-
-
-
         signatures = [(bh2u(x) + '01') for x in signatures]
 
+        with open('./Qtum_Trezor_var.txt','a') as f:
+            try:
+                f.write('signatures:'+str(signatures)+'\n')
+            except:
+                pass
+
+        with open('./Qtum_Trezor_step.txt','a') as f:
+            try:
+                f.write('step2:client.update_signatures'+'\n')
+            except:
+                pass
+
+        with open('./Qtum_Trezor_var.txt','a') as f:
+            try:
+                f.write('unupdated_sig_tx:'+str(tx)+'\n')
+            except:
+                pass
+
         tx.update_signatures(signatures)
+
+        with open('./Qtum_Trezor_var.txt','a') as f:
+            try:
+                f.write('updated_sig_tx:'+str(tx)+'\n')
+            except:
+                pass
 
     def show_address(self, wallet, address, keystore=None):
         if keystore is None:
@@ -489,8 +512,32 @@ class TrezorPlugin(HW_PluginBase):
             txoutputtype = self.types.TxOutputType()
             txoutputtype.amount = amount
             if _type == TYPE_SCRIPT:
+                #原始的代码
                 txoutputtype.script_type = self.types.OutputScriptType.PAYTOOPRETURN
-                txoutputtype.op_return_data = address[2:]
+                #改过的代码
+                #txoutputtype.script_type = self.types.OutputScriptType.PAYTOSCRIPTHASH
+                #原始的代码
+                #txoutputtype.op_return_data = address[2:]#?
+                #改过的代码
+                #
+                txoutputtype.op_return_data = address[:]
+
+                with open('./Qtum_Trezor_var.txt', 'a') as f:
+                    try:
+                        f.write('############'+'\n')
+                        f.write('我认为这里有问题:'+'\n')
+                        f.write('txoutputtype.op_return_data = address[2:]'+str(address[2:])+'\n')
+                        f.write("address:"+str(address)+'\n')
+                    except:
+                        pass
+                #这里是将0104改为b'0104'
+                #txoutputtype.op_return_data = str.encode(address[:])
+                #这里是将txoutputtype.op_return_data直接改为b'test of the op_return data'
+                txoutputtype.op_return_data = b'test of the op_return data'
+
+
+
+
             elif _type == TYPE_ADDRESS:
                 txoutputtype.script_type = self.types.OutputScriptType.PAYTOADDRESS
 
@@ -502,11 +549,21 @@ class TrezorPlugin(HW_PluginBase):
         outputs = []
         has_change = False
         any_output_on_change_branch = is_any_tx_output_on_change_branch(tx)
-
         for _type, address, amount in tx.outputs():
             use_create_by_derivation = False
 
             info = tx.output_info.get(address)
+
+            with open('./Qtum_Trezor_var.txt', 'a') as f:
+                try:
+                    f.write('derivation:'+str(derivation)+'\n')
+                    f.write('tx.outputs():_type' + str(_type) + '\n' + "应该与热钱包_type一致addr=0 script=2" + 2 * '\n')
+                    f.write("tx.outputs():address" + str(address) + 2 * '\n' + "输出了公钥的路径[m/44'/88'/0]" + 2 * '\n')
+                    f.write('tx.outputs():amount' + str(amount) + 2 * '\n')
+                    f.write('info:'+str(info)+'由address得到的info'+'\n')
+                except:
+                    pass
+
             if info is not None and not has_change:
                 index, xpubs, m = info
                 on_change_branch = index[0] == 1
@@ -529,6 +586,7 @@ class TrezorPlugin(HW_PluginBase):
     def electrum_tx_to_txtype(self, tx):
         t = self.types.TransactionType()
         if tx is None:
+            _output_on_change_branch = is_any_tx_output_on_change_branch(tx)
             # probably for segwit input and we don't need this prev txn
             return t
         d = deserialize(tx.raw)

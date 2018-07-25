@@ -1,0 +1,24 @@
+step1:client.sign_tx
+step2:client.update_signatures
+step2 has into :transactions.update_signatures
+step1:client.sign_tx
+step2:client.update_signatures
+step2 has into :transactions.update_signatures
+step1:client.sign_tx
+step2:client.update_signatures
+step2 has into :transactions.update_signatures
+step1:client.sign_tx
+step2:client.update_signatures
+step2 has into :transactions.update_signatures
+step1:client.sign_tx
+step2:client.update_signatures
+step2 has into :transactions.update_signatures
+step1:client.sign_tx
+step2:client.update_signatures
+step2 has into :transactions.update_signatures
+step1:client.sign_tx
+step2:client.update_signatures
+step2 has into :transactions.update_signatures
+step1:client.sign_tx
+step2:client.update_signatures
+step2 has into :transactions.update_signatures

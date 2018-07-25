@@ -1,0 +1,377 @@
+msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 1, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 10000000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 1, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 10000000}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1549011000}>]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 1}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 1}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 160000000, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 160000000, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 160000000, 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 160000000, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 160000000, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 160000000, 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 160000000, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 160000000, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 160000000, 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3, 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3, 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3, 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
+
+res.details.request_index1msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index1msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index0msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
+
+res.details.request_index1

@@ -722,39 +722,81 @@ class Transaction:
         intended for self._inputs[i].
         This is used by the Trezor and KeepKey plugins.
         """
+        with open('./Qtum_Trezor_step.txt','a') as f:
+            try:
+                f.write('step2 has into :transactions.update_signatures'+'\n')
+            except:
+                pass
+
+        with open('./Qtum_Debug.txt','a') as f:
+            try:
+                f.write('executed file:transactions.py;func:update_signatures'+'\n')
+            except:
+                pass
+        print('****1')
         if self.is_complete():
+            print("*********2")
+            print("self.is_complete()")
             return
         if len(self.inputs()) != len(signatures):
+            print('*********3')
+            print('executed error:file:transactions.py;func:update_signatures ')
             raise Exception('expected {} signatures; got {}'.format(len(self.inputs()), len(signatures)))
+        print("*****4")
+        print('executed file:transactions.py;func:update_signatures')
         for i, txin in enumerate(self.inputs()):
             pubkeys, x_pubkeys = self.get_sorted_pubkeys(txin)
             sig = signatures[i]
+            print('******5')
             if sig in txin.get('signatures'):
+                print('******6')
+                print("sig in txin.get('signatures')")
                 continue
             pre_hash = Hash(bfh(self.serialize_preimage(i)))
             sig_string = ecc.sig_string_from_der_sig(bfh(sig[:-2]))
             for recid in range(4):
+                print('******7')
                 try:
                     public_key = ecc.ECPubkey.from_sig_string(sig_string, recid, pre_hash)
                 except ecc.InvalidECPointException:
                     # the point might not be on the curve for some recid values
                     continue
                 pubkey_hex = public_key.get_public_key_hex(compressed=True)
+                try:
+                    print('pubkey_hex',pubkey_hex)
+                except:
+                    print('get error:pubkey_hex')
+
+                try:
+                    print('pubkeys', pubkeys)
+                except:
+                    print('get error:pubkeys')
+                #原始代码有if判断
                 if pubkey_hex in pubkeys:
+                #更新代码
+                #if 1:
+                    print('*********8')
+                    print('pubkey_hex in pubkeys')
                     try:
                         public_key.verify_message_hash(sig_string, pre_hash)
                     except Exception:
                         traceback.print_exc(file=sys.stderr)
                         continue
+                    #原始代码有 j =  pubkeys.index(pubkey_hex)
                     j = pubkeys.index(pubkey_hex)
+                    #更改代码为j = 0
+                    #j = 0
                     print_error("adding sig", i, j, pubkey_hex, sig)
+                    print('ready:add_signature_to_txin')
                     self.add_signature_to_txin(i, j, sig)
+                    print('finish:add_signature_to_txin')
                     #self._inputs[i]['x_pubkeys'][j] = pubkey
                     break
         # redo raw
         self.raw = self.serialize()
 
     def add_signature_to_txin(self, i, signingPos, sig):
+        print('into:add_signature_to_txin')
         txin = self._inputs[i]
         txin['signatures'][signingPos] = sig
         txin['scriptSig'] = None  # force re-serialization
@@ -1071,23 +1113,24 @@ class Transaction:
             return network_ser
 
     def serialize_to_network(self, estimate_size=False, witness=True):
+        print("into serialize_to_network!!!")
         nVersion = int_to_hex(self.version, 4)
         nLocktime = int_to_hex(self.locktime, 4)
         inputs = self.inputs()
         outputs = self.outputs()
         txins = var_int(len(inputs)) + ''.join(self.serialize_input(txin, self.input_script(txin, estimate_size)) for txin in inputs)
         txouts = var_int(len(outputs)) + ''.join(self.serialize_output(o) for o in outputs)
-        #print(nVersion)
-        #print('txins:',txins)
-        #print('txouts:',txouts)
         if witness and self.is_segwit():
-           # print('############11111111111###########')
             marker = '00'
             flag = '01'
             witness = ''.join(self.serialize_witness(x, estimate_size) for x in inputs)
             return nVersion + marker + flag + txins + txouts + witness + nLocktime
         else:
-            #print('############222222###########')
+            print("nVersion:",nVersion)
+            print('txins:',txins)
+            print('txouts:',txouts)
+            print('nLocktime:',nLocktime)
+            print('total:',nVersion + txins + txouts + nLocktime)
             return nVersion + txins + txouts + nLocktime
 
     def txid(self):

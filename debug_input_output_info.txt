@@ -1,4 +1,0 @@
-inputs:[<TxInputType: {'amount': 100000000, 'sequence': 4294967293, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'prev_index': 0, 'prev_hash': b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D'}>]
-
-outputs:[<TxOutputType: {'amount': 0, 'op_return_data': '040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'amount': 60000000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
-

@@ -255,6 +255,7 @@ class Commands:
     @command('n')
     def broadcast(self, tx):
         """Broadcast a transaction to the network. """
+        print('Treazor 执行的broadcast  commands.py')
         tx = Transaction(tx)
         return self.network.broadcast_transaction(tx)
 

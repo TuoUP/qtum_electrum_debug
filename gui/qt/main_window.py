@@ -1472,12 +1472,24 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
                 return
 
         def sign_done(success):
+            try:
+                print('success:',success)
+            except:
+                pass
             if success:
+                try:
+                    print('tx.is_complete():',tx.is_complete())
+                except:
+                    pass
                 if not tx.is_complete():
+                    print('tx.is_complete()')
                     self.show_transaction(tx)
                     self.do_clear()
                 else:
+                    print('broadcast execute')
                     self.broadcast_transaction(tx, tx_desc)
+            else:
+                print("sign_done Failed!")
         self.sign_tx_with_password(tx, sign_done, password)
 
     @protected
@@ -1527,6 +1539,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
 
     def broadcast_transaction(self, tx, tx_desc):
 
+        print('Treazor 执行的broadcast  qt/main_window.py')
         def broadcast_thread():
             # non-GUI thread
             pr = self.payment_request
@@ -1549,6 +1562,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
 
         def broadcast_done(result):
             # GUI thread
+            print('Treazor 执行的broadcast_done  qt/main_window.py')
             if result:
                 status, msg = result
                 if status:

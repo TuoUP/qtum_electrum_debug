@@ -800,6 +800,8 @@ class ElectrumWindow(App):
         Clock.schedule_once(lambda dt: on_complete(ok, txid))
 
     def broadcast(self, tx, pr=None):
+        print('Treazor 执行的broadcast  kivy/main_window.py')
+
         def on_complete(ok, msg):
             if ok:
                 self.show_info(_('Payment sent.'))

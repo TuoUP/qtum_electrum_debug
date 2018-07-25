@@ -152,6 +152,8 @@ class TxDialog(QDialog, MessageBoxMixin):
         self.update()
 
     def do_broadcast(self):
+        print('do_broadcastdo_broadcastdo_broadcastdo_broadcast')
+        print('do_broadcastdo_broadcastdo_broadcastdo_broadcast')
         self.main_window.push_top_level_window(self)
         try:
             self.main_window.broadcast_transaction(self.tx, self.desc)
@@ -192,7 +194,11 @@ class TxDialog(QDialog, MessageBoxMixin):
 
         self.sign_button.setDisabled(True)
         self.main_window.push_top_level_window(self)
+        print('############################')
+        print('############################')
+        print("sign_tx is start from here")
         self.main_window.sign_tx(self.tx, sign_done)
+        print("sign done!")
 
     def save(self):
         self.main_window.push_top_level_window(self)
