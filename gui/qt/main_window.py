@@ -1408,6 +1408,9 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
             return
         outputs, fee, tx_desc, coins = r
         #自己添加的代码
+
+
+
         for i,output in enumerate(outputs):
             tp, addr, _amount = output
             if tp == TYPE_SCRIPT:
@@ -1417,6 +1420,9 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
                 outputs[i] = (tp, addr, _amount)
             elif tp == TYPE_ADDRESS:
                 continue
+
+
+
         """
         tmp = []
         for o in outputs:

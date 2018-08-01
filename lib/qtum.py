@@ -130,7 +130,7 @@ def witness_push(item: str) -> str:
 
 
 def op_push(i: int) -> str:
-    if i < 0x4c:  # OP_PUSHDATA1
+    if i < 0xa0:  # OP_PUSHDATA1
         return int_to_hex(i)
     elif i <= 0xff:
         return '4c' + int_to_hex(i)

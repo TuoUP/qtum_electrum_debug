@@ -276,3 +276,1957 @@ step 4-1:
 execute serialized_tx
 step 4-3:
 execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step1:
+sign_tx execute
+step2:
+_prepare_sign_tx execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5:
+proto.RequestType.TXMETA
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[bytes(...)]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step3:
+res=call( execute
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-1:
+proto.RequestType.TXINPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-2:
+execute signatures[]
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-4:
+current_tx = txes[None]
+step 5-2:
+proto.RequestType.TXOUTPUT
+step3:
+res=call( execute
+step 4-1:
+execute serialized_tx
+step 4-3:
+execute Nonthing
+step3:
+res=call( execute
+step3:
+res=call( execute

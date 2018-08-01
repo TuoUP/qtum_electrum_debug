@@ -12,7 +12,7 @@ from qtum_electrum.transaction import deserialize, Transaction
 from qtum_electrum.keystore import Hardware_KeyStore, is_xpubkey, parse_xpubkey, xtype_from_derivation
 from qtum_electrum.base_wizard import ScriptTypeNotSupported
 from ..hw_wallet import HW_PluginBase
-from ..hw_wallet.plugin import is_any_tx_output_on_change_branch
+from ..hw_wallet.plugin import is_any_tx_output_on_change_branch, trezor_validate_op_return_output_and_get_data
 
 # TREZOR initialization methods
 TIM_NEW, TIM_RECOVER, TIM_MNEMONIC, TIM_PRIVKEY = range(0, 4)
@@ -532,7 +532,8 @@ class TrezorPlugin(HW_PluginBase):
                 #原始的代码
                 #txoutputtype.op_return_data = address[2:]#?
                 #改过的代码
-                txoutputtype.op_return_data = address[:]
+                #txoutputtype.op_return_data = address[:]
+                txoutputtype.op_return_data = trezor_validate_op_return_output_and_get_data(_type, address, amount)
 
                 with open('./Qtum_Trezor_var.txt', 'a') as f:
                     try:
@@ -547,7 +548,7 @@ class TrezorPlugin(HW_PluginBase):
                 #这里是将txoutputtype.op_return_data直接改为b'test of the op_return data'
                 #txoutputtype.op_return_data = b'test of the op_return data'
                 #这里是将str改为 b'\x \x'07.26,原始此处没有代码
-                txoutputtype.op_return_data = bfh(address[:])
+                #txoutputtype.op_return_data = bfh(address[:])
 
 
 
