@@ -25,7 +25,7 @@
 
 # Note: The deserialization code originally comes from ABE.
 from typing import Sequence, Union
-from .util import print_error, profiler
+from .util import print_error, profiler,Print
 from . import bitcoin
 from . import ecc
 from .qtum import *
@@ -745,7 +745,22 @@ class Transaction:
         print("*****4")
         print('executed file:transactions.py;func:update_signatures')
         for i, txin in enumerate(self.inputs()):
+
+            with open('./Qtum_Trezor_var.txt', 'a') as f:
+                try:
+                    f.write('nonsig_txin:' + str(txin) + '\n')
+                    print('nonsig_txin:',txin)
+                except:
+                    pass
+
             pubkeys, x_pubkeys = self.get_sorted_pubkeys(txin)
+
+            with open('./update_sign.txt','a') as f:
+                try:
+                    f.write('pubkeys:'+2*'\n'+str(pubkeys)+2*'\n')
+                except:
+                    f.write('Failed:pubkeys'+2*'\n')
+
             sig = signatures[i]
             print('******5')
             if sig in txin.get('signatures'):
@@ -753,24 +768,55 @@ class Transaction:
                 print("sig in txin.get('signatures')")
                 continue
             pre_hash = Hash(bfh(self.serialize_preimage(i)))
+
+            with open('./update_sign.txt','a') as f:
+                try:
+                    f.write('pre_Hash:' + 2*'\n' + str(pre_hash)+2*'\n')
+                except:
+                    f.write('Failed:pre_hash' + 2*'\n')
+
+            #从此处开始出现不同
             sig_string = ecc.sig_string_from_der_sig(bfh(sig[:-2]))
+            with open('./update_sign.txt','a') as f:
+                try:
+                    f.write('sig_string:'+ 2*'\n' + str(sig_string)+2*'\n')
+                except:
+                    f.write('Failed:sig_string'+'\n')
+
             for recid in range(4):
                 print('******7')
                 try:
                     public_key = ecc.ECPubkey.from_sig_string(sig_string, recid, pre_hash)
+                    with open('./update_sign.txt', 'a') as f:
+                        try:
+                            f.write('recid:'+2*'\n' + str(recid) + 2*'\n')
+                            f.write('public_key:'+ 2*'\n' + str(public_key) + 2*'\n')
+                        except:
+                            f.write('Failed:public_key'+'\n')
+
                 except ecc.InvalidECPointException:
                     # the point might not be on the curve for some recid values
+                    print('******ecc.InvalidECPointException*********')
                     continue
                 pubkey_hex = public_key.get_public_key_hex(compressed=True)
                 try:
                     print('pubkey_hex',pubkey_hex)
                 except:
-                    print('get error:pubkey_hex')
+                    print('get error:pubkey_hex'+'\n')
 
                 try:
                     print('pubkeys', pubkeys)
                 except:
-                    print('get error:pubkeys')
+                    print('get error:pubkeys','\n')
+
+                with open('./update_sign.txt', 'a') as f:
+                    try:
+                        f.write('recid:  ' + 2*'\n'+str(recid) + '\n')
+                        f.write('pubkey_hex:'+ 2*'\n' + str(pubkey_hex) + '\n')
+                    except:
+                        f.write('Failed:pubkey_hex'+'\n')
+
+
                 #原始代码有if判断
                 if pubkey_hex in pubkeys:
                 #更新代码
@@ -792,15 +838,39 @@ class Transaction:
                     print('finish:add_signature_to_txin')
                     #self._inputs[i]['x_pubkeys'][j] = pubkey
                     break
+
+        with open('./Qtum_Trezor_var.txt', 'a') as f:
+            try:
+                f.write('sig_txin:' + str(txin) + '\n')
+                print('sig_txin:',txin)
+            except:
+                pass
+
+        with open('./update_sign.txt', 'a') as f:
+            try:
+                f.write('sign_txin:  ' + 2 * '\n' + str(txin) + 2*'\n')
+            except:
+                f.write('Failed:pubkey_hex' + '\n')
+
         # redo raw
         self.raw = self.serialize()
 
     def add_signature_to_txin(self, i, signingPos, sig):
         print('into:add_signature_to_txin')
         txin = self._inputs[i]
+        with open('./Qtum_Sign_var.txt','a') as f:
+            try:
+                f.write('without_signatures_txin:'+str(txin)+'\n')
+            except:
+                pass
         txin['signatures'][signingPos] = sig
         txin['scriptSig'] = None  # force re-serialization
         txin['witness'] = None    # force re-serialization
+        with open('./Qtum_Sign_var.txt','a') as f:
+            try:
+                f.write('signatures_txin:'+str(txin)+'\n')
+            except:
+                pass
         self.raw = None
 
     def deserialize(self, force_full_parse=False):
@@ -830,6 +900,7 @@ class Transaction:
     def pay_script(cls, output_type, addr):
         if output_type == TYPE_SCRIPT:
             return addr
+            #return bfh(addr)#自己改的,运行会报错,can not convert bytes to string
         elif output_type == TYPE_ADDRESS:
             return bitcoin.address_to_script(addr)
         elif output_type == TYPE_PUBKEY or output_type == 'coinstake':
@@ -1079,6 +1150,7 @@ class Transaction:
         nLocktime = int_to_hex(self.locktime, 4)
         inputs = self.inputs()
         outputs = self.outputs()
+        #print('outputs.type',outputs[0])
         txin = inputs[i]
         # TODO: py3 hex
         if self.is_segwit_input(txin):#txin是隔离见证
@@ -1094,6 +1166,7 @@ class Transaction:
         else:
             txins = var_int(len(inputs)) + ''.join(self.serialize_input(txin, self.get_preimage_script(txin) if i==k else '') for k, txin in enumerate(inputs))
             txouts = var_int(len(outputs)) + ''.join(self.serialize_output(o) for o in outputs)
+            #
             preimage = nVersion + txins + txouts + nLocktime + nHashType
         return preimage #输入的last_tx的信息
 
@@ -1244,6 +1317,17 @@ class Transaction:
         for i, txin in enumerate(self.inputs()):#txin:?transactioninput
             pubkeys, x_pubkeys = self.get_sorted_pubkeys(txin)#从txin中得到
 
+            token = Print('token')
+            token.add_var(txin = txin,pubkeys = pubkeys,x_pubkeys = x_pubkeys)
+            token.add_step('step test')
+
+            with open('./QE_sign.txt','a') as f:
+                try:
+                    f.write('pubkeys:'+ 2*'\n'+str(pubkeys)+ 2*'\n')
+                    f.write('x_pubkeys:' + 2*'\n'+ str(x_pubkeys) + 2*'\n')
+                except:
+                    f.write('Failed written pubkeys!' + 2*'\n')
+
             with open('./debug_info_var.txt','a') as f:
                 try:
                     f.write('txin:' + str(txin) + 2*'\n')
@@ -1268,17 +1352,52 @@ class Transaction:
                 print_error("adding signature for", _pubkey)#don't know
                 sec, compressed = keypairs.get(_pubkey)   #从keypairs得到私钥和压缩公钥
                 sig = self.sign_txin(i, sec)  #对交易中的输入的第i个地址的私钥进行签名
+
+                token.add_var(sig = sig)
+
+                with open('./QE_sign.txt', 'a') as f:
+                    try:
+                        f.write('UNsigned_txin:' + 2 * '\n' + str(txin) + 2 * '\n')
+                    except:
+                        f.write('Failed written UNsigned_txin!' + 2 * '\n')
                 self.add_signature_to_txin(i, j, sig)
+                with open('./QE_sign.txt', 'a') as f:
+                    try:
+                        f.write('signed_txin:' + 2 * '\n' + str(txin) + 2 * '\n')
+                    except:
+                        f.write('Failed written signedtxin!' + 2 * '\n')
+
         print_error("is_complete", self.is_complete())
         self.raw = self.serialize()
 
     def sign_txin(self, txin_index, privkey_bytes) -> str:
         pre_hash = Hash(bfh(self.serialize_preimage(txin_index)))
+
+        with open('./QE_sign.txt', 'a') as f:
+            try:
+                f.write('pre_hash:' +2*'\n' + str(pre_hash) + 2 * '\n')
+                #f.write('x_pubkeys:' + str(x_pubkeys) + 2 * '\n')
+            except:
+                f.write('Failed written pre_hash!' + 2 * '\n')
+
         #获取txin[txin_index]的preimage的信息,对这些信息bfh = bytes.fromhex()后
         # ,即将16进制字符串转为bytes(字节)形式进行hash
         privkey = ecc.ECPrivkey(privkey_bytes)
         sig = privkey.sign_transaction(pre_hash)#prehash完成私钥签名
+
+
+        with open('./QE_sign.txt','a') as f:
+            try:
+                f.write('origin_signatures:'+2*'\n'+str(sig)+2*'\n')
+            except:
+                f.write('Failed written pre_hash!' + 2 * '\n')
+
         sig = bh2u(sig) + '01'
+        with open('./QE_sign.txt','a') as f:
+            try:
+                f.write('add_01_signatures:'+2*'\n'+str(sig)+2*'\n')
+            except:
+                pass
         return sig
 
     def get_outputs(self):

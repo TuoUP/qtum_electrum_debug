@@ -1,6 +1,6 @@
 res = call():
 the inner of func:call():
-resp:<Features: {'major_version': 1, 'patch_version': 0, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'vendor': 'bitcointrezor.com', 'passphrase_protection': False, 'device_id': '69BC372B630A7D394580F2E5', 'pin_protection': False, 'minor_version': 6, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'initialized': True, 'imported': False, 'language': 'english', 'model': '1', 'passphrase_cached': False, 'needs_backup': False, 'flags': 0, 'pin_cached': False}>do not know
+resp:<Features: {'flags': 0, 'passphrase_cached': False, 'model': '1', 'patch_version': 0, 'pin_protection': False, 'passphrase_protection': False, 'minor_version': 6, 'vendor': 'bitcointrezor.com', 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'needs_backup': False, 'initialized': True, 'language': 'english', 'imported': False, 'device_id': 'E3DA991228B225CF357F3F85', 'major_version': 1, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'pin_cached': False}>do not know
 handler_name:callback_Featuresdo not know
 handler:Nonedo not know
 res = call():
@@ -15,7 +15,7 @@ handler_name:callback_Successdo not know
 handler:Nonedo not know
 res = call():
 the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'fingerprint': 0, 'depth': 0, 'child_num': 0, 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6'}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
+resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'child_num': 0, 'depth': 0, 'fingerprint': 0}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
 handler_name:callback_PublicKeydo not know
 handler:Nonedo not know
 res = call():
@@ -25,7 +25,7 @@ handler_name:callback_Successdo not know
 handler:Nonedo not know
 res = call():
 the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'fingerprint': 2441513255, 'depth': 2, 'child_num': 3259581746, 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6'}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
+resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'child_num': 3259581746, 'depth': 2, 'fingerprint': 2441513255}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
 handler_name:callback_PublicKeydo not know
 handler:Nonedo not know
 res = call():
@@ -35,7 +35,52 @@ handler_name:callback_Successdo not know
 handler:Nonedo not know
 res = call():
 the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'fingerprint': 880475754, 'depth': 3, 'child_num': 2147483648, 'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed', 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba'}>, 'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt'}>do not know
+resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x024\xe3\x8d\xd0\x92\x05@E\x08\x83n\x88o\x96}](G\xa8H\xff!\xd7Y\xeaC>\xaec\xa4g\x03', 'chain_code': b'\xc5\xbd\n\xc7\xe3\xc4|\xadBX\xcfx\xa5\x8d9\xba\xe3\x89\x1f%[\xc5\xbc\xfa\xba\xf8qXQ\xe8(\xd7', 'child_num': 2147483648, 'depth': 3, 'fingerprint': 1387600352}>, 'xpub': 'xpub6CG2a9B2ewA5vEDj7WYj1mMuWvqVLhzRJUvzDTocvKpeVEra5GbBqbkWUgvYyuc1PWJci43ha6Jc2Ah3qSxysK2t5qugxnX4unHb7nDG4YZ'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'Session cleared'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Features: {'imported': False, 'flags': 0, 'major_version': 1, 'model': '1', 'needs_backup': False, 'passphrase_protection': False, 'passphrase_cached': False, 'device_id': 'E3DA991228B225CF357F3F85', 'language': 'english', 'pin_cached': False, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'patch_version': 0, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'pin_protection': False, 'vendor': 'bitcointrezor.com', 'initialized': True, 'minor_version': 6}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'node': <HDNodeType: {'child_num': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'depth': 0, 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'fingerprint': 0}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'node': <HDNodeType: {'child_num': 3259581746, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'depth': 2, 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'fingerprint': 2441513255}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'node': <HDNodeType: {'child_num': 2147483648, 'chain_code': b'\xc5\xbd\n\xc7\xe3\xc4|\xadBX\xcfx\xa5\x8d9\xba\xe3\x89\x1f%[\xc5\xbc\xfa\xba\xf8qXQ\xe8(\xd7', 'depth': 3, 'public_key': b'\x024\xe3\x8d\xd0\x92\x05@E\x08\x83n\x88o\x96}](G\xa8H\xff!\xd7Y\xeaC>\xaec\xa4g\x03', 'fingerprint': 1387600352}>, 'xpub': 'xpub6CG2a9B2ewA5vEDj7WYj1mMuWvqVLhzRJUvzDTocvKpeVEra5GbBqbkWUgvYyuc1PWJci43ha6Jc2Ah3qSxysK2t5qugxnX4unHb7nDG4YZ'}>do not know
 handler_name:callback_PublicKeydo not know
 handler:Nonedo not know
 res = call():
@@ -63,13 +108,13 @@ the inner of func:call():
 resp:<Success: {'message': 'electrum pinging device'}>do not know
 handler_name:callback_Successdo not know
 handler:Nonedo not know
-txes:{b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb": <TransactionType: {'inputs': [<TxInputType: {'script_sig': b'H0E\x02!\x00\xac\xd9\xc1B|\x0eI-?5\x90\xae\x1f\x12\xad\xa7+\x18\x83L\xc0\xd3(\x80[mX<G\x83\x80\xab\x02 \x03\xeb\t\x94\xd5\x08\x1e\x17^X\x06s\xd0\xa3\x13\x0c7\x1d\xfe\xb4\r\xff*\x9fM\x1dv\x06\xf5\x98\xdbp\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1', 'sequence': 4294967293, 'prev_index': 1, 'prev_hash': b"\xcd_6\x88\xe2\x80\xca\x1a\xb6\xd6\xe9\x98\xc9\xdf\xcd\xfeGo\x02'K\xae}V\xc6\xd8\x93\xb3\x08\x11\xa9\x91"}>], 'version': 1, 'bin_outputs': [<TxOutputBinType: {'amount': 100000000, 'script_pubkey': b'v\xa9\x14\t\xac\xfa\xaaCv\x0cEOr\x9f\xaa\xd0\x87/\xaeIg\x02\xd9\x88\xac'}>, <TxOutputBinType: {'amount': 1599011000, 'script_pubkey': b'v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac'}>], 'lock_time': 0}>, None: <TransactionType: {'inputs': [<TxInputType: {'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'prev_index': 1, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'amount': 1599011000, 'script_type': 0}>], 'outputs': [<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]}>}
+txes:{b'R\xd4\xaa\xd4y8\xd0\xaeS\xd4\x84fB\x8c\x8a\xedu\xddU\xe3\xb0\xea\xa0\xff\x04\xa4\xed\xa8P\xf7e\x83': <TransactionType: {'inputs': [<TxInputType: {'prev_hash': b"\x9dD8\x82\x8e/\x10\x01\xee*K]'\x8as\xdf[\x1f\x04)\xf6f\x95\x1bv[w\xf4>\xf47\xef", 'sequence': 4294967294, 'prev_index': 0, 'script_sig': b'H0E\x02!\x00\x98\x14\x95\xd3)\xd6"\xd5\xda\xe8\x14\xa1\xf3\x86\x8a95\xd3D\xc2\xba\xe4S@$md*\x89*\x7f\xdd\x02 O\x16\xf2\x9a\x84\xf5\nS\xb5\xf3\xe9\xd8\xfc\x81\xe3\xb2\x89\r\x9c5\x89\xd3\xdb-3\x88\x8b6?\xef\xa5j\x01!\x03\xed!NW\xe0\xa5j\r\xfe\xf23NE\x07{\x13\xa2#\xbf\x19\xf2Q\xc4\xd9as\x7f\x15\x93@\xe4\x1c'}>], 'lock_time': 0, 'bin_outputs': [<TxOutputBinType: {'script_pubkey': b'v\xa9\x14SKY\x08\x9b["\xdfk\xde\xcc\x91\x10\xe6l\x0e\n\xe2\x10x\x88\xac', 'amount': 300000000}>, <TxOutputBinType: {'script_pubkey': b'v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac', 'amount': 6599858700}>], 'version': 1}>, None: <TransactionType: {'inputs': [<TxInputType: {'script_type': 0, 'prev_index': 0, 'amount': 300000000, 'sequence': 4294967293, 'address_n': [2147483692, 2147483649, 2147483648, 1, 3], 'prev_hash': b'R\xd4\xaa\xd4y8\xd0\xaeS\xd4\x84fB\x8c\x8a\xedu\xddU\xe3\xb0\xea\xa0\xff\x04\xa4\xed\xa8P\xf7e\x83'}>], 'outputs': [<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]}>}
 txes is dict key:the hash of tx&pre_tx,value:tx&pre_tx:tx
 
-inputs:[<TxInputType: {'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'prev_index': 1, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'amount': 1599011000, 'script_type': 0}>]
+inputs:[<TxInputType: {'script_type': 0, 'prev_index': 0, 'amount': 300000000, 'sequence': 4294967293, 'address_n': [2147483692, 2147483649, 2147483648, 1, 3], 'prev_hash': b'R\xd4\xaa\xd4y8\xd0\xaeS\xd4\x84fB\x8c\x8a\xedu\xddU\xe3\xb0\xea\xa0\xff\x04\xa4\xed\xa8P\xf7e\x83'}>]
 Should be same with inputs in Qtum_Trezor_var.txt
 
-outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 Should be same with outputs in Qtum_Trezor_var.txt
 
 tx:<SignTx: {}>
@@ -87,14 +132,14 @@ counter:1
 FAILED:RequestType.TXINPUT
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 2, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
+resp:<TxRequest: {'request_type': 2, 'details': <TxRequestDetailsType: {'tx_hash': b'R\xd4\xaa\xd4y8\xd0\xaeS\xd4\x84fB\x8c\x8a\xedu\xddU\xe3\xb0\xea\xa0\xff\x04\xa4\xed\xa8P\xf7e\x83'}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter:2
 FAILED:res.details.tx_hash
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'request_index': 0}>}>do not know
+resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'tx_hash': b'R\xd4\xaa\xd4y8\xd0\xaeS\xd4\x84fB\x8c\x8a\xedu\xddU\xe3\xb0\xea\xa0\xff\x04\xa4\xed\xa8P\xf7e\x83', 'request_index': 0}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter:2
@@ -105,7 +150,7 @@ counter:3
 FAILED:RequestType.TXINPUT
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'request_index': 0}>}>do not know
+resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'tx_hash': b'R\xd4\xaa\xd4y8\xd0\xaeS\xd4\x84fB\x8c\x8a\xedu\xddU\xe3\xb0\xea\xa0\xff\x04\xa4\xed\xa8P\xf7e\x83', 'request_index': 0}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter:4
@@ -117,7 +162,7 @@ current_tx.outputs:[]
 res.details.request_index0
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'request_index': 1}>}>do not know
+resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'tx_hash': b'R\xd4\xaa\xd4y8\xd0\xaeS\xd4\x84fB\x8c\x8a\xedu\xddU\xe3\xb0\xea\xa0\xff\x04\xa4\xed\xa8P\xf7e\x83', 'request_index': 1}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter:5
@@ -132,16 +177,16 @@ the inner of func:call():
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
-counter6msg.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
+counter6msg.outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>]
 
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index0
 res = call():
 the inner of func:call():
 resp:<ButtonRequest: {'code': 3}>do not know
 handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fbc7802c2e8>>do not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7efe480330f0>>do not know
 res = call():
 the inner of func:call():
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
@@ -149,21 +194,21 @@ handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 msg:<ButtonAck: {}>
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>
-counter7msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+counter7msg.outputs:[<TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index1
 res = call():
 the inner of func:call():
 resp:<ButtonRequest: {'code': 2}>do not know
 handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fbc7802c2e8>>do not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7efe480330f0>>do not know
 res = call():
 the inner of func:call():
 resp:<ButtonRequest: {'code': 8}>do not know
 handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fbc7802c2e8>>do not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7efe480330f0>>do not know
 res = call():
 the inner of func:call():
 resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
@@ -180,9 +225,9 @@ the inner of func:call():
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
-counter9msg.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
+counter9msg.outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>]
 
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index0
 res = call():
@@ -190,45 +235,45 @@ the inner of func:call():
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
-counter10msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+counter10msg.outputs:[<TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index1
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'serialized': <TxRequestSerializedType: {'serialized_tx': b"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff", 'signature_index': 0, 'signature': b'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9'}>, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
+resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x01\x00\x00\x00\x01\x83e\xf7P\xa8\xed\xa4\x04\xff\xa0\xea\xb0\xe3U\xddu\xed\x8a\x8cBf\x84\xd4S\xae\xd08y\xd4\xaa\xd4R\x00\x00\x00\x00jG0D\x02 \x1f[\xc9M\xdf\x91V\x93\x18\xb1*_5)\xe8\x89\xd3\xe4\xbc\xb2\xfe#?x,\x85\xb1\xce-\xc1u=\x02 .\x96\x02s\xe2\x90\xddK\xaaV\xe9\x80\xa5\xddj\xab\x8d\xbdh\x9d]k;*[x\x90+.\xcc\xff1\x01!\x02\xde\xc8\xfd\xa0\x8f/\xc4\x88p,\xdb\xbe\x8b\xe6\x1f\xfd\xbb\x95iqX\xa9\x95\x8b\xd1\x11G!\x0boQ\xd4\xfd\xff\xff\xff', 'signature': b'0D\x02 \x1f[\xc9M\xdf\x91V\x93\x18\xb1*_5)\xe8\x89\xd3\xe4\xbc\xb2\xfe#?x,\x85\xb1\xce-\xc1u=\x02 .\x96\x02s\xe2\x90\xddK\xaaV\xe9\x80\xa5\xddj\xab\x8d\xbdh\x9d]k;*[x\x90+.\xcc\xff1', 'signature_index': 0}>, 'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter11
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff"
+serialized_txb'\x01\x00\x00\x00\x01\x83e\xf7P\xa8\xed\xa4\x04\xff\xa0\xea\xb0\xe3U\xddu\xed\x8a\x8cBf\x84\xd4S\xae\xd08y\xd4\xaa\xd4R\x00\x00\x00\x00jG0D\x02 \x1f[\xc9M\xdf\x91V\x93\x18\xb1*_5)\xe8\x89\xd3\xe4\xbc\xb2\xfe#?x,\x85\xb1\xce-\xc1u=\x02 .\x96\x02s\xe2\x90\xddK\xaaV\xe9\x80\xa5\xddj\xab\x8d\xbdh\x9d]k;*[x\x90+.\xcc\xff1\x01!\x02\xde\xc8\xfd\xa0\x8f/\xc4\x88p,\xdb\xbe\x8b\xe6\x1f\xfd\xbb\x95iqX\xa9\x95\x8b\xd1\x11G!\x0boQ\xd4\xfd\xff\xff\xff'
 counter:11
 res.serialized.signature_index:0
-res.serialized.signatureb'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9'
-counter11msg.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
+res.serialized.signatureb'0D\x02 \x1f[\xc9M\xdf\x91V\x93\x18\xb1*_5)\xe8\x89\xd3\xe4\xbc\xb2\xfe#?x,\x85\xb1\xce-\xc1u=\x02 .\x96\x02s\xe2\x90\xddK\xaaV\xe9\x80\xa5\xddj\xab\x8d\xbdh\x9d]k;*[x\x90+.\xcc\xff1'
+counter11msg.outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>]
 
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index0
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
+resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x00\x00\x00\x00\x00\x00\x00\x00fjLc\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2'}>, 'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter12
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2"
-counter12msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+serialized_txb'\x01\x00\x00\x00\x01\x83e\xf7P\xa8\xed\xa4\x04\xff\xa0\xea\xb0\xe3U\xddu\xed\x8a\x8cBf\x84\xd4S\xae\xd08y\xd4\xaa\xd4R\x00\x00\x00\x00jG0D\x02 \x1f[\xc9M\xdf\x91V\x93\x18\xb1*_5)\xe8\x89\xd3\xe4\xbc\xb2\xfe#?x,\x85\xb1\xce-\xc1u=\x02 .\x96\x02s\xe2\x90\xddK\xaaV\xe9\x80\xa5\xddj\xab\x8d\xbdh\x9d]k;*[x\x90+.\xcc\xff1\x01!\x02\xde\xc8\xfd\xa0\x8f/\xc4\x88p,\xdb\xbe\x8b\xe6\x1f\xfd\xbb\x95iqX\xa9\x95\x8b\xd1\x11G!\x0boQ\xd4\xfd\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00fjLc\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2'
+counter12msg.outputs:[<TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3, 'amount': 0}>, <TxOutputType: {'script_type': 0, 'amount': 260000000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index1
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 3, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'}>}>do not know
+resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x00I\x7f\x0f\x00\x00\x00\x00\x19v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac\x00\x00\x00\x00'}>, 'request_type': 3}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter13
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00"
+serialized_txb'\x01\x00\x00\x00\x01\x83e\xf7P\xa8\xed\xa4\x04\xff\xa0\xea\xb0\xe3U\xddu\xed\x8a\x8cBf\x84\xd4S\xae\xd08y\xd4\xaa\xd4R\x00\x00\x00\x00jG0D\x02 \x1f[\xc9M\xdf\x91V\x93\x18\xb1*_5)\xe8\x89\xd3\xe4\xbc\xb2\xfe#?x,\x85\xb1\xce-\xc1u=\x02 .\x96\x02s\xe2\x90\xddK\xaaV\xe9\x80\xa5\xddj\xab\x8d\xbdh\x9d]k;*[x\x90+.\xcc\xff1\x01!\x02\xde\xc8\xfd\xa0\x8f/\xc4\x88p,\xdb\xbe\x8b\xe6\x1f\xfd\xbb\x95iqX\xa9\x95\x8b\xd1\x11G!\x0boQ\xd4\xfd\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00fjLc\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\xcc\xdc\xdb\xc5C\xfe\xfc\x1e\xfb\xe8+\xe3\xb3q\x8db\xb6[\xd3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x11\xe1\xa3\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2\x00I\x7f\x0f\x00\x00\x00\x00\x19v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac\x00\x00\x00\x00'
 res = call():
 the inner of func:call():
 resp:<Success: {'message': 'Session cleared'}>do not know
@@ -236,12 +281,7 @@ handler_name:callback_Successdo not know
 handler:Nonedo not know
 res = call():
 the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'imported': False, 'flags': 0, 'major_version': 1, 'language': 'english', 'initialized': True, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'device_id': '69BC372B630A7D394580F2E5', 'patch_version': 0, 'passphrase_cached': False, 'passphrase_protection': False, 'model': '1', 'minor_version': 6, 'vendor': 'bitcointrezor.com', 'pin_cached': False, 'pin_protection': False, 'needs_backup': False}>do not know
+resp:<Features: {'initialized': True, 'imported': False, 'patch_version': 0, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'language': 'english', 'pin_protection': False, 'flags': 0, 'pin_cached': False, 'passphrase_protection': False, 'passphrase_cached': False, 'major_version': 1, 'needs_backup': False, 'device_id': 'E3DA991228B225CF357F3F85', 'model': '1', 'minor_version': 6, 'vendor': 'bitcointrezor.com'}>do not know
 handler_name:callback_Featuresdo not know
 handler:Nonedo not know
 res = call():
@@ -256,7 +296,7 @@ handler_name:callback_Successdo not know
 handler:Nonedo not know
 res = call():
 the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'depth': 0, 'child_num': 0, 'fingerprint': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6'}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
+resp:<PublicKey: {'node': <HDNodeType: {'fingerprint': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'depth': 0, 'child_num': 0}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
 handler_name:callback_PublicKeydo not know
 handler:Nonedo not know
 res = call():
@@ -266,7 +306,7 @@ handler_name:callback_Successdo not know
 handler:Nonedo not know
 res = call():
 the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'depth': 2, 'child_num': 3259581746, 'fingerprint': 2441513255, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6'}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
+resp:<PublicKey: {'node': <HDNodeType: {'fingerprint': 2441513255, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'depth': 2, 'child_num': 3259581746}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
 handler_name:callback_PublicKeydo not know
 handler:Nonedo not know
 res = call():
@@ -276,7 +316,52 @@ handler_name:callback_Successdo not know
 handler:Nonedo not know
 res = call():
 the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed', 'depth': 3, 'child_num': 2147483648, 'fingerprint': 880475754, 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba'}>, 'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt'}>do not know
+resp:<PublicKey: {'node': <HDNodeType: {'fingerprint': 1387600352, 'chain_code': b'\xc5\xbd\n\xc7\xe3\xc4|\xadBX\xcfx\xa5\x8d9\xba\xe3\x89\x1f%[\xc5\xbc\xfa\xba\xf8qXQ\xe8(\xd7', 'public_key': b'\x024\xe3\x8d\xd0\x92\x05@E\x08\x83n\x88o\x96}](G\xa8H\xff!\xd7Y\xeaC>\xaec\xa4g\x03', 'depth': 3, 'child_num': 2147483648}>, 'xpub': 'xpub6CG2a9B2ewA5vEDj7WYj1mMuWvqVLhzRJUvzDTocvKpeVEra5GbBqbkWUgvYyuc1PWJci43ha6Jc2Ah3qSxysK2t5qugxnX4unHb7nDG4YZ'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'Session cleared'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Features: {'label': '123', 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'pin_protection': False, 'patch_version': 0, 'passphrase_protection': False, 'passphrase_cached': False, 'vendor': 'bitcointrezor.com', 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'minor_version': 6, 'model': '1', 'imported': False, 'device_id': 'E3DA991228B225CF357F3F85', 'flags': 0, 'major_version': 1, 'needs_backup': False, 'initialized': True, 'language': 'english', 'pin_cached': False}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8', 'node': <HDNodeType: {'fingerprint': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'depth': 0, 'child_num': 0}>}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp', 'node': <HDNodeType: {'fingerprint': 2441513255, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'depth': 2, 'child_num': 3259581746}>}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'xpub': 'xpub6CG2a9B2ewA5vEDj7WYj1mMuWvqVLhzRJUvzDTocvKpeVEra5GbBqbkWUgvYyuc1PWJci43ha6Jc2Ah3qSxysK2t5qugxnX4unHb7nDG4YZ', 'node': <HDNodeType: {'fingerprint': 1387600352, 'chain_code': b'\xc5\xbd\n\xc7\xe3\xc4|\xadBX\xcfx\xa5\x8d9\xba\xe3\x89\x1f%[\xc5\xbc\xfa\xba\xf8qXQ\xe8(\xd7', 'public_key': b'\x024\xe3\x8d\xd0\x92\x05@E\x08\x83n\x88o\x96}](G\xa8H\xff!\xd7Y\xeaC>\xaec\xa4g\x03', 'depth': 3, 'child_num': 2147483648}>}>do not know
 handler_name:callback_PublicKeydo not know
 handler:Nonedo not know
 res = call():
@@ -304,13 +389,13 @@ the inner of func:call():
 resp:<Success: {'message': 'electrum pinging device'}>do not know
 handler_name:callback_Successdo not know
 handler:Nonedo not know
-txes:{b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb": <TransactionType: {'bin_outputs': [<TxOutputBinType: {'amount': 100000000, 'script_pubkey': b'v\xa9\x14\t\xac\xfa\xaaCv\x0cEOr\x9f\xaa\xd0\x87/\xaeIg\x02\xd9\x88\xac'}>, <TxOutputBinType: {'amount': 1599011000, 'script_pubkey': b'v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac'}>], 'lock_time': 0, 'version': 1, 'inputs': [<TxInputType: {'prev_hash': b"\xcd_6\x88\xe2\x80\xca\x1a\xb6\xd6\xe9\x98\xc9\xdf\xcd\xfeGo\x02'K\xae}V\xc6\xd8\x93\xb3\x08\x11\xa9\x91", 'sequence': 4294967293, 'script_sig': b'H0E\x02!\x00\xac\xd9\xc1B|\x0eI-?5\x90\xae\x1f\x12\xad\xa7+\x18\x83L\xc0\xd3(\x80[mX<G\x83\x80\xab\x02 \x03\xeb\t\x94\xd5\x08\x1e\x17^X\x06s\xd0\xa3\x13\x0c7\x1d\xfe\xb4\r\xff*\x9fM\x1dv\x06\xf5\x98\xdbp\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1', 'prev_index': 1}>]}>, None: <TransactionType: {'inputs': [<TxInputType: {'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'prev_index': 1, 'amount': 1599011000, 'script_type': 0, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>], 'outputs': [<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]}>}
+txes:{None: <TransactionType: {'outputs': [<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>, <TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>], 'inputs': [<TxInputType: {'script_type': 0, 'amount': 6499717400, 'sequence': 4294967293, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'prev_index': 1, 'prev_hash': b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D'}>]}>, b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D': <TransactionType: {'lock_time': 0, 'version': 1, 'inputs': [<TxInputType: {'sequence': 4294967293, 'prev_index': 1, 'script_sig': b'G0D\x02 Y\x10\xf2v\x7f\xaf@\x9c\x07\x8cY\xd1\x03\xcf\x99l7\xb0\x11t}\x85\x83\xe7\xcf\xdcE!J\t\xf8\x16\x02 =\xc5E\tJ\x1ex\x8bj\xa9\xe0d\xf2{\xe5!\xa0\xff\x12\xfbhL\xa6\x1c3\xd152c\xe3\xa1\x08\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\', 'prev_hash': b'R\xd4\xaa\xd4y8\xd0\xaeS\xd4\x84fB\x8c\x8a\xedu\xddU\xe3\xb0\xea\xa0\xff\x04\xa4\xed\xa8P\xf7e\x83'}>], 'bin_outputs': [<TxOutputBinType: {'script_pubkey': b'v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac', 'amount': 100000000}>, <TxOutputBinType: {'script_pubkey': b'v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac', 'amount': 6499717400}>]}>}
 txes is dict key:the hash of tx&pre_tx,value:tx&pre_tx:tx
 
-inputs:[<TxInputType: {'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'prev_index': 1, 'amount': 1599011000, 'script_type': 0, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>]
+inputs:[<TxInputType: {'script_type': 0, 'amount': 6499717400, 'sequence': 4294967293, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'prev_index': 1, 'prev_hash': b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D'}>]
 Should be same with inputs in Qtum_Trezor_var.txt
 
-outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>, <TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 Should be same with outputs in Qtum_Trezor_var.txt
 
 tx:<SignTx: {}>
@@ -328,14 +413,14 @@ counter:1
 FAILED:RequestType.TXINPUT
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 2, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
+resp:<TxRequest: {'request_type': 2, 'details': <TxRequestDetailsType: {'tx_hash': b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D'}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter:2
 FAILED:res.details.tx_hash
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'request_index': 0}>}>do not know
+resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D'}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter:2
@@ -346,7 +431,7 @@ counter:3
 FAILED:RequestType.TXINPUT
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'request_index': 0}>}>do not know
+resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D'}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter:4
@@ -358,7 +443,7 @@ current_tx.outputs:[]
 res.details.request_index0
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'request_index': 1}>}>do not know
+resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1, 'tx_hash': b'\xd4-u7\x0f(G\x8e\rGK4\x04P\x81m\xc0\xabn\xac\x97\xa5\rLLW\xda$4\x08\x02D'}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter:5
@@ -373,16 +458,16 @@ the inner of func:call():
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
-counter6msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>]
+counter6msg.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>]
 
-current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>, <TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index0
 res = call():
 the inner of func:call():
 resp:<ButtonRequest: {'code': 3}>do not know
 handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f7240024f60>>do not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7ff844031908>>do not know
 res = call():
 the inner of func:call():
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
@@ -390,21 +475,21 @@ handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 msg:<ButtonAck: {}>
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>
-counter7msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+counter7msg.outputs:[<TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
-current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>, <TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index1
 res = call():
 the inner of func:call():
 resp:<ButtonRequest: {'code': 2}>do not know
 handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f7240024f60>>do not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7ff844031908>>do not know
 res = call():
 the inner of func:call():
 resp:<ButtonRequest: {'code': 8}>do not know
 handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f7240024f60>>do not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7ff844031908>>do not know
 res = call():
 the inner of func:call():
 resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
@@ -421,9 +506,9 @@ the inner of func:call():
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
-counter9msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>]
+counter9msg.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>]
 
-current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>, <TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index0
 res = call():
@@ -431,1594 +516,42 @@ the inner of func:call():
 resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
-counter10msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+counter10msg.outputs:[<TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
-current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>, <TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index1
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>, 'serialized': <TxRequestSerializedType: {'serialized_tx': b"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff", 'signature': b'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9', 'signature_index': 0}>}>do not know
+resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>, 'serialized': <TxRequestSerializedType: {'signature': b'0E\x02!\x00\x9f\x11\xcc\x0cl\\\x96\x0c\x94.N\x14\xe8\xe0a`T\x10\xde\xf7\x8d\xa7\xab<R\x0c\x87X\xda\xd5m\x92\x02 5\xfb\xe0l^=\xac\xc1h\xa2h\xb1\x1c\x9f\xe9\xe9vDryB\xa4\xa1\n\x8aM\x1f+\xeer\xads', 'signature_index': 0, 'serialized_tx': b'\x01\x00\x00\x00\x01D\x02\x084$\xdaWLL\r\xa5\x97\xacn\xab\xc0m\x81P\x044KG\r\x8eG(\x0f7u-\xd4\x01\x00\x00\x00kH0E\x02!\x00\x9f\x11\xcc\x0cl\\\x96\x0c\x94.N\x14\xe8\xe0a`T\x10\xde\xf7\x8d\xa7\xab<R\x0c\x87X\xda\xd5m\x92\x02 5\xfb\xe0l^=\xac\xc1h\xa2h\xb1\x1c\x9f\xe9\xe9vDryB\xa4\xa1\n\x8aM\x1f+\xeer\xads\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfd\xff\xff\xff'}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter11
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff"
+serialized_txb'\x01\x00\x00\x00\x01D\x02\x084$\xdaWLL\r\xa5\x97\xacn\xab\xc0m\x81P\x044KG\r\x8eG(\x0f7u-\xd4\x01\x00\x00\x00kH0E\x02!\x00\x9f\x11\xcc\x0cl\\\x96\x0c\x94.N\x14\xe8\xe0a`T\x10\xde\xf7\x8d\xa7\xab<R\x0c\x87X\xda\xd5m\x92\x02 5\xfb\xe0l^=\xac\xc1h\xa2h\xb1\x1c\x9f\xe9\xe9vDryB\xa4\xa1\n\x8aM\x1f+\xeer\xads\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfd\xff\xff\xff'
 counter:11
 res.serialized.signature_index:0
-res.serialized.signatureb'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9'
-counter11msg.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>]
+res.serialized.signatureb'0E\x02!\x00\x9f\x11\xcc\x0cl\\\x96\x0c\x94.N\x14\xe8\xe0a`T\x10\xde\xf7\x8d\xa7\xab<R\x0c\x87X\xda\xd5m\x92\x02 5\xfb\xe0l^=\xac\xc1h\xa2h\xb1\x1c\x9f\xe9\xe9vDryB\xa4\xa1\n\x8aM\x1f+\xeer\xads'
+counter11msg.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>]
 
-current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>, <TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index0
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>}>do not know
+resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x00\x00\x00\x00\x00\x00\x00\x00LjJ@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter12
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2"
-counter12msg.outputs:[<TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+serialized_txb'\x01\x00\x00\x00\x01D\x02\x084$\xdaWLL\r\xa5\x97\xacn\xab\xc0m\x81P\x044KG\r\x8eG(\x0f7u-\xd4\x01\x00\x00\x00kH0E\x02!\x00\x9f\x11\xcc\x0cl\\\x96\x0c\x94.N\x14\xe8\xe0a`T\x10\xde\xf7\x8d\xa7\xab<R\x0c\x87X\xda\xd5m\x92\x02 5\xfb\xe0l^=\xac\xc1h\xa2h\xb1\x1c\x9f\xe9\xe9vDryB\xa4\xa1\n\x8aM\x1f+\xeer\xads\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfd\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00LjJ@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'
+counter12msg.outputs:[<TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
-current_tx.outputs:[<TxOutputType: {'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0, 'script_type': 3}>, <TxOutputType: {'amount': 1559011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0}>]
+current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7'}>, <TxOutputType: {'script_type': 0, 'amount': 6459717400, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
 
 res.details.request_index1
 res = call():
 the inner of func:call():
-resp:<TxRequest: {'request_type': 3, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'}>}>do not know
+resp:<TxRequest: {'request_type': 3, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x18w\x07\x81\x01\x00\x00\x00\x19v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac\x00\x00\x00\x00'}>}>do not know
 handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter13
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00"
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'language': 'english', 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'pin_protection': False, 'initialized': True, 'flags': 0, 'passphrase_protection': False, 'needs_backup': False, 'minor_version': 6, 'device_id': '69BC372B630A7D394580F2E5', 'vendor': 'bitcointrezor.com', 'imported': False, 'model': '1', 'passphrase_cached': False, 'pin_cached': False, 'patch_version': 0, 'major_version': 1}>do not know
-handler_name:callback_Featuresdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 't'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8', 'node': <HDNodeType: {'depth': 0, 'child_num': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'fingerprint': 0, 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq'}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp', 'node': <HDNodeType: {'depth': 2, 'child_num': 3259581746, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'fingerprint': 2441513255, 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]'}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt', 'node': <HDNodeType: {'depth': 3, 'child_num': 2147483648, 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba', 'fingerprint': 880475754, 'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed'}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-txes:{b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb": <TransactionType: {'inputs': [<TxInputType: {'script_sig': b'H0E\x02!\x00\xac\xd9\xc1B|\x0eI-?5\x90\xae\x1f\x12\xad\xa7+\x18\x83L\xc0\xd3(\x80[mX<G\x83\x80\xab\x02 \x03\xeb\t\x94\xd5\x08\x1e\x17^X\x06s\xd0\xa3\x13\x0c7\x1d\xfe\xb4\r\xff*\x9fM\x1dv\x06\xf5\x98\xdbp\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1', 'prev_index': 1, 'prev_hash': b"\xcd_6\x88\xe2\x80\xca\x1a\xb6\xd6\xe9\x98\xc9\xdf\xcd\xfeGo\x02'K\xae}V\xc6\xd8\x93\xb3\x08\x11\xa9\x91", 'sequence': 4294967293}>], 'version': 1, 'lock_time': 0, 'bin_outputs': [<TxOutputBinType: {'amount': 100000000, 'script_pubkey': b'v\xa9\x14\t\xac\xfa\xaaCv\x0cEOr\x9f\xaa\xd0\x87/\xaeIg\x02\xd9\x88\xac'}>, <TxOutputBinType: {'amount': 1599011000, 'script_pubkey': b'v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac'}>]}>, None: <TransactionType: {'inputs': [<TxInputType: {'prev_index': 1, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1599011000, 'sequence': 4294967294, 'script_type': 0, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>], 'outputs': [<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]}>}
-txes is dict key:the hash of tx&pre_tx,value:tx&pre_tx:tx
-
-inputs:[<TxInputType: {'prev_index': 1, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1599011000, 'sequence': 4294967294, 'script_type': 0, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>]
-Should be same with inputs in Qtum_Trezor_var.txt
-
-outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-Should be same with outputs in Qtum_Trezor_var.txt
-
-tx:<SignTx: {}>
-tx should be None
-
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-res:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-do not know
-
-counter:1
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 2}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:res.details.tx_hash
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:RequestType.TXMETA
-counter:3
-FAILED:res.details.tx_hash
-counter:3
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:4
-FAILED:res.details.tx_hash
-counter4msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:5
-FAILED:res.details.tx_hash
-counter5msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter6msg.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 3}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc4edaeaba8>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>
-counter7msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 2}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc4edaeaba8>>do not know
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 8}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc4edaeaba8>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-counter:8
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter9msg.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter10msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1, 'serialized': <TxRequestSerializedType: {'signature': b'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9', 'serialized_tx': b"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff", 'signature_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter11
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff"
-counter:11
-res.serialized.signature_index:0
-res.serialized.signatureb'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9'
-counter11msg.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter12
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2"
-counter12msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'script_type': 3}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000, 'script_type': 0}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 3, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter13
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00"
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'pin_cached': False, 'pin_protection': False, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'flags': 0, 'language': 'english', 'needs_backup': False, 'device_id': '69BC372B630A7D394580F2E5', 'minor_version': 6, 'vendor': 'bitcointrezor.com', 'passphrase_cached': False, 'passphrase_protection': False, 'model': '1', 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'imported': False, 'major_version': 1, 'initialized': True, 'patch_version': 0}>do not know
-handler_name:callback_Featuresdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 't'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8', 'node': <HDNodeType: {'depth': 0, 'fingerprint': 0, 'child_num': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq'}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp', 'node': <HDNodeType: {'depth': 2, 'fingerprint': 2441513255, 'child_num': 3259581746, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]'}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt', 'node': <HDNodeType: {'depth': 3, 'fingerprint': 880475754, 'child_num': 2147483648, 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba', 'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed'}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-txes:{b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb": <TransactionType: {'lock_time': 0, 'inputs': [<TxInputType: {'prev_index': 1, 'script_sig': b'H0E\x02!\x00\xac\xd9\xc1B|\x0eI-?5\x90\xae\x1f\x12\xad\xa7+\x18\x83L\xc0\xd3(\x80[mX<G\x83\x80\xab\x02 \x03\xeb\t\x94\xd5\x08\x1e\x17^X\x06s\xd0\xa3\x13\x0c7\x1d\xfe\xb4\r\xff*\x9fM\x1dv\x06\xf5\x98\xdbp\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1', 'sequence': 4294967293, 'prev_hash': b"\xcd_6\x88\xe2\x80\xca\x1a\xb6\xd6\xe9\x98\xc9\xdf\xcd\xfeGo\x02'K\xae}V\xc6\xd8\x93\xb3\x08\x11\xa9\x91"}>], 'version': 1, 'bin_outputs': [<TxOutputBinType: {'script_pubkey': b'v\xa9\x14\t\xac\xfa\xaaCv\x0cEOr\x9f\xaa\xd0\x87/\xaeIg\x02\xd9\x88\xac', 'amount': 100000000}>, <TxOutputBinType: {'script_pubkey': b'v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac', 'amount': 1599011000}>]}>, None: <TransactionType: {'inputs': [<TxInputType: {'prev_index': 1, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'sequence': 4294967293, 'script_type': 0, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'amount': 1599011000}>], 'outputs': [<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]}>}
-txes is dict key:the hash of tx&pre_tx,value:tx&pre_tx:tx
-
-inputs:[<TxInputType: {'prev_index': 1, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'sequence': 4294967293, 'script_type': 0, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'amount': 1599011000}>]
-Should be same with inputs in Qtum_Trezor_var.txt
-
-outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-Should be same with outputs in Qtum_Trezor_var.txt
-
-tx:<SignTx: {}>
-tx should be None
-
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-res:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-do not know
-
-counter:1
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 2}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:res.details.tx_hash
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:RequestType.TXMETA
-counter:3
-FAILED:res.details.tx_hash
-counter:3
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:4
-FAILED:res.details.tx_hash
-counter4msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:5
-FAILED:res.details.tx_hash
-counter5msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter6msg.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 3}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f4cc8015a58>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>
-counter7msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 8}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f4cc8015a58>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-counter:8
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter9msg.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter10msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'signature_index': 0, 'signature': b'0D\x02 d\x0e\xec\xdb\x08\xb3\xe7\x9c\x08\x98z\x93K\x13i\n\xfa5h_\xf5\x01E\xfc\x1b\x1f\xa9g\x86\xcc\xcd\xd2\x02 \x11\xa1z\xcf\xe9\xf2\xa2\xcd"]\xd3\x9a/?\xc4g\xa87\xbd\x88\x96\xea\x0c\xff\xd5\xd9\x94\xa1\x08\x18\x9e\xf7', 'serialized_tx': b'\x01\x00\x00\x00\x01\xdb\xa5\'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 d\x0e\xec\xdb\x08\xb3\xe7\x9c\x08\x98z\x93K\x13i\n\xfa5h_\xf5\x01E\xfc\x1b\x1f\xa9g\x86\xcc\xcd\xd2\x02 \x11\xa1z\xcf\xe9\xf2\xa2\xcd"]\xd3\x9a/?\xc4g\xa87\xbd\x88\x96\xea\x0c\xff\xd5\xd9\x94\xa1\x08\x18\x9e\xf7\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfd\xff\xff\xff'}>, 'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter11
-serialized_txb'\x01\x00\x00\x00\x01\xdb\xa5\'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 d\x0e\xec\xdb\x08\xb3\xe7\x9c\x08\x98z\x93K\x13i\n\xfa5h_\xf5\x01E\xfc\x1b\x1f\xa9g\x86\xcc\xcd\xd2\x02 \x11\xa1z\xcf\xe9\xf2\xa2\xcd"]\xd3\x9a/?\xc4g\xa87\xbd\x88\x96\xea\x0c\xff\xd5\xd9\x94\xa1\x08\x18\x9e\xf7\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfd\xff\xff\xff'
-counter:11
-res.serialized.signature_index:0
-res.serialized.signatureb'0D\x02 d\x0e\xec\xdb\x08\xb3\xe7\x9c\x08\x98z\x93K\x13i\n\xfa5h_\xf5\x01E\xfc\x1b\x1f\xa9g\x86\xcc\xcd\xd2\x02 \x11\xa1z\xcf\xe9\xf2\xa2\xcd"]\xd3\x9a/?\xc4g\xa87\xbd\x88\x96\xea\x0c\xff\xd5\xd9\x94\xa1\x08\x18\x9e\xf7'
-counter11msg.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x80\x96\x98\x00\x00\x00\x00\x00\x19v\xa9\x14\x9c\xa47&\x9bF\x85;W\x85\xabY\xc8\x0e\xb9\x7f\x8b\x87vn\x88\xac'}>, 'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter12
-serialized_txb'\x01\x00\x00\x00\x01\xdb\xa5\'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 d\x0e\xec\xdb\x08\xb3\xe7\x9c\x08\x98z\x93K\x13i\n\xfa5h_\xf5\x01E\xfc\x1b\x1f\xa9g\x86\xcc\xcd\xd2\x02 \x11\xa1z\xcf\xe9\xf2\xa2\xcd"]\xd3\x9a/?\xc4g\xa87\xbd\x88\x96\xea\x0c\xff\xd5\xd9\x94\xa1\x08\x18\x9e\xf7\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfd\xff\xff\xff\x02\x80\x96\x98\x00\x00\x00\x00\x00\x19v\xa9\x14\x9c\xa47&\x9bF\x85;W\x85\xabY\xc8\x0e\xb9\x7f\x8b\x87vn\x88\xac'
-counter12msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'address': 'qXqdHqyMhCbutBcYciqvXqhPeHQuF76kBc', 'amount': 10000000, 'script_type': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1588728500, 'script_type': 0}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\xb4\x12\xb2^\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'}>, 'request_type': 3}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter13
-serialized_txb'\x01\x00\x00\x00\x01\xdb\xa5\'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 d\x0e\xec\xdb\x08\xb3\xe7\x9c\x08\x98z\x93K\x13i\n\xfa5h_\xf5\x01E\xfc\x1b\x1f\xa9g\x86\xcc\xcd\xd2\x02 \x11\xa1z\xcf\xe9\xf2\xa2\xcd"]\xd3\x9a/?\xc4g\xa87\xbd\x88\x96\xea\x0c\xff\xd5\xd9\x94\xa1\x08\x18\x9e\xf7\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfd\xff\xff\xff\x02\x80\x96\x98\x00\x00\x00\x00\x00\x19v\xa9\x14\x9c\xa47&\x9bF\x85;W\x85\xabY\xc8\x0e\xb9\x7f\x8b\x87vn\x88\xac\xb4\x12\xb2^\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'initialized': True, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'passphrase_cached': False, 'pin_cached': False, 'model': '1', 'patch_version': 0, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'major_version': 1, 'passphrase_protection': False, 'needs_backup': False, 'imported': False, 'pin_protection': False, 'vendor': 'bitcointrezor.com', 'minor_version': 6, 'device_id': '69BC372B630A7D394580F2E5', 'language': 'english', 'flags': 0}>do not know
-handler_name:callback_Featuresdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 't'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'child_num': 0, 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'depth': 0, 'fingerprint': 0}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'child_num': 3259581746, 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'depth': 2, 'fingerprint': 2441513255}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'child_num': 2147483648, 'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed', 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba', 'depth': 3, 'fingerprint': 880475754}>, 'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'flags': 0, 'passphrase_cached': False, 'patch_version': 0, 'minor_version': 6, 'initialized': True, 'needs_backup': False, 'language': 'english', 'device_id': '69BC372B630A7D394580F2E5', 'model': '1', 'major_version': 1, 'passphrase_protection': False, 'vendor': 'bitcointrezor.com', 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'imported': False, 'pin_protection': False, 'pin_cached': False, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\'}>do not know
-handler_name:callback_Featuresdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 't'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'depth': 0, 'child_num': 0, 'fingerprint': 0}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'depth': 2, 'child_num': 3259581746, 'fingerprint': 2441513255}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba', 'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed', 'depth': 3, 'child_num': 2147483648, 'fingerprint': 880475754}>, 'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'patch_version': 0, 'device_id': '69BC372B630A7D394580F2E5', 'minor_version': 6, 'model': '1', 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'major_version': 1, 'pin_protection': False, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'passphrase_cached': False, 'vendor': 'bitcointrezor.com', 'language': 'english', 'needs_backup': False, 'passphrase_protection': False, 'initialized': True, 'imported': False, 'flags': 0, 'pin_cached': False}>do not know
-handler_name:callback_Featuresdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 't'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'depth': 0, 'child_num': 0, 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'fingerprint': 0}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'depth': 2, 'child_num': 3259581746, 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'fingerprint': 2441513255}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'depth': 3, 'child_num': 2147483648, 'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed', 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba', 'fingerprint': 880475754}>, 'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-txes:{b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb": <TransactionType: {'bin_outputs': [<TxOutputBinType: {'script_pubkey': b'v\xa9\x14\t\xac\xfa\xaaCv\x0cEOr\x9f\xaa\xd0\x87/\xaeIg\x02\xd9\x88\xac', 'amount': 100000000}>, <TxOutputBinType: {'script_pubkey': b'v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac', 'amount': 1599011000}>], 'version': 1, 'inputs': [<TxInputType: {'prev_hash': b"\xcd_6\x88\xe2\x80\xca\x1a\xb6\xd6\xe9\x98\xc9\xdf\xcd\xfeGo\x02'K\xae}V\xc6\xd8\x93\xb3\x08\x11\xa9\x91", 'prev_index': 1, 'script_sig': b'H0E\x02!\x00\xac\xd9\xc1B|\x0eI-?5\x90\xae\x1f\x12\xad\xa7+\x18\x83L\xc0\xd3(\x80[mX<G\x83\x80\xab\x02 \x03\xeb\t\x94\xd5\x08\x1e\x17^X\x06s\xd0\xa3\x13\x0c7\x1d\xfe\xb4\r\xff*\x9fM\x1dv\x06\xf5\x98\xdbp\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1', 'sequence': 4294967293}>], 'lock_time': 0}>, None: <TransactionType: {'outputs': [<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>], 'inputs': [<TxInputType: {'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'script_type': 0, 'amount': 1599011000, 'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'prev_index': 1}>]}>}
-txes is dict key:the hash of tx&pre_tx,value:tx&pre_tx:tx
-
-inputs:[<TxInputType: {'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'script_type': 0, 'amount': 1599011000, 'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'prev_index': 1}>]
-Should be same with inputs in Qtum_Trezor_var.txt
-
-outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-Should be same with outputs in Qtum_Trezor_var.txt
-
-tx:<SignTx: {}>
-tx should be None
-
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-res:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>
-do not know
-
-counter:1
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 2, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:res.details.tx_hash
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:RequestType.TXMETA
-counter:3
-FAILED:res.details.tx_hash
-counter:3
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:4
-FAILED:res.details.tx_hash
-counter4msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:5
-FAILED:res.details.tx_hash
-counter5msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter6msg.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 3}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fb750f82a90>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>
-counter7msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 2}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fb750f82a90>>do not know
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 8}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fb750f82a90>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>
-counter:8
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter9msg.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter10msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'serialized': <TxRequestSerializedType: {'serialized_tx': b"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff", 'signature_index': 0, 'signature': b'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9'}>, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter11
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff"
-counter:11
-res.serialized.signature_index:0
-res.serialized.signatureb'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9'
-counter11msg.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter12
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2"
-counter12msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'amount': 0, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 3, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter13
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00"
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'imported': False, 'major_version': 1, 'pin_cached': False, 'pin_protection': False, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'passphrase_protection': False, 'vendor': 'bitcointrezor.com', 'needs_backup': False, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'device_id': '69BC372B630A7D394580F2E5', 'minor_version': 6, 'passphrase_cached': False, 'initialized': True, 'patch_version': 0, 'flags': 0, 'language': 'english', 'model': '1'}>do not know
-handler_name:callback_Featuresdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 't'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8', 'node': <HDNodeType: {'child_num': 0, 'depth': 0, 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'fingerprint': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6'}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp', 'node': <HDNodeType: {'child_num': 3259581746, 'depth': 2, 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'fingerprint': 2441513255, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6'}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt', 'node': <HDNodeType: {'child_num': 2147483648, 'depth': 3, 'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed', 'fingerprint': 880475754, 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba'}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-txes:{b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb": <TransactionType: {'inputs': [<TxInputType: {'sequence': 4294967293, 'prev_index': 1, 'script_sig': b'H0E\x02!\x00\xac\xd9\xc1B|\x0eI-?5\x90\xae\x1f\x12\xad\xa7+\x18\x83L\xc0\xd3(\x80[mX<G\x83\x80\xab\x02 \x03\xeb\t\x94\xd5\x08\x1e\x17^X\x06s\xd0\xa3\x13\x0c7\x1d\xfe\xb4\r\xff*\x9fM\x1dv\x06\xf5\x98\xdbp\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1', 'prev_hash': b"\xcd_6\x88\xe2\x80\xca\x1a\xb6\xd6\xe9\x98\xc9\xdf\xcd\xfeGo\x02'K\xae}V\xc6\xd8\x93\xb3\x08\x11\xa9\x91"}>], 'bin_outputs': [<TxOutputBinType: {'script_pubkey': b'v\xa9\x14\t\xac\xfa\xaaCv\x0cEOr\x9f\xaa\xd0\x87/\xaeIg\x02\xd9\x88\xac', 'amount': 100000000}>, <TxOutputBinType: {'script_pubkey': b'v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac', 'amount': 1599011000}>], 'lock_time': 0, 'version': 1}>, None: <TransactionType: {'inputs': [<TxInputType: {'script_type': 0, 'prev_index': 1, 'amount': 1599011000, 'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>], 'outputs': [<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]}>}
-txes is dict key:the hash of tx&pre_tx,value:tx&pre_tx:tx
-
-inputs:[<TxInputType: {'script_type': 0, 'prev_index': 1, 'amount': 1599011000, 'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>]
-Should be same with inputs in Qtum_Trezor_var.txt
-
-outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-Should be same with outputs in Qtum_Trezor_var.txt
-
-tx:<SignTx: {}>
-tx should be None
-
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-res:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-do not know
-
-counter:1
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 2}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:res.details.tx_hash
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:RequestType.TXMETA
-counter:3
-FAILED:res.details.tx_hash
-counter:3
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:4
-FAILED:res.details.tx_hash
-counter4msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:5
-FAILED:res.details.tx_hash
-counter5msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter6msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 3}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f8c0c083b70>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>
-counter7msg.outputs:[<TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 2}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f8c0c083b70>>do not know
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 8}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f8c0c083b70>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-counter:8
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter9msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter10msg.outputs:[<TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1, 'serialized': <TxRequestSerializedType: {'signature_index': 0, 'signature': b'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9', 'serialized_tx': b"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff"}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter11
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff"
-counter:11
-res.serialized.signature_index:0
-res.serialized.signatureb'0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9'
-counter11msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2'}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter12
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2"
-counter12msg.outputs:[<TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'01040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2', 'amount': 0}>, <TxOutputType: {'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'amount': 1559011000}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 3, 'serialized': <TxRequestSerializedType: {'serialized_tx': b'\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter13
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 G5\xc9\xb5\xe3\x91\x0c=g\xde\xc2\xba\\o\xd8\x1f\xf3Y\xb4\xf8\x87\xfd\xb0\x8f\x0b6\xae\x9ej\x83\x84\xaf\x02 *.\x8dV\xbay\xbeh,\xfa\x12\xe1\x1a\x16\x18\x934\xe7a\xb1N\xf5\xd9\x84\x0b\xdc\x15*\x9a\xd5c\xf9\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\xc9jL\xc601040390d003012844a9059cbb00000000000000000000000001ccdcdbc543fefc1efbe82be3b3718d62b65bd30000000000000000000000000000000000000000000000000000000011e1a300144b522ef3f01fafb6bd7ba7a8414f1461158cc31ac2\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00"
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'pin_cached': False, 'device_id': '69BC372B630A7D394580F2E5', 'language': 'english', 'major_version': 1, 'imported': False, 'pin_protection': False, 'passphrase_protection': False, 'patch_version': 0, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'flags': 0, 'passphrase_cached': False, 'initialized': True, 'needs_backup': False, 'model': '1', 'vendor': 'bitcointrezor.com', 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'minor_version': 6}>do not know
-handler_name:callback_Featuresdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 't'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8', 'node': <HDNodeType: {'depth': 0, 'child_num': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'fingerprint': 0}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp', 'node': <HDNodeType: {'depth': 2, 'child_num': 3259581746, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'fingerprint': 2441513255}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt', 'node': <HDNodeType: {'depth': 3, 'child_num': 2147483648, 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba', 'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed', 'fingerprint': 880475754}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'device_id': '69BC372B630A7D394580F2E5', 'minor_version': 6, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'language': 'english', 'pin_protection': False, 'major_version': 1, 'needs_backup': False, 'patch_version': 0, 'passphrase_protection': False, 'pin_cached': False, 'vendor': 'bitcointrezor.com', 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'passphrase_cached': False, 'flags': 0, 'model': '1', 'imported': False, 'initialized': True}>do not know
-handler_name:callback_Featuresdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 't'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'fingerprint': 0, 'depth': 0, 'child_num': 0}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'fingerprint': 2441513255, 'depth': 2, 'child_num': 3259581746}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed', 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba', 'fingerprint': 880475754, 'depth': 3, 'child_num': 2147483648}>, 'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt'}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-txes:{b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb": <TransactionType: {'lock_time': 0, 'bin_outputs': [<TxOutputBinType: {'amount': 100000000, 'script_pubkey': b'v\xa9\x14\t\xac\xfa\xaaCv\x0cEOr\x9f\xaa\xd0\x87/\xaeIg\x02\xd9\x88\xac'}>, <TxOutputBinType: {'amount': 1599011000, 'script_pubkey': b'v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac'}>], 'version': 1, 'inputs': [<TxInputType: {'script_sig': b'H0E\x02!\x00\xac\xd9\xc1B|\x0eI-?5\x90\xae\x1f\x12\xad\xa7+\x18\x83L\xc0\xd3(\x80[mX<G\x83\x80\xab\x02 \x03\xeb\t\x94\xd5\x08\x1e\x17^X\x06s\xd0\xa3\x13\x0c7\x1d\xfe\xb4\r\xff*\x9fM\x1dv\x06\xf5\x98\xdbp\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1', 'prev_index': 1, 'sequence': 4294967293, 'prev_hash': b"\xcd_6\x88\xe2\x80\xca\x1a\xb6\xd6\xe9\x98\xc9\xdf\xcd\xfeGo\x02'K\xae}V\xc6\xd8\x93\xb3\x08\x11\xa9\x91"}>]}>, None: <TransactionType: {'inputs': [<TxInputType: {'prev_index': 1, 'script_type': 0, 'sequence': 4294967293, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'amount': 1599011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>], 'outputs': [<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]}>}
-txes is dict key:the hash of tx&pre_tx,value:tx&pre_tx:tx
-
-inputs:[<TxInputType: {'prev_index': 1, 'script_type': 0, 'sequence': 4294967293, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'amount': 1599011000, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-Should be same with inputs in Qtum_Trezor_var.txt
-
-outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-Should be same with outputs in Qtum_Trezor_var.txt
-
-tx:<SignTx: {}>
-tx should be None
-
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-res:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-do not know
-
-counter:1
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 2}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:res.details.tx_hash
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:RequestType.TXMETA
-counter:3
-FAILED:res.details.tx_hash
-counter:3
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:4
-FAILED:res.details.tx_hash
-counter4msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:5
-FAILED:res.details.tx_hash
-counter5msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter6msg.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 3}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f2aa40a2f60>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>
-counter7msg.outputs:[<TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 8}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f2aa40a2f60>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
-counter:8
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter9msg.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter10msg.outputs:[<TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 >\xf8\xd7\x8e/\xb9\xbb\x13\xbel\xd5\x96\xc2\x19\xe3\x83\x8de9\x994&*\x8f\xba\xec\x06\x91\x9fj\x038\x02 |XK\xae\x7f\x88\xf8\x88\xa6{y\xe6\x1eU\xa6\xe2\x9d\xdeH,\xcc\x9e#1 \xf4\x8fEg\xfa\xee\xaf\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfd\xff\xff\xff", 'signature_index': 0, 'signature': b'0D\x02 >\xf8\xd7\x8e/\xb9\xbb\x13\xbel\xd5\x96\xc2\x19\xe3\x83\x8de9\x994&*\x8f\xba\xec\x06\x91\x9fj\x038\x02 |XK\xae\x7f\x88\xf8\x88\xa6{y\xe6\x1eU\xa6\xe2\x9d\xdeH,\xcc\x9e#1 \xf4\x8fEg\xfa\xee\xaf'}>, 'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter11
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 >\xf8\xd7\x8e/\xb9\xbb\x13\xbel\xd5\x96\xc2\x19\xe3\x83\x8de9\x994&*\x8f\xba\xec\x06\x91\x9fj\x038\x02 |XK\xae\x7f\x88\xf8\x88\xa6{y\xe6\x1eU\xa6\xe2\x9d\xdeH,\xcc\x9e#1 \xf4\x8fEg\xfa\xee\xaf\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfd\xff\xff\xff"
-counter:11
-res.serialized.signature_index:0
-res.serialized.signatureb'0D\x02 >\xf8\xd7\x8e/\xb9\xbb\x13\xbel\xd5\x96\xc2\x19\xe3\x83\x8de9\x994&*\x8f\xba\xec\x06\x91\x9fj\x038\x02 |XK\xae\x7f\x88\xf8\x88\xa6{y\xe6\x1eU\xa6\xe2\x9d\xdeH,\xcc\x9e#1 \xf4\x8fEg\xfa\xee\xaf'
-counter11msg.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x80\x96\x98\x00\x00\x00\x00\x00\x19v\xa9\x14D\x92\xe385\xcd&Lc\xb4-H\xe8\xa6T;uG\xa67\x88\xac'}>, 'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter12
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 >\xf8\xd7\x8e/\xb9\xbb\x13\xbel\xd5\x96\xc2\x19\xe3\x83\x8de9\x994&*\x8f\xba\xec\x06\x91\x9fj\x038\x02 |XK\xae\x7f\x88\xf8\x88\xa6{y\xe6\x1eU\xa6\xe2\x9d\xdeH,\xcc\x9e#1 \xf4\x8fEg\xfa\xee\xaf\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfd\xff\xff\xff\x02\x80\x96\x98\x00\x00\x00\x00\x00\x19v\xa9\x14D\x92\xe385\xcd&Lc\xb4-H\xe8\xa6T;uG\xa67\x88\xac"
-counter12msg.outputs:[<TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-
-current_tx.outputs:[<TxOutputType: {'amount': 10000000, 'address': 'qPoy51A4WKVcy7FrCWec5D3cqmPZp7F9M2', 'script_type': 0}>, <TxOutputType: {'amount': 1588728500, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 1, 7]}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\xb4\x12\xb2^\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'}>, 'request_type': 3}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter13
-serialized_txb"\x01\x00\x00\x00\x01\xdb\xa5'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00jG0D\x02 >\xf8\xd7\x8e/\xb9\xbb\x13\xbel\xd5\x96\xc2\x19\xe3\x83\x8de9\x994&*\x8f\xba\xec\x06\x91\x9fj\x038\x02 |XK\xae\x7f\x88\xf8\x88\xa6{y\xe6\x1eU\xa6\xe2\x9d\xdeH,\xcc\x9e#1 \xf4\x8fEg\xfa\xee\xaf\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfd\xff\xff\xff\x02\x80\x96\x98\x00\x00\x00\x00\x00\x19v\xa9\x14D\x92\xe385\xcd&Lc\xb4-H\xe8\xa6T;uG\xa67\x88\xac\xb4\x12\xb2^\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00"
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'Session cleared'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Features: {'major_version': 1, 'minor_version': 6, 'pin_protection': False, 'pin_cached': False, 'initialized': True, 'language': 'english', 'passphrase_cached': False, 'device_id': '69BC372B630A7D394580F2E5', 'flags': 0, 'patch_version': 0, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'model': '1', 'imported': False, 'needs_backup': False, 'passphrase_protection': False, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'vendor': 'bitcointrezor.com'}>do not know
-handler_name:callback_Featuresdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 't'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8', 'node': <HDNodeType: {'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'child_num': 0, 'fingerprint': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'depth': 0}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp', 'node': <HDNodeType: {'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'child_num': 3259581746, 'fingerprint': 2441513255, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'depth': 2}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<PublicKey: {'xpub': 'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt', 'node': <HDNodeType: {'public_key': b'\x03\x7f\x84_UgkF\x7f\xe8O7\x92\xf7\xc4\x03<\xab\xab\xa4U\x10\xdf\xe6\xff>\x89\x86=\xa1\xb7_\xed', 'child_num': 2147483648, 'fingerprint': 880475754, 'chain_code': b'`2\x10U\xe7\xf4\xe6Y\x13{\xe8\xee\x14\xd56eg\x8d\xc1A\x11K\xd2\xd37\x0f\x94U\xcb\x8fJ\xba', 'depth': 3}>}>do not know
-handler_name:callback_PublicKeydo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-res = call():
-the inner of func:call():
-resp:<Success: {'message': 'electrum pinging device'}>do not know
-handler_name:callback_Successdo not know
-handler:Nonedo not know
-txes:{b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb": <TransactionType: {'inputs': [<TxInputType: {'script_sig': b'H0E\x02!\x00\xac\xd9\xc1B|\x0eI-?5\x90\xae\x1f\x12\xad\xa7+\x18\x83L\xc0\xd3(\x80[mX<G\x83\x80\xab\x02 \x03\xeb\t\x94\xd5\x08\x1e\x17^X\x06s\xd0\xa3\x13\x0c7\x1d\xfe\xb4\r\xff*\x9fM\x1dv\x06\xf5\x98\xdbp\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1', 'prev_index': 1, 'prev_hash': b"\xcd_6\x88\xe2\x80\xca\x1a\xb6\xd6\xe9\x98\xc9\xdf\xcd\xfeGo\x02'K\xae}V\xc6\xd8\x93\xb3\x08\x11\xa9\x91", 'sequence': 4294967293}>], 'version': 1, 'lock_time': 0, 'bin_outputs': [<TxOutputBinType: {'script_pubkey': b'v\xa9\x14\t\xac\xfa\xaaCv\x0cEOr\x9f\xaa\xd0\x87/\xaeIg\x02\xd9\x88\xac', 'amount': 100000000}>, <TxOutputBinType: {'script_pubkey': b'v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac', 'amount': 1599011000}>]}>, None: <TransactionType: {'outputs': [<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>], 'inputs': [<TxInputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'sequence': 4294967294, 'prev_index': 1, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'amount': 1599011000}>]}>}
-txes is dict key:the hash of tx&pre_tx,value:tx&pre_tx:tx
-
-inputs:[<TxInputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'sequence': 4294967294, 'prev_index': 1, 'prev_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb", 'amount': 1599011000}>]
-Should be same with inputs in Qtum_Trezor_var.txt
-
-outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-Should be same with outputs in Qtum_Trezor_var.txt
-
-tx:<SignTx: {}>
-tx should be None
-
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-res:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>
-do not know
-
-counter:1
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 2, 'details': <TxRequestDetailsType: {'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:res.details.tx_hash
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:2
-FAILED:RequestType.TXMETA
-counter:3
-FAILED:res.details.tx_hash
-counter:3
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:4
-FAILED:res.details.tx_hash
-counter4msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1, 'tx_hash': b"\r,\xf29\xdd\xbb\x86\xb14j\x0e\x8ds\x97\xd1s\xa83\xd8\xd3\xbb\xceM\xad\x00\x95f\x19\xbf'\xa5\xdb"}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter:5
-FAILED:res.details.tx_hash
-counter5msg.outputs:[]
-
-current_tx.outputs:[]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter6msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 3}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f545e976a20>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>
-counter7msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 2}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f545e976a20>>do not know
-res = call():
-the inner of func:call():
-resp:<ButtonRequest: {'code': 8}>do not know
-handler_name:callback_ButtonRequestdo not know
-handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f545e976a20>>do not know
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>
-msg:<ButtonAck: {}>
-resp:<TxRequest: {'request_type': 0, 'details': <TxRequestDetailsType: {'request_index': 0}>}>
-counter:8
-FAILED:RequestType.TXINPUT
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter9msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter10msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'signature': b'0E\x02!\x00\xd3\xb7\xe3i$:s\xdc\xb5\xa5\xfa\xea\xc8V\x99\xaf\xb9\x8e\x07\xf9E\x8f\xa4{\xbf\x08\x9bqY\xa1;\n\x02 \x05>+8\xe03{\x1bP\xac\xe9\xfb_g[\xbdt\xae\xd8\xac"\x95u\x0f\xb8C\x9ex\x91\xbe\xeeB', 'signature_index': 0, 'serialized_tx': b'\x01\x00\x00\x00\x01\xdb\xa5\'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00kH0E\x02!\x00\xd3\xb7\xe3i$:s\xdc\xb5\xa5\xfa\xea\xc8V\x99\xaf\xb9\x8e\x07\xf9E\x8f\xa4{\xbf\x08\x9bqY\xa1;\n\x02 \x05>+8\xe03{\x1bP\xac\xe9\xfb_g[\xbdt\xae\xd8\xac"\x95u\x0f\xb8C\x9ex\x91\xbe\xeeB\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff'}>, 'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 0}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter11
-serialized_txb'\x01\x00\x00\x00\x01\xdb\xa5\'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00kH0E\x02!\x00\xd3\xb7\xe3i$:s\xdc\xb5\xa5\xfa\xea\xc8V\x99\xaf\xb9\x8e\x07\xf9E\x8f\xa4{\xbf\x08\x9bqY\xa1;\n\x02 \x05>+8\xe03{\x1bP\xac\xe9\xfb_g[\xbdt\xae\xd8\xac"\x95u\x0f\xb8C\x9ex\x91\xbe\xeeB\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff'
-counter:11
-res.serialized.signature_index:0
-res.serialized.signatureb'0E\x02!\x00\xd3\xb7\xe3i$:s\xdc\xb5\xa5\xfa\xea\xc8V\x99\xaf\xb9\x8e\x07\xf9E\x8f\xa4{\xbf\x08\x9bqY\xa1;\n\x02 \x05>+8\xe03{\x1bP\xac\xe9\xfb_g[\xbdt\xae\xd8\xac"\x95u\x0f\xb8C\x9ex\x91\xbe\xeeB'
-counter11msg.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index0
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x00\x00\x00\x00\x00\x00\x00\x00\x1cj\x1atest of the op_return data'}>, 'request_type': 1, 'details': <TxRequestDetailsType: {'request_index': 1}>}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter12
-serialized_txb'\x01\x00\x00\x00\x01\xdb\xa5\'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00kH0E\x02!\x00\xd3\xb7\xe3i$:s\xdc\xb5\xa5\xfa\xea\xc8V\x99\xaf\xb9\x8e\x07\xf9E\x8f\xa4{\xbf\x08\x9bqY\xa1;\n\x02 \x05>+8\xe03{\x1bP\xac\xe9\xfb_g[\xbdt\xae\xd8\xac"\x95u\x0f\xb8C\x9ex\x91\xbe\xeeB\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\x1cj\x1atest of the op_return data'
-counter12msg.outputs:[<TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-current_tx.outputs:[<TxOutputType: {'script_type': 3, 'op_return_data': b'test of the op_return data', 'amount': 0}>, <TxOutputType: {'address_n': [2147483692, 2147483736, 2147483648, 1, 7], 'script_type': 0, 'amount': 1559011000}>]
-
-res.details.request_index1
-res = call():
-the inner of func:call():
-resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'}>, 'request_type': 3}>do not know
-handler_name:callback_TxRequestdo not know
-handler:Nonedo not know
-counter13
-serialized_txb'\x01\x00\x00\x00\x01\xdb\xa5\'\xbf\x19f\x95\x00\xadM\xce\xbb\xd3\xd83\xa8s\xd1\x97s\x8d\x0ej4\xb1\x86\xbb\xdd9\xf2,\r\x01\x00\x00\x00kH0E\x02!\x00\xd3\xb7\xe3i$:s\xdc\xb5\xa5\xfa\xea\xc8V\x99\xaf\xb9\x8e\x07\xf9E\x8f\xa4{\xbf\x08\x9bqY\xa1;\n\x02 \x05>+8\xe03{\x1bP\xac\xe9\xfb_g[\xbdt\xae\xd8\xac"\x95u\x0f\xb8C\x9ex\x91\xbe\xeeB\x01!\x03\xe1w\x99T\xc0\x1f$\xcfj\xf7\xe1\x80;6(\xc3\xba\xf1\xda\xaa\x91D\x1c\x1f\x0f4\t\xf0[\x08%\xe1\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00\x1cj\x1atest of the op_return data\xb8\x9e\xec\\\x00\x00\x00\x00\x19v\xa9\x14\xc6\x83k\\\x9cd1I\x91\x02\xff])\x02 \xbcZ\xf0\x85\xd9\x88\xac\x00\x00\x00\x00'
+serialized_txb'\x01\x00\x00\x00\x01D\x02\x084$\xdaWLL\r\xa5\x97\xacn\xab\xc0m\x81P\x044KG\r\x8eG(\x0f7u-\xd4\x01\x00\x00\x00kH0E\x02!\x00\x9f\x11\xcc\x0cl\\\x96\x0c\x94.N\x14\xe8\xe0a`T\x10\xde\xf7\x8d\xa7\xab<R\x0c\x87X\xda\xd5m\x92\x02 5\xfb\xe0l^=\xac\xc1h\xa2h\xb1\x1c\x9f\xe9\xe9vDryB\xa4\xa1\n\x8aM\x1f+\xeer\xads\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfd\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00LjJ@COPYROBO@7389d6d11514ec05cc5f15eb65928608404734b0492ca2ecd9ed4872b042efa7\x18w\x07\x81\x01\x00\x00\x00\x19v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac\x00\x00\x00\x00'

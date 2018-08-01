@@ -343,11 +343,24 @@ class TrezorPlugin(HW_PluginBase):
         #print("############111111##################")
         #print("trezor.py:sign_transaction execute")
         signatures = client.sign_tx(self.get_coin_name(), inputs, outputs, lock_time=tx.locktime)[0]
-        signatures = [(bh2u(x) + '01') for x in signatures]
 
         with open('./Qtum_Trezor_var.txt','a') as f:
             try:
-                f.write('signatures:'+str(signatures)+'\n')
+                f.write('origin_signatures:'+str(signatures)+'\n')
+            except:
+                pass
+
+        with open('./update_sign.txt', 'a') as f:
+            try:
+                f.write('origin_signatures:' + 2 * '\n' + str(signatures) + 2*'\n')
+            except:
+                f.write('Failed:origin_signatures' + '\n')
+
+        signatures = [(bh2u(x) + '01') for x in signatures]
+
+        with open('./update_sign.txt','a') as f:
+            try:
+                f.write('add_01_signatures:'+str(signatures)+'\n')
             except:
                 pass
 
@@ -519,7 +532,6 @@ class TrezorPlugin(HW_PluginBase):
                 #原始的代码
                 #txoutputtype.op_return_data = address[2:]#?
                 #改过的代码
-                #
                 txoutputtype.op_return_data = address[:]
 
                 with open('./Qtum_Trezor_var.txt', 'a') as f:
@@ -533,7 +545,9 @@ class TrezorPlugin(HW_PluginBase):
                 #这里是将0104改为b'0104'
                 #txoutputtype.op_return_data = str.encode(address[:])
                 #这里是将txoutputtype.op_return_data直接改为b'test of the op_return data'
-                txoutputtype.op_return_data = b'test of the op_return data'
+                #txoutputtype.op_return_data = b'test of the op_return data'
+                #这里是将str改为 b'\x \x'07.26,原始此处没有代码
+                txoutputtype.op_return_data = bfh(address[:])
 
 
 

@@ -370,7 +370,7 @@ class ECPrivkey(ECPubkey):
     def sign(self, data: bytes, sigencode=None, sigdecode=None) -> bytes:
         if sigencode is None:#签名编码为空
             sigencode = sig_string_from_r_and_s
-        if sigdecode is None:
+        if sigdecode is None:#签名解码为空
             sigdecode = get_r_and_s_from_sig_string
         private_key = _MySigningKey.from_secret_exponent(self.secret_scalar, curve=SECP256k1)
         sig = private_key.sign_digest_deterministic(data, hashfunc=hashlib.sha256, sigencode=sigencode)#对sha处理过的摘要信息

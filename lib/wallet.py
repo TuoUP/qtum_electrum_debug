@@ -1485,6 +1485,7 @@ class Abstract_Wallet(PrintError):
                     f.write('file_name:wallet.py,function_name:sign_transaction:' + '\n'+'step 2 Fasle: call wallet.sign_transaction' + '\n')
             try:
                 if k.can_sign(tx):#bool(self.get_tx_derivations(tx))
+                    #k 是类BIP32_KeyStore的一个实例
                     k.sign_transaction(tx, password)
             except UserCancelled:
                 continue

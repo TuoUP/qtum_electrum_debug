@@ -1,3 +1,609 @@
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:qt/main_window.py,function_name:sign_tx_with_password:
+step 1:wallet_info:Standard_Wallet
+file_name:wallet.py,function_name:sign_transaction:
+step 2: call wallet.sign_transaction
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:wallet.py,function_name:can_sign:
+step 0: call wallet.can_sign
+file_name:keystore.py,function_name:can_sign:
+step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:get_tx_derivation:
+step2-1-1,step 4:sign_transaction -> get_tx_derivation
+file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
+step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
 file_name:keystore.py,function_name:xpubkey_to_address:
 step6:get_pubkey_derivation -> xpubkey_to_address
 file_name:wallet.py,function_name:can_sign:
@@ -34,6 +640,10 @@ file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
 step5:get_tx_derivation -> get_pubkey_derivation
 file_name:keystore.py,function_name:xpubkey_to_address:
 step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
 file_name:wallet.py,function_name:can_sign:
 step 0: call wallet.can_sign
 file_name:keystore.py,function_name:can_sign:
@@ -42,14 +652,10 @@ file_name:keystore.py,function_name:get_tx_derivation:
 step2-1-1,step 4:sign_transaction -> get_tx_derivation
 file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
 step5:get_tx_derivation -> get_pubkey_derivation
+file_name:keystore.py,function_name:xpubkey_to_address:
+step6:get_pubkey_derivation -> xpubkey_to_address
 file_name:qt/main_window.py,function_name:sign_tx_with_password:
 step 1:wallet_info:Standard_Wallet
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
 file_name:wallet.py,function_name:sign_transaction:
 step 2: call wallet.sign_transaction
 file_name:keystore.py,function_name:can_sign:
@@ -58,226 +664,8 @@ file_name:keystore.py,function_name:get_tx_derivation:
 step2-1-1,step 4:sign_transaction -> get_tx_derivation
 file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
 step5:get_tx_derivation -> get_pubkey_derivation
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:qt/main_window.py,function_name:sign_tx_with_password:
-step 1:wallet_info:Standard_Wallet
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:wallet.py,function_name:sign_transaction:
-step 2: call wallet.sign_transaction
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:qt/main_window.py,function_name:sign_tx_with_password:
-step 1:wallet_info:Standard_Wallet
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:wallet.py,function_name:sign_transaction:
-step 2: call wallet.sign_transaction
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:qt/main_window.py,function_name:sign_tx_with_password:
-step 1:wallet_info:Standard_Wallet
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:wallet.py,function_name:sign_transaction:
-step 2: call wallet.sign_transaction
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:qt/main_window.py,function_name:sign_tx_with_password:
-step 1:wallet_info:Standard_Wallet
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:wallet.py,function_name:sign_transaction:
-step 2: call wallet.sign_transaction
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:qt/main_window.py,function_name:sign_tx_with_password:
-step 1:wallet_info:Standard_Wallet
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:wallet.py,function_name:sign_transaction:
-step 2: call wallet.sign_transaction
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:keystore.py,function_name:xpubkey_to_address:
-step6:get_pubkey_derivation -> xpubkey_to_address
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:qt/main_window.py,function_name:sign_tx_with_password:
-step 1:wallet_info:Standard_Wallet
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:wallet.py,function_name:sign_transaction:
-step 2: call wallet.sign_transaction
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
-file_name:keystore.py,function_name:get_tx_derivation:
-step2-1-1,step 4:sign_transaction -> get_tx_derivation
-file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:
-step5:get_tx_derivation -> get_pubkey_derivation
-file_name:wallet.py,function_name:can_sign:
-step 0: call wallet.can_sign
-file_name:keystore.py,function_name:can_sign:
-step 2-1: call keystore.can_sign
+file_name:keystore.py,function_name:sign_transaction:
+step 3:keystore.sign_transactions
 file_name:keystore.py,function_name:get_tx_derivation:
 step2-1-1,step 4:sign_transaction -> get_tx_derivation
 file_name:keystore.py,function_name:Xpub.get_pubkey_derivation:

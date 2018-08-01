@@ -104,6 +104,7 @@ class PayToEdit(CompletionTextEdit, ScanQRTextEdit):
                 # script += push_script(word).decode('hex')
                 bfh(word)  # to test it is hex data
                 script += push_script(word)
+
         return script
 
     def parse_amount(self, x):

@@ -33,6 +33,7 @@ import base64
 import binascii
 import eth_abi
 
+
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
@@ -43,7 +44,7 @@ from qtum_electrum.plugins import run_hook
 from qtum_electrum.i18n import _
 from qtum_electrum.util import (bh2u, bfh, format_time, format_satoshis, format_fee_satoshis,PrintError, format_satoshis_plain,
                                 NotEnoughFunds, UserCancelled, profiler, export_meta, import_meta, open_browser,
-                                InvalidPassword)
+                                InvalidPassword,Print)
 from qtum_electrum import Transaction
 from qtum_electrum import util, bitcoin, commands, coinchooser
 from qtum_electrum import paymentrequest
@@ -1350,13 +1351,14 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
         if self.payment_request:
             outputs = self.payment_request.get_outputs()
 
-            #print("self.payment_request:",self.payment_request.__class__.__name__,'\n')
         else:
             errors = self.payto_e.get_errors()
+
             if errors:
                 self.show_warning(_("Invalid Lines found:") + "\n\n" + '\n'.join([ _("Line #") + str(x[0]+1) + ": " + x[1] for x in errors]))
                 return
             outputs = self.payto_e.get_outputs(self.is_max)
+
             print("self.payto_e:", self.payto_e.__class__.__name__,'\n')
 
             if self.payto_e.is_alias and self.payto_e.validated is False:
@@ -1405,16 +1407,27 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
         if not r:#  r = None 时return
             return
         outputs, fee, tx_desc, coins = r
-
+        #自己添加的代码
         for i,output in enumerate(outputs):
             tp, addr, _amount = output
             if tp == TYPE_SCRIPT:
+                prefix_addr = util.Print('prefix_addr')
+                prefix_addr.add_var(pre_addr = addr)
                 addr = addr[4:]
                 outputs[i] = (tp, addr, _amount)
             elif tp == TYPE_ADDRESS:
                 continue
+        """
+        tmp = []
+        for o in outputs:
+            for i in range(10,len(str(o[1])) - 1):
+                temp_var = (o[0],o[1][i:],o[2])
+                tmp.append(temp_var)
+        import copy
+        outputs = copy.deepcopy(tmp)
+        print(outputs)
 
-
+        """
 
          #print(outputs)
         try:
@@ -1433,7 +1446,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
         #如果self.is_max is True amount = tx.output_value(),else amount = sum(map(lambda x:x[2], outputs))
         fee = tx.get_fee()
 
-        use_rbf = self.rbf_checkbox.isChecked()#检查这笔交易是否为最终交易
+        use_rbf = self.rbf_checkbox.isChecked()#使用RBF可以更改手续费
         tx.set_rbf(use_rbf)
 
         if fee < self.wallet.relayfee() * tx.estimated_size() / 1000:

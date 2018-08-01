@@ -14,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/qtum-electrum-master$debug_info.coverage" NAME="debug_info Coverage Results" MODIFIED="1531275184735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bug_qtum-electrum-master$test.coverage" NAME="test Coverage Results" MODIFIED="1532866961229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/qtum-electrum-master$test.coverage" NAME="test Coverage Results" MODIFIED="1531275723798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -21,36 +22,731 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="qtum-electrum-master" />
+    <favorites_list name="qtum-electrum-master">
+      <favorite_root url="file://$PROJECT_DIR$" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/gui" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/gui/qt" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/util.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/console.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/icons_rc.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/qrwindow.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/paytoedit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/utxo_list.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/amountedit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/fee_slider.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/qrtextedit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/token_list.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/main_window.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/seed_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/address_list.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/contact_list.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/history_list.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/invoice_list.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/qrcodewidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/request_list.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/token_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/installwizard.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/address_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/network_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/password_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/transaction_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/smart_contract_list.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/completion_text_edit.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/qt/smart_contract_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/gui/kivy" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/wallets.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/question.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/settings.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/fx_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/qr_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/tx_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/fee_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/qr_scanner.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/label_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/seed_options.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/amount_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/choice_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/installwizard.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/bump_fee_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/checkbox_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/nfc_transaction.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/dialogs/password_dialog.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/menus.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/drawer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/screens.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/send.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/about.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/proxy.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/server.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/status.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/history.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/invoice.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/network.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/receive.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/invoices.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/ui_screens/requests.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/combobox.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/gridview.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/context_menu.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/uix/qrcodewidget.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/glsl" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/glsl/header.fs" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/glsl/header.vs" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/glsl/default.fs" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/glsl/default.vs" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/glsl/default.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/logo" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/logo/kivy-icon-32.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/fonts" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/fonts/tron" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/fonts/tron/Tr2n.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/fonts/tron/Readme.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/fonts/tron/License.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/fonts/Roboto.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/fonts/Roboto-Bold.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/fonts/Roboto-Medium.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/fonts/Roboto-Condensed.ttf" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/images" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/images/defaulttheme-0.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/images/defaulttheme.atlas" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/style.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/data/background.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/tools" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/tools/blacklist.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/tools/buildozer.spec" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/tools/qtum_intent.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/i18n.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/main.kv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/nfc.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/pen.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/tab.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/card.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/gear.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/info.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/logo.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/save.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/close.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/error.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/globe.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/camera.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/clock1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/clock2.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/clock3.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/clock4.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/clock5.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/clock6.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/clock7.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/clock8.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/clock9.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/dialog.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/qrcode.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/shadow.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/wallet.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/btn_nfc.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/contact.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/network.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/tab_btn.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/wallets.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/bit_logo.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/card_btn.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/card_top.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/settings.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/confirmed.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/important.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/mail_icon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/nfc_clock.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/nfc_phone.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/tab_strip.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/action_bar.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/arrow_back.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/calculator.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/paste_icon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/add_contact.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/card_bottom.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/closebutton.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/icon_border.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/manualentry.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/unconfirmed.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/btn_send_nfc.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/shadow_right.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/stepper_full.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/stepper_left.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/tab_disabled.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/nfc_stage_one.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/logo_atom_dull.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/contact_overlay.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/create_act_text.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/overflow_btn_dn.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/tab_btn_pressed.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/blue_bg_round_rb.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/btn_send_address.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/electrum_icon640.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/tab_btn_disabled.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/textinput_active.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/action_group_dark.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/carousel_selected.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/star_big_inactive.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/action_group_light.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/btn_create_account.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/white_bg_round_top.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/action_button_group.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/carousel_deselected.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/dropdown_background.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/overflow_background.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/stepper_restore_seed.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/lightblue_bg_round_lb.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/create_act_text_active.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/btn_create_act_disabled.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gui/kivy/theming/light/stepper_restore_password.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/Makefile" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/Readme.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/nfc_scanner" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/nfc_scanner/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/nfc_scanner/scanner_dummy.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/gui/kivy/nfc_scanner/scanner_android.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gui/kivy/main_window.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/gui/text.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/gui/stdio.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/gui/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/lib" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/lib/tests" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_qtum.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_util.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_dnssec.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_wallet.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_account.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_commands.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_mnemonic.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_interface.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_transaction.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_simple_config.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/tests/test_wallet_vertical.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/lib/ecc.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/pem.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/i18n.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/msqr.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/plot.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/qtum.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/util.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/x509.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/wordlist" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/lib/wordlist/english.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/wordlist/spanish.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/wordlist/japanese.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/wordlist/portuguese.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/lib/wordlist/chinese_simplified.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/lib/bignum.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/crypto.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/daemon.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/dnssec.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/ripemd.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/rsakey.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/tokens.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/wallet.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/bitcoin.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/jsonrpc.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/network.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/plugins.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/storage.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/version.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/commands.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/contacts.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/ecc_fast.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/keystore.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/mnemonic.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/verifier.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/constants.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/interface.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/qrscanner.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/servers.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/blockchain.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/websockets.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/base_wizard.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/coinchooser.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/segwit_addr.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/transaction.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/currencies.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/old_mnemonic.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/synchronizer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/checkpoints.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/exchange_rate.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/simple_config.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/paymentrequest.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/smart_contracts.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/paymentrequest.proto" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/servers_testnet.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/paymentrequest_pb2.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/lib/checkpoints_testnet.json" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/snap" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/snap/snapcraft.yaml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/snap/mobile_compatible.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/snap/qt_core_compatible.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/test" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/.idea" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/.idea/misc.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/modules.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/workspace.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/.idea/qtum-electrum-master.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/icons" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/icons/key.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/copy.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/eye1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/file.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/lock.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/lock.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/seal.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/seed.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/zoom.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/clock1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/clock2.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/clock3.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/clock4.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/clock5.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/clock6.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/clock7.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/clock8.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/clock9.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/ledger.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/qrcode.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/trezor.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/unlock.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/unlock.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/unpaid.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/expired.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/keepkey.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/network.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/speaker.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/warning.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/electrum.ico" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/electrum.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/tab_send.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/tor_logo.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/confirmed.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/tab_coins.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/microphone.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/offline_tx.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/preferences.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/tab_console.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/tab_history.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/tab_receive.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/unconfirmed.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/unconfirmed.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/tab_contacts.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/digitalbitbox.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/tab_addresses.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/status_lagging.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/status_waiting.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/status_waiting.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/ledger_unpaired.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/trezor_unpaired.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/keepkey_unpaired.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/status_connected.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/electrum_launcher.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/electrum_dark_icon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/electrum_presplash.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/trustedcoin-status.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/trustedcoin-wizard.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/electrum_light_icon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/status_disconnected.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/status_disconnected.svg" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/digitalbitbox_unpaired.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/status_connected_proxy.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/icons/electrum_android_launcher_icon.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/AUTHORS" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/LICENCE" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/contrib" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/contrib/make_apk" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/make_osx" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/osx.spec" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/README.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/make_osx_BASE_8100" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/make_osx_BASE_8173" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/make_osx_LOCAL_8100" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/make_osx_LOCAL_8173" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/make_osx_BACKUP_8100" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/make_osx_BACKUP_8173" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/make_osx_REMOTE_8100" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-osx/make_osx_REMOTE_8173" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/contrib/build-wine" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-wine/build.sh" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-wine/README.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-wine/electrum.nsi" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-wine/prepare-wine.sh" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-wine/build-secp256k1.sh" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-wine/deterministic.spec" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-wine/prepare-eth-abi.sh" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/contrib/build-wine/build-electrum-git.sh" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/contrib/make_locale" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/contrib/make_download" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/contrib/make_packages" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/contrib/sign_packages" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/plugins" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/plugins/README" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/plugins/labels" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/plugins/labels/qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/labels/kivy.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/labels/labels.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/labels/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/plugins/ledger" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/plugins/ledger/qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/ledger/ledger.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/ledger/auth2fa.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/ledger/cmdline.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/ledger/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/plugins/trezor" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trezor/qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trezor/client.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trezor/trezor.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trezor/cmdline.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trezor/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trezor/transport.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trezor/clientbase.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/plugins/hw_wallet" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/plugins/hw_wallet/qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/hw_wallet/plugin.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/hw_wallet/cmdline.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/hw_wallet/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/plugins/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/plugins/audio_modem" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/plugins/audio_modem/qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/audio_modem/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/plugins/trustedcoin" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trustedcoin/qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trustedcoin/cmdline.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trustedcoin/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/trustedcoin/trustedcoin.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/plugins/email_requests" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/plugins/email_requests/qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/email_requests/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/plugins/virtualkeyboard" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/plugins/virtualkeyboard/qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/virtualkeyboard/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/plugins/greenaddress_instant" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/plugins/greenaddress_instant/qt.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/plugins/greenaddress_instant/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/pubkeys" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/pubkeys/wozz.asc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/pubkeys/ThomasV.asc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/pubkeys/Animazing.asc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/pubkeys/kyuupichan.asc" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/scripts" module="qtum-electrum-master" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/scripts/bip70" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/scripts/peers" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/scripts/servers" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/scripts/txradar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/scripts/util.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/scripts/get_history" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/scripts/estimate_fee" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/scripts/block_headers" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/scripts/watch_address" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/tox.ini" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/setup.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/README.md" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Info.plist" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/pubkey.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/MANIFEST.in" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/RELEASE-NOTES" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/qtum-electrum" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Qtum_Debug.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/msg_outputs.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/requirements.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Trezor_lib_var.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/debug_info_var.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/qtum-electrum.icns" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Qtum_Trezor_var.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Trezor_lib_step.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/debug_info_step.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Qtum_Trezor_step.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/debug_Trezor_info.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/qtum-electrum.desktop" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/requirements-fixed.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/debug_trezorlib_info.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/requirements-binaries.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="transaction_dialog.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/qt/transaction_dialog.py">
+      <file leaf-file-name="wallet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wallet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="197" column="31" selection-start-line="197" selection-start-column="31" selection-end-line="197" selection-end-column="31" />
+            <state relative-caret-position="27072">
+              <caret line="1161" column="33" selection-start-line="1161" selection-start-column="33" selection-end-line="1161" selection-end-column="33" />
               <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#2291#5527#0" expanded="false" />
-                <element signature="e#2291#2432#1" expanded="false" />
-                <element signature="e#2528#2585#0" expanded="false" />
-                <element signature="e#5989#6319#0" expanded="false" />
-                <element signature="e#6199#6319#0" expanded="false" />
-                <element signature="e#6352#6575#0" expanded="false" />
-                <element signature="e#7662#8108#0" expanded="false" />
-                <element signature="e#7905#8108#0" expanded="false" />
-                <element signature="e#8140#10234#0" expanded="false" />
-                <element signature="e#8826#8910#0" expanded="false" />
-                <element signature="e#9009#9177#0" expanded="false" />
-                <element signature="e#9210#9395#0" expanded="false" />
-                <element signature="e#10272#12426#0" expanded="false" />
-                <element signature="e#10797#10916#0" expanded="false" />
-                <element signature="e#10962#11024#0" expanded="false" />
-                <element signature="e#11255#11837#0" expanded="false" />
-                <element signature="e#11363#11804#0" expanded="false" />
-                <element signature="e#12188#12395#0" expanded="false" />
-                <element signature="e#12277#12362#0" expanded="false" />
+                <marker date="1532598109604" expanded="true" signature="2377:2508" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="2969:3702" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="2997:3112" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="3122:3260" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="3326:3702" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="3757:4848" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="3822:4024" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="4083:4714" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="4304:4492" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="4317:4421" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="4527:4714" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="4540:4650" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="4919:5796" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="5054:5212" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="5390:5552" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="5840:5849" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="5913:5997" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="5936:5997" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="6034:75471" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="6039:6223" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1532598109604" expanded="true" signature="6285:8891" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="8226:8543" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="8924:8955" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="8979:9010" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="9048:9068" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="9116:10275" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="9243:9351" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="9612:9887" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="9770:9887" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="10091:10275" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="10150:10275" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="10324:10486" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="10541:10797" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="10620:10797" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="10858:11702" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="10911:11702" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="11748:11894" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="11772:11894" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="11924:12421" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="11948:12421" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="12005:12421" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="12465:13234" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="12709:12768" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="12806:13180" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="12889:13180" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="13072:13180" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="13259:13310" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="13341:13451" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="13482:13671" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="13709:13922" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="13783:13922" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="13968:13981" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14014:14062" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14105:14491" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14193:14491" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14253:14377" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14521:14568" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14613:15100" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14695:14843" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14771:14843" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14857:14951" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14882:14951" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="14972:15076" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="15133:15180" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="15215:15328" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="15371:15407" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="15450:15470" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="15524:15937" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="15978:16024" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="16078:16697" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="16119:16228" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="16352:16519" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="16613:16697" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="16744:17255" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="16841:16967" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="17067:17171" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="17290:17429" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="17484:18060" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="17589:18041" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="17654:18041" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="17743:18041" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="17940:18041" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="18093:18257" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="18296:18859" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="18391:18859" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="18435:18617" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="18665:18757" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="18775:18859" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="18894:19695" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="18974:19695" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="19018:19292" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="19131:19257" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="19340:19641" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="19439:19569" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="19720:19785" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="19821:19943" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="19990:20383" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="20420:22057" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="20659:21260" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="20741:21208" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="20915:21026" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="20962:21026" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="21360:21493" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="21422:21493" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="21515:21721" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="21655:21721" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="21735:21966" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="21796:21875" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="21893:21966" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="22089:24002" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="22347:23488" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="22399:23376" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="22548:22716" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="22797:23253" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="23007:23192" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="23275:23376" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="23394:23488" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="23502:23633" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="23658:23853" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="23682:23808" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="24039:24504" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="24159:24317" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="24351:24474" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="24543:25093" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="24699:25074" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="24810:25047" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="25194:25311" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="25446:25977" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="25626:25954" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="25844:25954" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="26029:26193" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="26298:26899" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="26527:26878" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="26600:26878" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="26929:26978" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="27008:27131" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="27177:27419" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="27238:27328" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="27483:27685" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="27545:27663" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="27720:27775" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="27816:28103" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="27967:28077" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="28145:28583" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="28169:28308" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="28355:28566" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="28460:28566" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="28630:28907" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="28666:28907" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="28755:28907" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="28959:29348" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="28995:29348" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="29084:29348" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="29416:29671" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="29495:29671" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="29529:29671" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="29564:29671" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="29709:30095" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="29974:30075" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="30008:30075" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="30134:30363" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="30412:31827" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="30421:30692" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1532598109604" expanded="true" signature="30761:31827" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="30798:31318" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="31410:31487" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="31528:31791" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="31895:37041" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="32022:32161" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="32208:37041" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="32221:32514" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="32706:33261" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="32723:32965" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="33274:33658" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="33760:34877" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="33826:33960" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="34030:34116" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="34180:34304" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="34378:34494" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="34949:35586" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="35143:35586" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="35286:35586" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="35329:35586" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="35389:35551" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="35662:36005" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="36122:36867" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="36288:36425" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="36575:36867" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="37085:38791" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="37129:38456" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="37205:37682" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="37290:37682" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="37700:38147" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="37805:38147" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="37868:38147" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="37921:38147" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="38160:38356" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="38493:38791" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="38851:38966" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="39028:39943" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="39052:39498" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="39151:39460" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="39201:39460" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="39539:39884" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="40024:41902" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="40153:40289" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="40354:40676" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="40439:40676" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="40767:40942" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="41203:41613" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="41687:41884" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="41790:41884" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="41937:42079" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="42122:42780" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="42162:42439" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="42262:42375" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="42452:42676" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="42844:44539" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="42920:43097" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="43201:44150" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="43430:43586" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="44564:44602" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="59348:59401" ph="..." />
+                <marker date="1532598109604" expanded="true" signature="59348:59460" ph="..." />
               </folding>
             </state>
           </provider>
@@ -59,44 +755,165 @@
       <file leaf-file-name="main_window.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui/qt/main_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1380" column="16" selection-start-line="1380" selection-start-column="16" selection-end-line="1380" selection-end-column="16" />
+            <state relative-caret-position="-436">
+              <caret line="3245" column="66" selection-start-line="3245" selection-start-column="66" selection-end-line="3245" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="network.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/network.py">
+      <file leaf-file-name="paytoedit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/qt/paytoedit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1230" column="27" selection-start-line="1230" selection-start-column="27" selection-end-line="1230" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trezor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/trezor/trezor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="324" column="47" selection-start-line="324" selection-start-column="47" selection-end-line="324" selection-end-column="47" />
+            <state relative-caret-position="-792">
+              <caret line="117" column="41" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="41" />
               <folding>
-                <element signature="e#9065#9435#0" expanded="false" />
-                <element signature="e#9525#11660#0" expanded="false" />
-                <element signature="e#11718#12117#0" expanded="false" />
-                <element signature="e#12185#12772#0" expanded="false" />
-                <element signature="e#12844#13206#0" expanded="false" />
+                <element signature="e#1164#1190#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transaction.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/qt/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="818" column="25" selection-start-line="818" selection-start-column="25" selection-end-line="818" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qtum-electrum" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qtum-electrum">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coinchooser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/coinchooser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4896">
+              <caret line="209" column="38" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+              <folding>
+                <marker date="1531986715119" expanded="true" signature="1384:1738" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="1750:2613" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="1780:1844" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="1873:2065" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="1907:1986" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="2101:2325" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="2223:2294" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="2353:2399" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="2426:2613" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="2471:2613" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="2743:3179" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="3063:3138" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="3449:3757" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="3816:4898" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="3844:3932" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="3971:4655" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="4298:4582" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="4325:4406" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="4688:4764" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="4720:4741" ph="..." />
+                <marker date="1531986715119" expanded="true" signature="4837:4898" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keystore.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/keystore.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="150" column="17" selection-start-line="150" selection-start-column="17" selection-end-line="150" selection-end-column="17" />
+              <folding>
+                <element signature="e#1591#1603#0" expanded="false" />
+                <element signature="e#1645#1657#0" expanded="false" />
+                <element signature="e#1693#1705#0" expanded="false" />
+                <element signature="e#1748#1852#0" expanded="false" />
+                <element signature="e#1980#2366#0" expanded="false" />
+                <element signature="e#2001#2165#0" expanded="false" />
+                <element signature="e#2202#2366#0" expanded="false" />
+                <element signature="e#2947#3004#0" expanded="false" />
+                <element signature="e#3528#3679#0" expanded="false" />
+                <element signature="e#3741#4193#0" expanded="false" />
+                <element signature="e#3799#4083#0" expanded="false" />
+                <element signature="e#3820#3948#0" expanded="false" />
+                <element signature="e#3985#4083#0" expanded="false" />
+                <element signature="e#4232#4266#0" expanded="false" />
+                <element signature="e#4337#4360#0" expanded="false" />
+                <element signature="e#4403#4437#0" expanded="false" />
+                <element signature="e#4504#4656#0" expanded="false" />
+                <element signature="e#4726#4897#0" expanded="false" />
+                <element signature="e#5114#5421#0" expanded="false" />
+                <element signature="e#6485#9761#0" expanded="false" />
+                <element signature="e#6558#6636#0" expanded="false" />
+                <element signature="e#6678#6690#0" expanded="false" />
+                <element signature="e#6737#6748#0" expanded="false" />
+                <element signature="e#6778#6867#0" expanded="false" />
+                <element signature="e#6785#6867#0" expanded="false" />
+                <element signature="e#6903#6914#0" expanded="false" />
+                <element signature="e#6964#7049#0" expanded="false" />
+                <element signature="e#7104#7535#0" expanded="false" />
+                <element signature="e#7585#7607#0" expanded="false" />
+                <element signature="e#7666#8171#0" expanded="false" />
+                <element signature="e#7666#7700#0" expanded="false" />
+                <element signature="e#8228#9434#0" expanded="false" />
+                <element signature="e#8228#8269#0" expanded="false" />
+                <element signature="e#8528#8952#0" expanded="false" />
+                <element signature="e#8549#8729#0" expanded="false" />
+                <element signature="e#8766#8952#0" expanded="false" />
+                <element signature="e#9013#9102#0" expanded="false" />
+                <element signature="e#9066#9102#0" expanded="false" />
+                <element signature="e#9151#9434#0" expanded="false" />
+                <element signature="e#9151#9178#0" expanded="false" />
+                <element signature="e#9328#9434#0" expanded="false" />
+                <element signature="e#9503#9761#0" expanded="false" />
+                <element signature="e#9655#9761#0" expanded="false" />
+                <element signature="e#9818#10671#0" expanded="false" />
+                <element signature="e#9849#9969#0" expanded="false" />
+                <element signature="e#10011#10022#0" expanded="false" />
+                <element signature="e#10052#10205#0" expanded="false" />
+                <element signature="e#10239#10261#0" expanded="false" />
+                <element signature="e#10303#10329#0" expanded="false" />
+                <element signature="e#10369#10470#0" expanded="false" />
+                <element signature="e#10514#10551#0" expanded="false" />
+                <element signature="e#10601#10671#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trezor.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/trezor/trezor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="492" column="12" selection-start-line="492" selection-start-column="12" selection-end-line="492" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transaction.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/transaction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1627">
-              <caret line="747" column="19" selection-start-line="747" selection-start-column="19" selection-end-line="747" selection-end-column="19" />
+            <state relative-caret-position="-713">
+              <caret line="720" column="17" selection-start-line="720" selection-start-column="17" selection-end-line="720" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qtum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/qtum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,13 +935,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/util.py" />
         <option value="$PROJECT_DIR$/lib/base_wizard.py" />
         <option value="$PROJECT_DIR$/lib/plugins.py" />
         <option value="$PROJECT_DIR$/debug_info" />
         <option value="$PROJECT_DIR$/test" />
         <option value="$PROJECT_DIR$/de.py" />
-        <option value="$PROJECT_DIR$/lib/ecc.py" />
         <option value="$PROJECT_DIR$/lib/crypto.py" />
         <option value="$PROJECT_DIR$/lib/paymentrequest_pb2.py" />
         <option value="$PROJECT_DIR$/lib/tokens.py" />
@@ -133,16 +948,19 @@
         <option value="$PROJECT_DIR$/plugins/trustedcoin/trustedcoin.py" />
         <option value="$PROJECT_DIR$/gui/qt/token_dialog.py" />
         <option value="$PROJECT_DIR$/lib/coinchooser.py" />
-        <option value="$PROJECT_DIR$/lib/wallet.py" />
-        <option value="$PROJECT_DIR$/gui/qt/paytoedit.py" />
         <option value="$PROJECT_DIR$/lib/qtum.py" />
         <option value="$PROJECT_DIR$/lib/keystore.py" />
         <option value="$PROJECT_DIR$/lib/network.py" />
         <option value="$PROJECT_DIR$/gui/kivy/main_window.py" />
         <option value="$PROJECT_DIR$/lib/commands.py" />
         <option value="$PROJECT_DIR$/gui/qt/transaction_dialog.py" />
-        <option value="$PROJECT_DIR$/gui/qt/main_window.py" />
+        <option value="$PROJECT_DIR$/lib/wallet.py" />
+        <option value="$PROJECT_DIR$/lib/ecc.py" />
+        <option value="$PROJECT_DIR$/lib/util.py" />
         <option value="$PROJECT_DIR$/lib/transaction.py" />
+        <option value="$PROJECT_DIR$/gui/qt/main_window.py" />
+        <option value="$PROJECT_DIR$/gui/qt/util.py" />
+        <option value="$PROJECT_DIR$/gui/qt/paytoedit.py" />
         <option value="$PROJECT_DIR$/plugins/trezor/trezor.py" />
       </list>
     </option>
@@ -185,45 +1003,32 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
+              <option name="myItemId" value="qtum-electrum-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
+              <option name="myItemId" value="qtum-electrum-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
+              <option name="myItemId" value="qtum-electrum-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
+              <option name="myItemId" value="qtum-electrum-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
+              <option name="myItemId" value="qtum-electrum-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -233,63 +1038,26 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
+              <option name="myItemId" value="qtum-electrum-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
+              <option name="myItemId" value="qtum-electrum-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trezor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bug_qtum-electrum-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qt" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../qt5/electrum" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Python.test">
@@ -607,15 +1375,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27799842" sideWeight="0.4574639" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15250199" sideWeight="0.4574639" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.49722" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34991974" sideWeight="0.50277996" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17977528" sideWeight="0.49563146" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34991974" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22632423" sideWeight="0.49086577" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1477363" sideWeight="0.54253614" order="0" side_tool="true" content_ui="tabs" />
@@ -623,9 +1392,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49563146" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -677,20 +1445,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements-fixed.txt" />
-    <entry file="file://$PROJECT_DIR$/plugins/ledger/auth2fa.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1247971764/PyQt5/QtWidgets/QDialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1247971764/binascii.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -702,13 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="220" column="36" selection-start-line="220" selection-start-column="36" selection-end-line="220" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/paymentrequest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1582">
-          <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -800,13 +1552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/coinchooser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="246" column="18" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -910,20 +1655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/qt/token_dialog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="181" column="38" selection-start-line="181" selection-start-column="38" selection-end-line="181" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/trustedcoin/trustedcoin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5592">
-          <caret line="251" column="33" selection-start-line="251" selection-start-column="4" selection-end-line="251" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/trustedcoin/qt.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1021,42 +1752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bitcoin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16320">
-          <caret line="680" column="34" selection-start-line="680" selection-start-column="34" selection-end-line="680" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/keystore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3408">
-          <caret line="150" column="18" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/qtum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="386" column="0" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/hw_wallet/plugin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="79" column="29" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,20 +1763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-42">
           <caret line="799" column="25" selection-start-line="799" selection-start-column="25" selection-end-line="799" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/qt/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="662" column="32" selection-start-line="662" selection-start-column="32" selection-end-line="662" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/wallet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="1459" column="15" selection-start-line="1459" selection-start-column="4" selection-end-line="1459" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1095,55 +1780,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ecc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="388" column="8" selection-start-line="388" selection-start-column="8" selection-end-line="388" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/qt/paytoedit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gui/qt/transaction_dialog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
+        <state relative-caret-position="42">
           <caret line="197" column="31" selection-start-line="197" selection-start-column="31" selection-end-line="197" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#2291#5527#0" expanded="false" />
-            <element signature="e#2291#2432#1" expanded="false" />
-            <element signature="e#2528#2585#0" expanded="false" />
-            <element signature="e#5989#6319#0" expanded="false" />
-            <element signature="e#6199#6319#0" expanded="false" />
-            <element signature="e#6352#6575#0" expanded="false" />
-            <element signature="e#7662#8108#0" expanded="false" />
-            <element signature="e#7905#8108#0" expanded="false" />
-            <element signature="e#8140#10234#0" expanded="false" />
-            <element signature="e#8826#8910#0" expanded="false" />
-            <element signature="e#9009#9177#0" expanded="false" />
-            <element signature="e#9210#9395#0" expanded="false" />
-            <element signature="e#10272#12426#0" expanded="false" />
-            <element signature="e#10797#10916#0" expanded="false" />
-            <element signature="e#10962#11024#0" expanded="false" />
-            <element signature="e#11255#11837#0" expanded="false" />
-            <element signature="e#11363#11804#0" expanded="false" />
-            <element signature="e#12188#12395#0" expanded="false" />
-            <element signature="e#12277#12362#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui/qt/main_window.py">
+    <entry file="uml://Python/#/home/tete/Desktop/testqtum/bug_qtum-electrum-master/lib/keystore.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/home/tete/Desktop/testqtum/bug_qtum-electrum-master/lib/keystore.py</OriginalElement>
+          <nodes>
+            <node x="214.0" y="320.0">lib.keystore.Software_KeyStore</node>
+            <node x="650.0" y="560.0">lib.keystore.Qt_Core_Keystore</node>
+            <node x="840.0" y="240.0">lib.keystore.KeyStore</node>
+            <node x="803.0" y="80.0">object</node>
+            <node x="786.0" y="480.0">lib.keystore.Hardware_KeyStore</node>
+            <node x="660.6322869955156" y="188.00448430493276">lib.keystore.Xpub</node>
+            <node x="518.0" y="480.0">lib.keystore.BIP32_KeyStore</node>
+            <node x="747.0" y="0.0">_collections_abc.Hashable</node>
+            <node x="370.00000000000006" y="400.0">lib.keystore.Imported_KeyStore</node>
+            <node x="38.0" y="400.0">lib.keystore.Deterministic_KeyStore</node>
+            <node x="374.0000000000001" y="560.0">lib.keystore.Mobile_Keystore</node>
+            <node x="848.0" y="160.0">lib.util.PrintError</node>
+            <node x="0.0" y="480.0">lib.keystore.Old_KeyStore</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="object" target="_collections_abc.Hashable">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.Imported_KeyStore" target="lib.keystore.Software_KeyStore">
+              <point x="-5.6843418860808015E-14" y="-15.0" />
+              <point x="506.0" y="375.0" />
+              <point x="418.0" y="375.0" />
+              <point x="68.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.Software_KeyStore" target="lib.keystore.KeyStore">
+              <point x="0.0" y="-15.0" />
+              <point x="350.0" y="295.0" />
+              <point x="890.0" y="295.0" />
+              <point x="-50.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.BIP32_KeyStore" target="lib.keystore.Deterministic_KeyStore">
+              <point x="-62.0" y="-15.0" />
+              <point x="580.0" y="455.0" />
+              <point x="272.0" y="455.0" />
+              <point x="78.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.Qt_Core_Keystore" target="lib.keystore.BIP32_KeyStore">
+              <point x="0.0" y="-15.0" />
+              <point x="782.0" y="535.0" />
+              <point x="704.0" y="535.0" />
+              <point x="62.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.Deterministic_KeyStore" target="lib.keystore.Software_KeyStore">
+              <point x="0.0" y="-15.0" />
+              <point x="194.0" y="375.0" />
+              <point x="282.0" y="375.0" />
+              <point x="-68.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.Hardware_KeyStore" target="lib.keystore.KeyStore">
+              <point x="68.0" y="-15.0" />
+              <point x="50.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.KeyStore" target="lib.util.PrintError">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="lib.util.PrintError" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="940.0" y="135.0" />
+              <point x="863.0" y="135.0" />
+              <point x="20.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.Xpub" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="746.0" y="135.0" />
+              <point x="823.0" y="135.0" />
+              <point x="-20.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.BIP32_KeyStore" target="lib.keystore.Xpub">
+              <point x="62.0" y="-15.0" />
+              <point x="-42.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.Mobile_Keystore" target="lib.keystore.BIP32_KeyStore">
+              <point x="-5.6843418860808015E-14" y="-15.0" />
+              <point x="502.00000000000006" y="535.0" />
+              <point x="580.0" y="535.0" />
+              <point x="-62.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.Hardware_KeyStore" target="lib.keystore.Xpub">
+              <point x="-68.0" y="-15.0" />
+              <point x="854.0" y="455.0" />
+              <point x="788.0" y="455.0" />
+              <point x="42.0" y="15.0" />
+            </edge>
+            <edge source="lib.keystore.Old_KeyStore" target="lib.keystore.Deterministic_KeyStore">
+              <point x="0.0" y="-15.0" />
+              <point x="-78.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7311475409836067" x="144.0" y="379.0" />
+          <SelectedNodes>
+            <node>lib.keystore.BIP32_KeyStore</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/crypto.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1380" column="16" selection-start-line="1380" selection-start-column="16" selection-end-line="1380" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="488">
+          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1151,28 +1904,430 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1230" column="27" selection-start-line="1230" selection-start-column="27" selection-end-line="1230" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/trustedcoin/trustedcoin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5592">
+          <caret line="251" column="8" selection-start-line="251" selection-start-column="8" selection-end-line="251" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ecc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5112">
+          <caret line="227" column="30" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/bitcoin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1796">
+          <caret line="500" column="1" selection-start-line="500" selection-start-column="1" selection-end-line="500" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/qt/token_dialog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="259" column="38" selection-start-line="259" selection-start-column="38" selection-end-line="259" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/paymentrequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="447" column="25" selection-start-line="447" selection-start-column="25" selection-end-line="447" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/coinchooser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4896">
+          <caret line="209" column="38" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+          <folding>
+            <marker date="1531986715119" expanded="true" signature="1384:1738" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="1750:2613" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="1780:1844" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="1873:2065" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="1907:1986" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="2101:2325" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="2223:2294" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="2353:2399" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="2426:2613" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="2471:2613" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="2743:3179" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="3063:3138" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="3449:3757" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="3816:4898" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="3844:3932" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="3971:4655" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="4298:4582" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="4325:4406" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="4688:4764" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="4720:4741" ph="..." />
+            <marker date="1531986715119" expanded="true" signature="4837:4898" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wallet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27072">
+          <caret line="1161" column="33" selection-start-line="1161" selection-start-column="33" selection-end-line="1161" selection-end-column="33" />
+          <folding>
+            <marker date="1532598109604" expanded="true" signature="2377:2508" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="2969:3702" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="2997:3112" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="3122:3260" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="3326:3702" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="3757:4848" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="3822:4024" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="4083:4714" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="4304:4492" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="4317:4421" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="4527:4714" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="4540:4650" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="4919:5796" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="5054:5212" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="5390:5552" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="5840:5849" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="5913:5997" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="5936:5997" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="6034:75471" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="6039:6223" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1532598109604" expanded="true" signature="6285:8891" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="8226:8543" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="8924:8955" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="8979:9010" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="9048:9068" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="9116:10275" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="9243:9351" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="9612:9887" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="9770:9887" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="10091:10275" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="10150:10275" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="10324:10486" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="10541:10797" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="10620:10797" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="10858:11702" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="10911:11702" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="11748:11894" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="11772:11894" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="11924:12421" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="11948:12421" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="12005:12421" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="12465:13234" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="12709:12768" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="12806:13180" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="12889:13180" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="13072:13180" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="13259:13310" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="13341:13451" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="13482:13671" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="13709:13922" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="13783:13922" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="13968:13981" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14014:14062" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14105:14491" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14193:14491" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14253:14377" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14521:14568" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14613:15100" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14695:14843" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14771:14843" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14857:14951" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14882:14951" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="14972:15076" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="15133:15180" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="15215:15328" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="15371:15407" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="15450:15470" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="15524:15937" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="15978:16024" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="16078:16697" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="16119:16228" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="16352:16519" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="16613:16697" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="16744:17255" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="16841:16967" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="17067:17171" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="17290:17429" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="17484:18060" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="17589:18041" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="17654:18041" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="17743:18041" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="17940:18041" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="18093:18257" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="18296:18859" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="18391:18859" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="18435:18617" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="18665:18757" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="18775:18859" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="18894:19695" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="18974:19695" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="19018:19292" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="19131:19257" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="19340:19641" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="19439:19569" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="19720:19785" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="19821:19943" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="19990:20383" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="20420:22057" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="20659:21260" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="20741:21208" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="20915:21026" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="20962:21026" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="21360:21493" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="21422:21493" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="21515:21721" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="21655:21721" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="21735:21966" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="21796:21875" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="21893:21966" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="22089:24002" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="22347:23488" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="22399:23376" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="22548:22716" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="22797:23253" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="23007:23192" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="23275:23376" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="23394:23488" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="23502:23633" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="23658:23853" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="23682:23808" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="24039:24504" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="24159:24317" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="24351:24474" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="24543:25093" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="24699:25074" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="24810:25047" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="25194:25311" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="25446:25977" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="25626:25954" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="25844:25954" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="26029:26193" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="26298:26899" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="26527:26878" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="26600:26878" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="26929:26978" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="27008:27131" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="27177:27419" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="27238:27328" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="27483:27685" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="27545:27663" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="27720:27775" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="27816:28103" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="27967:28077" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="28145:28583" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="28169:28308" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="28355:28566" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="28460:28566" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="28630:28907" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="28666:28907" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="28755:28907" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="28959:29348" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="28995:29348" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="29084:29348" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="29416:29671" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="29495:29671" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="29529:29671" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="29564:29671" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="29709:30095" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="29974:30075" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="30008:30075" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="30134:30363" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="30412:31827" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="30421:30692" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1532598109604" expanded="true" signature="30761:31827" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="30798:31318" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="31410:31487" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="31528:31791" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="31895:37041" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="32022:32161" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="32208:37041" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="32221:32514" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="32706:33261" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="32723:32965" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="33274:33658" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="33760:34877" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="33826:33960" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="34030:34116" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="34180:34304" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="34378:34494" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="34949:35586" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="35143:35586" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="35286:35586" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="35329:35586" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="35389:35551" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="35662:36005" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="36122:36867" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="36288:36425" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="36575:36867" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="37085:38791" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="37129:38456" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="37205:37682" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="37290:37682" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="37700:38147" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="37805:38147" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="37868:38147" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="37921:38147" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="38160:38356" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="38493:38791" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="38851:38966" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="39028:39943" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="39052:39498" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="39151:39460" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="39201:39460" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="39539:39884" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="40024:41902" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="40153:40289" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="40354:40676" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="40439:40676" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="40767:40942" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="41203:41613" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="41687:41884" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="41790:41884" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="41937:42079" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="42122:42780" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="42162:42439" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="42262:42375" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="42452:42676" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="42844:44539" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="42920:43097" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="43201:44150" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="43430:43586" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="44564:44602" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="59348:59401" ph="..." />
+            <marker date="1532598109604" expanded="true" signature="59348:59460" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/keystore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="150" column="17" selection-start-line="150" selection-start-column="17" selection-end-line="150" selection-end-column="17" />
+          <folding>
+            <element signature="e#1591#1603#0" expanded="false" />
+            <element signature="e#1645#1657#0" expanded="false" />
+            <element signature="e#1693#1705#0" expanded="false" />
+            <element signature="e#1748#1852#0" expanded="false" />
+            <element signature="e#1980#2366#0" expanded="false" />
+            <element signature="e#2001#2165#0" expanded="false" />
+            <element signature="e#2202#2366#0" expanded="false" />
+            <element signature="e#2947#3004#0" expanded="false" />
+            <element signature="e#3528#3679#0" expanded="false" />
+            <element signature="e#3741#4193#0" expanded="false" />
+            <element signature="e#3799#4083#0" expanded="false" />
+            <element signature="e#3820#3948#0" expanded="false" />
+            <element signature="e#3985#4083#0" expanded="false" />
+            <element signature="e#4232#4266#0" expanded="false" />
+            <element signature="e#4337#4360#0" expanded="false" />
+            <element signature="e#4403#4437#0" expanded="false" />
+            <element signature="e#4504#4656#0" expanded="false" />
+            <element signature="e#4726#4897#0" expanded="false" />
+            <element signature="e#5114#5421#0" expanded="false" />
+            <element signature="e#6485#9761#0" expanded="false" />
+            <element signature="e#6558#6636#0" expanded="false" />
+            <element signature="e#6678#6690#0" expanded="false" />
+            <element signature="e#6737#6748#0" expanded="false" />
+            <element signature="e#6778#6867#0" expanded="false" />
+            <element signature="e#6785#6867#0" expanded="false" />
+            <element signature="e#6903#6914#0" expanded="false" />
+            <element signature="e#6964#7049#0" expanded="false" />
+            <element signature="e#7104#7535#0" expanded="false" />
+            <element signature="e#7585#7607#0" expanded="false" />
+            <element signature="e#7666#8171#0" expanded="false" />
+            <element signature="e#7666#7700#0" expanded="false" />
+            <element signature="e#8228#9434#0" expanded="false" />
+            <element signature="e#8228#8269#0" expanded="false" />
+            <element signature="e#8528#8952#0" expanded="false" />
+            <element signature="e#8549#8729#0" expanded="false" />
+            <element signature="e#8766#8952#0" expanded="false" />
+            <element signature="e#9013#9102#0" expanded="false" />
+            <element signature="e#9066#9102#0" expanded="false" />
+            <element signature="e#9151#9434#0" expanded="false" />
+            <element signature="e#9151#9178#0" expanded="false" />
+            <element signature="e#9328#9434#0" expanded="false" />
+            <element signature="e#9503#9761#0" expanded="false" />
+            <element signature="e#9655#9761#0" expanded="false" />
+            <element signature="e#9818#10671#0" expanded="false" />
+            <element signature="e#9849#9969#0" expanded="false" />
+            <element signature="e#10011#10022#0" expanded="false" />
+            <element signature="e#10052#10205#0" expanded="false" />
+            <element signature="e#10239#10261#0" expanded="false" />
+            <element signature="e#10303#10329#0" expanded="false" />
+            <element signature="e#10369#10470#0" expanded="false" />
+            <element signature="e#10514#10551#0" expanded="false" />
+            <element signature="e#10601#10671#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/qtum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qtum-electrum">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="865" column="17" selection-start-line="819" selection-start-column="0" selection-end-line="872" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/qt/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="818" column="25" selection-start-line="818" selection-start-column="25" selection-end-line="818" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/qt/paytoedit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="117" column="41" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="41" />
+          <folding>
+            <element signature="e#1164#1190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/qt/main_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436">
+          <caret line="3245" column="66" selection-start-line="3245" selection-start-column="66" selection-end-line="3245" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/transaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="720" column="17" selection-start-line="720" selection-start-column="17" selection-end-line="720" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/trezor/trezor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="324" column="47" selection-start-line="324" selection-start-column="47" selection-end-line="324" selection-end-column="47" />
-          <folding>
-            <element signature="e#9065#9435#0" expanded="false" />
-            <element signature="e#9525#11660#0" expanded="false" />
-            <element signature="e#11718#12117#0" expanded="false" />
-            <element signature="e#12185#12772#0" expanded="false" />
-            <element signature="e#12844#13206#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/transaction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1627">
-          <caret line="747" column="19" selection-start-line="747" selection-start-column="19" selection-end-line="747" selection-end-column="19" />
+        <state relative-caret-position="232">
+          <caret line="492" column="12" selection-start-line="492" selection-start-column="12" selection-end-line="492" selection-end-column="12" />
           <folding />
         </state>
       </provider>
