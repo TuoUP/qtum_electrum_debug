@@ -73,7 +73,7 @@ class TokenAddLayout(QGridLayout):
             self.dialog.show_message(str(e))
 
 
-class TokenAddDialog(QDialog, MessageBoxMixi n):
+class TokenAddDialog(QDialog, MessageBoxMixin):
 
     def __init__(self, parent):
         """

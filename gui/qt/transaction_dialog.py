@@ -152,8 +152,6 @@ class TxDialog(QDialog, MessageBoxMixin):
         self.update()
 
     def do_broadcast(self):
-        print('do_broadcastdo_broadcastdo_broadcastdo_broadcast')
-        print('do_broadcastdo_broadcastdo_broadcastdo_broadcast')
         self.main_window.push_top_level_window(self)
         try:
             self.main_window.broadcast_transaction(self.tx, self.desc)

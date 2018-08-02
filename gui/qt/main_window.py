@@ -3226,7 +3226,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
         try:
             #{:064x}:0用0补位,64宽度为64;x:16进制
             datahex = 'a9059cbb{}{:064x}'.format(pay_to.zfill(64), amount)
-
+            #print('payto',pay_to)
             script = contract_script(gas_limit, gas_price, datahex, token.contract_addr, opcodes.OP_CALL)
             outputs = [(TYPE_SCRIPT, script, 0), ]
             tx_desc = 'pay out {} {}'.format(amount / (10 ** token.decimals), token.symbol)
