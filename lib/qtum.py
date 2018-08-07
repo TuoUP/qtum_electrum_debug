@@ -501,6 +501,7 @@ def address_from_private_key(sec):
 
 
 def is_segwit_address(addr):
+    print('segwit_', constants.net)
     try:
         witver, witprog = segwit_addr.decode(constants.net.SEGWIT_HRP, addr)
         return witprog is not None
@@ -509,16 +510,25 @@ def is_segwit_address(addr):
 
 
 def is_b58_address(addr):
+    print('b58_',constants.net)
     try:
         addrtype, h = b58_address_to_hash160(addr)
+        print('addrtype',addrtype)
+        print(constants.net)
+        print('constants.net.ADDRTYPE_P2PKH',constants.net.ADDRTYPE_P2PKH)
+        print('constants.net.ADDRTYPE_P2SH',constants.net.ADDRTYPE_P2SH)
     except Exception as e:
         return False
     if addrtype not in [constants.net.ADDRTYPE_P2PKH, constants.net.ADDRTYPE_P2SH]:
         return False
+    print('addr == hash160_to',addr == hash160_to_b58_address(h, addrtype))
     return addr == hash160_to_b58_address(h, addrtype)
 
 
 def is_address(addr):
+    print('is_segwit',is_segwit_address(addr))
+    print(addr)
+    print('is_b58_ad',is_b58_address(addr))
     return is_segwit_address(addr) or is_b58_address(addr)
 
 

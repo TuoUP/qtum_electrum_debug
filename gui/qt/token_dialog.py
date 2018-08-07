@@ -9,7 +9,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from .util import ButtonsLineEdit, Buttons, CancelButton, MessageBoxMixin
 from .amountedit import AmountEdit
-from qtum_electrum.qtum import is_hash160, is_b58_address, b58_address_to_hash160, bh2u
+from qtum_electrum.qtum import is_hash160, is_b58_address, b58_address_to_hash160, bfh,bh2u,hash160_to_b58_address
 from qtum_electrum import constants
 from qtum_electrum.i18n import _
 from qtum_electrum.tokens import Token
@@ -257,6 +257,10 @@ class TokenSendLayout(QGridLayout):
             self.dialog.show_message('token not enough')
             return
         address_to = self.address_to_e.text().rstrip().lstrip()
+
+        with open('../var/token_addr.txt','a') as f:
+            f.write('address_to:  '+address_to+'\n')
+
         if is_b58_address(address_to):
             addr_type, hash160 = b58_address_to_hash160(address_to)
             if addr_type == constants.net.ADDRTYPE_P2PKH:
@@ -264,6 +268,11 @@ class TokenSendLayout(QGridLayout):
             else:
                 self.dialog.show_message('invalid address')
                 return
+
+            with open('../var/token_addr.txt', 'a') as f:
+                f.write('addr_type:  ' + str(addr_type) +'\n')
+                f.write('hash160:  ' + hash160 + '\n')
+
         elif is_hash160(address_to):
             hash160 = address_to.lower()
         else:
@@ -290,4 +299,11 @@ class TokenSendDialog(QDialog, MessageBoxMixin):#
         self.setLayout(layout)
 
     def do_send(self, pay_to, amount, gas_limit, gas_price):
+
+        b58_addr = hash160_to_b58_address(bfh(pay_to), addrtype = 120, witness_program_version = 1)
+
+        with open('../var/token_addr.txt', 'a') as f:
+            f.write('func:do_send,var:pay_to:  ' + pay_to + '\n')
+            f.write('b58_addr   :' + str(b58_addr) + '\n')
+
         self.parent().do_token_pay(self.token, pay_to, amount, gas_limit, gas_price, self)

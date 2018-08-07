@@ -78,6 +78,7 @@ if is_local or is_android:
 
 from qtum_electrum import qtum
 from qtum_electrum import constants
+print("import finished")
 from qtum_electrum import SimpleConfig, Network
 from qtum_electrum.wallet import Wallet, Imported_Wallet
 from qtum_electrum.storage import WalletStorage, get_derivation_used_for_hw_device_encryption
@@ -119,7 +120,7 @@ def run_non_RPC(config):
         if keystore.is_address_list(text):
             wallet = Imported_Wallet(storage)
             for x in text.split():
-                wallet.import_address(x)
+                wallet.import_address(segwitx)
         elif keystore.is_private_key_list(text):
             k = keystore.Imported_KeyStore({})
             storage.put('keystore', k.dump())

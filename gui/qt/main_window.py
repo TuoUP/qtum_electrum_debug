@@ -1376,7 +1376,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
                 self.show_error(_('Qtum Address is None'))
                 return
             if _type == TYPE_ADDRESS and not bitcoin.is_address(addr):
-                self.show_error(_('Invalid Qtum Address'))
+                self.show_error(_('1Invalid Qtum Address'))
                 return
             if amount is None:
                 self.show_error(_('Invalid Amount'))
@@ -3248,6 +3248,11 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
         coins = self.get_coins()#相当于主链币交易中的inputs
         print("coins",coins)
         try:
+            with open('../var/token_addr.txt', 'a') as f:
+                f.write('func:_smart_contract_broadcast:  ' +  '\n')
+                f.write('outputs: '+ str(outputs) + '\n')
+                f.write('sender:  '+ sender +'\n')
+
             tx = self.wallet.make_unsigned_transaction(coins, outputs, self.config, None,
                                                        change_addr=sender,
                                                        gas_fee=gas_fee,

@@ -385,6 +385,7 @@ class TrezorPlugin(HW_PluginBase):
                 pass
 
     def show_address(self, wallet, address, keystore=None):
+
         if keystore is None:
             keystore = wallet.get_keystore()
         if not self.show_address_helper(wallet, address, keystore):
@@ -533,6 +534,7 @@ class TrezorPlugin(HW_PluginBase):
                 #txoutputtype.op_return_data = address[2:]#?
                 #改过的代码
                 #txoutputtype.op_return_data = address[:]
+                #在这里加入用于判别是Testnet还是Mainnet的数据
                 txoutputtype.op_return_data = trezor_validate_op_return_output_and_get_data(_type, address, amount)
 
                 with open('./Qtum_Trezor_var.txt', 'a') as f:

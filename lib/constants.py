@@ -115,14 +115,19 @@ net = QtumMainnet
 
 def set_mainnet():
     global net
+    #print("setmainnet!!!!!!!!!!!!!!")
     net = QtumMainnet
 
 
 def set_testnet():
     global net
+    #print("settestnet!!!!!!!!!!!!!!")
     net = QtumTestnet
 
 
 def set_regtest():
     global net
     net = QtumRegtest
+
+
+print("netdddddddddddddddddddddd",net)

@@ -2423,3 +2423,849 @@ handler_name:callback_TxRequestdo not know
 handler:Nonedo not know
 counter44
 serialized_txb'\x01\x00\x00\x00\x02\x8a<I\xc4Z?\x0f9\x80\x14;q\x16\x9f>\xadl\xd6\xfa\xd1\x1eo/"\xec-hp*\x87v\xe4\x0b\x00\x00\x00jG0D\x02 ~\xbd~\xa2_\x02\xfe\x05IoG\xfe\xcb\xaf\x0eQ>R\x05\xf3&a>@\x10\x94cQ\xf5\xc3\x8fh\x02 *\x85\x9c\xa2\xd1\xea\xea_\xbd\xc9E\x00\xe0\xde\xc7\xa2\x15\xd4/\x90Q\n\x90\xd0"*\xa9g\xbb\x89\xb3\t\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfd\xff\xff\xff\xeai*\x94\x02 lM\x90\\l\x95\xdd\xf4\xdc*6\xbb\xc3\x9bl]\xd3c\xfc\na\xa4\x0f\x82\x0f\x86\x0b\x00\x00\x00kH0E\x02!\x00\x972\\P\xc6U\xa9\x8b\xfa\x95\x82\xc6\x90{PS\xab\xd0\xd02\x0e\xd2^1 +\xcd\xa2EtX\xa6\x02 \\I\xe5\xc9\xf4\x0b\xc0g\xc8\x05W\xcap\xdb\x13\x8a\x8c\x06i,\xe5\x80-c \x16\xc0\r\xf95wg\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfd\xff\xff\xff\x02\x80\x96\x98\x00\x00\x00\x00\x00\x19v\xa9\x14\xd71l\xa8\xbb\xe8\x9ak\x0c\x1e\xa2B+\x1b\xc9!\xc5\xf3\xab\n\x88\xac$&e\x00\x00\x00\x00\x00\x19v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac\x00\x00\x00\x00'
+res = call():
+the inner of func:call():
+resp:<Features: {'needs_backup': False, 'patch_version': 0, 'pin_cached': False, 'pin_protection': False, 'passphrase_protection': False, 'passphrase_cached': False, 'initialized': False, 'device_id': 'BD62F05C507072A9F2B2CF8F', 'flags': 0, 'minor_version': 6, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'model': '1', 'vendor': 'bitcointrezor.com', 'imported': False, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'major_version': 1}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<ButtonRequest: {'code': 4}>do not know
+handler_name:callback_ButtonRequestdo not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fe45adb3780>>do not know
+res = call():
+the inner of func:call():
+resp:<EntropyRequest: {}>do not know
+handler_name:callback_EntropyRequestdo not know
+handler:Nonedo not know
+msg:<ButtonAck: {}>
+resp:<EntropyRequest: {}>
+res = call():
+the inner of func:call():
+resp:<ButtonRequest: {'code': 5}>do not know
+handler_name:callback_ButtonRequestdo not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fe45adb3780>>do not know
+res = call():
+the inner of func:call():
+resp:<Failure: {'message': 'Action cancelled by user', 'code': 4}>do not know
+handler_name:callback_Failuredo not know
+handler:<bound method GuiMixin.callback_Failure of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fe45adb3780>>do not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Features: {'passphrase_protection': False, 'language': 'english', 'pin_cached': False, 'minor_version': 6, 'imported': False, 'vendor': 'bitcointrezor.com', 'model': '1', 'initialized': False, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'flags': 0, 'pin_protection': False, 'device_id': 'BD62F05C507072A9F2B2CF8F', 'major_version': 1, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'needs_backup': False, 'patch_version': 0, 'passphrase_cached': False}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'Device recovered'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+msg:<WordAck: {'word': 'spot'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'chest'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'urban'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'fiscal'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'evidence'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'survey'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'leg'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'already'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'fence'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'pipe'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'vocal'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'season'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'seven'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'undo'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'length'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'pause'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'champion'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'direct'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'divert'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'above'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'domain'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'figure'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'village'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'fringe'}>
+resp:<Success: {'message': 'Device recovered'}>
+res = call():
+the inner of func:call():
+resp:<Features: {'passphrase_protection': False, 'language': 'english', 'pin_cached': False, 'minor_version': 6, 'imported': False, 'vendor': 'bitcointrezor.com', 'model': '1', 'initialized': True, 'bootloader_hash': b'8\x84\xf8\xb6\x9c\x92\x19\xda?\xde\x94\xde\xaf\xcd\xf5\xd1c\xf3\xd2\x97\x98-X\x11\x9bb\x0e\x11\x87\xc1\xcbC', 'flags': 0, 'pin_protection': False, 'device_id': 'BD62F05C507072A9F2B2CF8F', 'major_version': 1, 'revision': b'\xe8c\r\x8d\xbbh\x85\xd3\x12)pY\x0c\xc5\x81\xdf\x9e\x96;\\', 'needs_backup': False, 'patch_version': 0, 'passphrase_cached': False}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'fingerprint': 0, 'child_num': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'depth': 0}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'fingerprint': 2441513255, 'child_num': 3259581746, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'depth': 2}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'node': <HDNodeType: {'public_key': b'\x024\xe3\x8d\xd0\x92\x05@E\x08\x83n\x88o\x96}](G\xa8H\xff!\xd7Y\xeaC>\xaec\xa4g\x03', 'fingerprint': 1387600352, 'child_num': 2147483648, 'chain_code': b'\xc5\xbd\n\xc7\xe3\xc4|\xadBX\xcfx\xa5\x8d9\xba\xe3\x89\x1f%[\xc5\xbc\xfa\xba\xf8qXQ\xe8(\xd7', 'depth': 3}>, 'xpub': 'xpub6CG2a9B2ewA5vEDj7WYj1mMuWvqVLhzRJUvzDTocvKpeVEra5GbBqbkWUgvYyuc1PWJci43ha6Jc2Ah3qSxysK2t5qugxnX4unHb7nDG4YZ'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+txes:{b"`1\x15<$\xe0\x8aZ]\x9c\x16\x96\xdf?\x8d'\xdb>\x01\x05\xbe\xad\xd9\xc1\xad\xa4=\x18j\x9ct ": <TransactionType: {'lock_time': 0, 'inputs': [<TxInputType: {'prev_hash': b'\xeb\x15D6Ek8\x10I\xff\xe9j\x9a70\xb1\xf2\xdd\xcc8\xea=ks\xc0\xdaS\xd1j\xba\x089', 'sequence': 4294967293, 'script_sig': b'H0E\x02!\x00\xf5\xad\xacv\x9f*,\x11e\x8c\xe6"\xcfe\x8e8\x00\xa1\xf4\xe8\xae\x9fq\xb4\x15r\x8e+\xed\x00\xa8\x1d\x02 !\xb0\xc4\xa8\x8dy\xe0@\xdc\xc8rj\xacU\xcd\xa5\xb9]V\xc0\xaa\xbe\xb8HZv\xc7\xf3:W\xbd4\x01!\x02\xde\xc8\xfd\xa0\x8f/\xc4\x88p,\xdb\xbe\x8b\xe6\x1f\xfd\xbb\x95iqX\xa9\x95\x8b\xd1\x11G!\x0boQ\xd4', 'prev_index': 1}>], 'bin_outputs': [<TxOutputBinType: {'script_pubkey': b'v\xa9\x14\xd71l\xa8\xbb\xe8\x9ak\x0c\x1e\xa2B+\x1b\xc9!\xc5\xf3\xab\n\x88\xac', 'amount': 10000000}>, <TxOutputBinType: {'script_pubkey': b'v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac', 'amount': 279435000}>], 'version': 1}>, None: <TransactionType: {'inputs': [<TxInputType: {'prev_hash': b"`1\x15<$\xe0\x8aZ]\x9c\x16\x96\xdf?\x8d'\xdb>\x01\x05\xbe\xad\xd9\xc1\xad\xa4=\x18j\x9ct ", 'amount': 279435000, 'sequence': 4294967294, 'script_type': 0, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'prev_index': 1}>], 'outputs': [<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>, <TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]}>}
+txes is dict key:the hash of tx&pre_tx,value:tx&pre_tx:tx
+
+inputs:[<TxInputType: {'prev_hash': b"`1\x15<$\xe0\x8aZ]\x9c\x16\x96\xdf?\x8d'\xdb>\x01\x05\xbe\xad\xd9\xc1\xad\xa4=\x18j\x9ct ", 'amount': 279435000, 'sequence': 4294967294, 'script_type': 0, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'prev_index': 1}>]
+Should be same with inputs in Qtum_Trezor_var.txt
+
+outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>, <TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+Should be same with outputs in Qtum_Trezor_var.txt
+
+tx:<SignTx: {}>
+tx should be None
+
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+res:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
+do not know
+
+counter:1
+FAILED:RequestType.TXINPUT
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'tx_hash': b"`1\x15<$\xe0\x8aZ]\x9c\x16\x96\xdf?\x8d'\xdb>\x01\x05\xbe\xad\xd9\xc1\xad\xa4=\x18j\x9ct "}>, 'request_type': 2}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter:2
+FAILED:res.details.tx_hash
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"`1\x15<$\xe0\x8aZ]\x9c\x16\x96\xdf?\x8d'\xdb>\x01\x05\xbe\xad\xd9\xc1\xad\xa4=\x18j\x9ct "}>, 'request_type': 0}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter:2
+FAILED:RequestType.TXMETA
+counter:3
+FAILED:res.details.tx_hash
+counter:3
+FAILED:RequestType.TXINPUT
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0, 'tx_hash': b"`1\x15<$\xe0\x8aZ]\x9c\x16\x96\xdf?\x8d'\xdb>\x01\x05\xbe\xad\xd9\xc1\xad\xa4=\x18j\x9ct "}>, 'request_type': 1}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter:4
+FAILED:res.details.tx_hash
+counter4msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index0
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1, 'tx_hash': b"`1\x15<$\xe0\x8aZ]\x9c\x16\x96\xdf?\x8d'\xdb>\x01\x05\xbe\xad\xd9\xc1\xad\xa4=\x18j\x9ct "}>, 'request_type': 1}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter:5
+FAILED:res.details.tx_hash
+counter5msg.outputs:[]
+
+current_tx.outputs:[]
+
+res.details.request_index1
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter6msg.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>, <TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+
+res.details.request_index0
+res = call():
+the inner of func:call():
+resp:<ButtonRequest: {'code': 3}>do not know
+handler_name:callback_ButtonRequestdo not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+msg:<ButtonAck: {}>
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>
+counter7msg.outputs:[<TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>, <TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+
+res.details.request_index1
+res = call():
+the inner of func:call():
+resp:<ButtonRequest: {'code': 2}>do not know
+handler_name:callback_ButtonRequestdo not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<ButtonRequest: {'code': 8}>do not know
+handler_name:callback_ButtonRequestdo not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f1e189758d0>>do not know
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+msg:<ButtonAck: {}>
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
+msg:<ButtonAck: {}>
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 0}>
+counter:8
+FAILED:RequestType.TXINPUT
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter9msg.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>, <TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+
+res.details.request_index0
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter10msg.outputs:[<TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>, <TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+
+res.details.request_index1
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'signature_index': 0, 'signature': b'0E\x02!\x00\x8atW\xff\x05\xeb\xd3\x9b\x13\x80\xa0\xee\x14\xf1y\xe8\xf0<\xab\x0e3\x84\xc0s\x7f\xa0"Z\x9boiq\x02 \x14D\xc7 \x1f9\xd0\xf6$\xc6Nh\x85\xd9\xca\xb9A\x0e\x08dS\xd1\'5\xa4\xf7\xd421\xb4\x18C', 'serialized_tx': b'\x01\x00\x00\x00\x01 t\x9cj\x18=\xa4\xad\xc1\xd9\xad\xbe\x05\x01>\xdb\'\x8d?\xdf\x96\x16\x9c]Z\x8a\xe0$<\x151`\x01\x00\x00\x00kH0E\x02!\x00\x8atW\xff\x05\xeb\xd3\x9b\x13\x80\xa0\xee\x14\xf1y\xe8\xf0<\xab\x0e3\x84\xc0s\x7f\xa0"Z\x9boiq\x02 \x14D\xc7 \x1f9\xd0\xf6$\xc6Nh\x85\xd9\xca\xb9A\x0e\x08dS\xd1\'5\xa4\xf7\xd421\xb4\x18C\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfe\xff\xff\xff'}>, 'details': <TxRequestDetailsType: {'request_index': 0}>, 'request_type': 1}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter11
+serialized_txb'\x01\x00\x00\x00\x01 t\x9cj\x18=\xa4\xad\xc1\xd9\xad\xbe\x05\x01>\xdb\'\x8d?\xdf\x96\x16\x9c]Z\x8a\xe0$<\x151`\x01\x00\x00\x00kH0E\x02!\x00\x8atW\xff\x05\xeb\xd3\x9b\x13\x80\xa0\xee\x14\xf1y\xe8\xf0<\xab\x0e3\x84\xc0s\x7f\xa0"Z\x9boiq\x02 \x14D\xc7 \x1f9\xd0\xf6$\xc6Nh\x85\xd9\xca\xb9A\x0e\x08dS\xd1\'5\xa4\xf7\xd421\xb4\x18C\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfe\xff\xff\xff'
+counter:11
+res.serialized.signature_index:0
+res.serialized.signatureb'0E\x02!\x00\x8atW\xff\x05\xeb\xd3\x9b\x13\x80\xa0\xee\x14\xf1y\xe8\xf0<\xab\x0e3\x84\xc0s\x7f\xa0"Z\x9boiq\x02 \x14D\xc7 \x1f9\xd0\xf6$\xc6Nh\x85\xd9\xca\xb9A\x0e\x08dS\xd1\'5\xa4\xf7\xd421\xb4\x18C'
+counter11msg.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>, <TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+
+res.details.request_index0
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\x02\x00\x00\x00\x00\x00\x00\x00\x00c\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2'}>, 'details': <TxRequestDetailsType: {'request_index': 1}>, 'request_type': 1}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter12
+serialized_txb'\x01\x00\x00\x00\x01 t\x9cj\x18=\xa4\xad\xc1\xd9\xad\xbe\x05\x01>\xdb\'\x8d?\xdf\x96\x16\x9c]Z\x8a\xe0$<\x151`\x01\x00\x00\x00kH0E\x02!\x00\x8atW\xff\x05\xeb\xd3\x9b\x13\x80\xa0\xee\x14\xf1y\xe8\xf0<\xab\x0e3\x84\xc0s\x7f\xa0"Z\x9boiq\x02 \x14D\xc7 \x1f9\xd0\xf6$\xc6Nh\x85\xd9\xca\xb9A\x0e\x08dS\xd1\'5\xa4\xf7\xd421\xb4\x18C\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00c\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2'
+counter12msg.outputs:[<TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+
+current_tx.outputs:[<TxOutputType: {'amount': 0, 'op_return_data': b'\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2', 'script_type': 3}>, <TxOutputType: {'amount': 269060000, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0], 'script_type': 0}>]
+
+res.details.request_index1
+res = call():
+the inner of func:call():
+resp:<TxRequest: {'serialized': <TxRequestSerializedType: {'serialized_tx': b'\xa0\x87\t\x10\x00\x00\x00\x00\x19v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac\x00\x00\x00\x00'}>, 'request_type': 3}>do not know
+handler_name:callback_TxRequestdo not know
+handler:Nonedo not know
+counter13
+serialized_txb'\x01\x00\x00\x00\x01 t\x9cj\x18=\xa4\xad\xc1\xd9\xad\xbe\x05\x01>\xdb\'\x8d?\xdf\x96\x16\x9c]Z\x8a\xe0$<\x151`\x01\x00\x00\x00kH0E\x02!\x00\x8atW\xff\x05\xeb\xd3\x9b\x13\x80\xa0\xee\x14\xf1y\xe8\xf0<\xab\x0e3\x84\xc0s\x7f\xa0"Z\x9boiq\x02 \x14D\xc7 \x1f9\xd0\xf6$\xc6Nh\x85\xd9\xca\xb9A\x0e\x08dS\xd1\'5\xa4\xf7\xd421\xb4\x18C\x01!\x02$\xe7s\xf3n\\\x84\xb7\xb7\x99m\x90O\xeaNY\x18{\x98.\x7f\xd2rE\x80\xbc\xab\xc4\x83\xad<\\\xfe\xff\xff\xff\x02\x00\x00\x00\x00\x00\x00\x00\x00c\x01\x04\x03\x90\xd0\x03\x01(D\xa9\x05\x9c\xbb\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xcc\xa0\xc0+\xc5\xe8\xdc\x81\x18\x14\x9d\xb5\xdb\x91\xe4\xe4\xe0\x92\x9a\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02bZ\x00\x14KR.\xf3\xf0\x1f\xaf\xb6\xbd{\xa7\xa8AO\x14a\x15\x8c\xc3\x1a\xc2\xa0\x87\t\x10\x00\x00\x00\x00\x19v\xa9\x14xf\xa4\xe2\xbdl\xef[\xc3b\x96.\x83n\xc9K\xc2\xb5I\xb3\x88\xac\x00\x00\x00\x00'
+res = call():
+the inner of func:call():
+resp:<Features: {'imported': False, 'pin_cached': False, 'model': '1', 'flags': 0, 'major_version': 1, 'patch_version': 1, 'needs_backup': False, 'revision': b'\x95\x88\xe8\xf2sk`\x91oQ\xe4p\xde\xb1\x8fU\x11*n\xbc', 'passphrase_protection': False, 'passphrase_cached': False, 'minor_version': 6, 'vendor': 'bitcointrezor.com', 'bootloader_hash': b'c0\xfc\xec\x16r\xfa\xd3\x0bB\x1b`\xf7O\x83\x9a993Ee\xcbp;+\xd7\x18.\xa2\xdd\xa0\x19', 'label': 'My TREZOR', 'device_id': 'C2BC089840B102DC995159AB', 'pin_protection': False, 'initialized': False}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Failure: {'message': 'Device not initialized', 'code': 11}>do not know
+handler_name:callback_Failuredo not know
+handler:<bound method GuiMixin.callback_Failure of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7f8014084780>>do not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Features: {'passphrase_protection': False, 'vendor': 'bitcointrezor.com', 'imported': False, 'pin_cached': False, 'initialized': False, 'minor_version': 6, 'model': '1', 'device_id': 'C2BC089840B102DC995159AB', 'flags': 0, 'label': 'My TREZOR', 'patch_version': 1, 'revision': b'\x95\x88\xe8\xf2sk`\x91oQ\xe4p\xde\xb1\x8fU\x11*n\xbc', 'major_version': 1, 'needs_backup': False, 'passphrase_cached': False, 'pin_protection': False, 'bootloader_hash': b'c0\xfc\xec\x16r\xfa\xd3\x0bB\x1b`\xf7O\x83\x9a993Ee\xcbp;+\xd7\x18.\xa2\xdd\xa0\x19'}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Features: {'initialized': False, 'flags': 0, 'passphrase_cached': False, 'device_id': 'C2BC089840B102DC995159AB', 'bootloader_hash': b'c0\xfc\xec\x16r\xfa\xd3\x0bB\x1b`\xf7O\x83\x9a993Ee\xcbp;+\xd7\x18.\xa2\xdd\xa0\x19', 'model': '1', 'major_version': 1, 'label': 'My TREZOR', 'patch_version': 1, 'revision': b'\x95\x88\xe8\xf2sk`\x91oQ\xe4p\xde\xb1\x8fU\x11*n\xbc', 'passphrase_protection': False, 'minor_version': 6, 'imported': False, 'pin_protection': False, 'pin_cached': False, 'vendor': 'bitcointrezor.com', 'needs_backup': False}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Features: {'imported': False, 'pin_cached': False, 'pin_protection': False, 'label': 'My TREZOR', 'major_version': 1, 'bootloader_hash': b'c0\xfc\xec\x16r\xfa\xd3\x0bB\x1b`\xf7O\x83\x9a993Ee\xcbp;+\xd7\x18.\xa2\xdd\xa0\x19', 'patch_version': 1, 'model': '1', 'revision': b'\x95\x88\xe8\xf2sk`\x91oQ\xe4p\xde\xb1\x8fU\x11*n\xbc', 'passphrase_protection': False, 'vendor': 'bitcointrezor.com', 'minor_version': 6, 'flags': 0, 'initialized': False, 'needs_backup': False, 'device_id': 'C2BC089840B102DC995159AB', 'passphrase_cached': False}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<ButtonRequest: {'code': 7}>do not know
+handler_name:callback_ButtonRequestdo not know
+handler:<bound method GuiMixin.callback_ButtonRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<WordRequest: {'type': 0}>do not know
+handler_name:callback_WordRequestdo not know
+handler:<bound method GuiMixin.callback_WordRequest of <qtum_electrum_plugins.trezor.client.TrezorClient object at 0x7fc3a56344a8>>do not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'Device recovered'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+msg:<WordAck: {'word': 'figure'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'pause'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'above'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'survey'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'champion'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'village'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'fiscal'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'undo'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'chest'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'spot'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'vocal'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'already'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'fringe'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'season'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'length'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'seven'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'evidence'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'direct'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'urban'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'divert'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'domain'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'fence'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'pipe'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<WordAck: {'word': 'leg'}>
+resp:<Success: {'message': 'Device recovered'}>
+msg:<ButtonAck: {}>
+resp:<Success: {'message': 'Device recovered'}>
+res = call():
+the inner of func:call():
+resp:<Features: {'imported': False, 'pin_cached': False, 'pin_protection': False, 'language': 'english', 'major_version': 1, 'bootloader_hash': b'c0\xfc\xec\x16r\xfa\xd3\x0bB\x1b`\xf7O\x83\x9a993Ee\xcbp;+\xd7\x18.\xa2\xdd\xa0\x19', 'patch_version': 1, 'model': '1', 'revision': b'\x95\x88\xe8\xf2sk`\x91oQ\xe4p\xde\xb1\x8fU\x11*n\xbc', 'passphrase_protection': False, 'vendor': 'bitcointrezor.com', 'minor_version': 6, 'flags': 0, 'initialized': True, 'needs_backup': False, 'device_id': 'C2BC089840B102DC995159AB', 'passphrase_cached': False}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8', 'node': <HDNodeType: {'fingerprint': 0, 'child_num': 0, 'depth': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq'}>}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp', 'node': <HDNodeType: {'fingerprint': 2441513255, 'child_num': 3259581746, 'depth': 2, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]'}>}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'xpub': 'xpub6CG2a9B2ewA5vEDj7WYj1mMuWvqVLhzRJUvzDTocvKpeVEra5GbBqbkWUgvYyuc1PWJci43ha6Jc2Ah3qSxysK2t5qugxnX4unHb7nDG4YZ', 'node': <HDNodeType: {'fingerprint': 1387600352, 'child_num': 2147483648, 'depth': 3, 'chain_code': b'\xc5\xbd\n\xc7\xe3\xc4|\xadBX\xcfx\xa5\x8d9\xba\xe3\x89\x1f%[\xc5\xbc\xfa\xba\xf8qXQ\xe8(\xd7', 'public_key': b'\x024\xe3\x8d\xd0\x92\x05@E\x08\x83n\x88o\x96}](G\xa8H\xff!\xd7Y\xeaC>\xaec\xa4g\x03'}>}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'Session cleared'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Features: {'vendor': 'bitcointrezor.com', 'patch_version': 1, 'passphrase_cached': False, 'language': 'english', 'bootloader_hash': b'c0\xfc\xec\x16r\xfa\xd3\x0bB\x1b`\xf7O\x83\x9a993Ee\xcbp;+\xd7\x18.\xa2\xdd\xa0\x19', 'flags': 0, 'revision': b'\x95\x88\xe8\xf2sk`\x91oQ\xe4p\xde\xb1\x8fU\x11*n\xbc', 'device_id': 'C2BC089840B102DC995159AB', 'passphrase_protection': False, 'pin_protection': False, 'initialized': True, 'major_version': 1, 'needs_backup': False, 'minor_version': 6, 'pin_cached': False, 'model': '1', 'imported': False}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'Session cleared'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8', 'node': <HDNodeType: {'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'child_num': 0, 'depth': 0, 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq', 'fingerprint': 0}>}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp', 'node': <HDNodeType: {'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'child_num': 3259581746, 'depth': 2, 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]', 'fingerprint': 2441513255}>}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'xpub': 'xpub6CG2a9B2ewA5vEDj7WYj1mMuWvqVLhzRJUvzDTocvKpeVEra5GbBqbkWUgvYyuc1PWJci43ha6Jc2Ah3qSxysK2t5qugxnX4unHb7nDG4YZ', 'node': <HDNodeType: {'chain_code': b'\xc5\xbd\n\xc7\xe3\xc4|\xadBX\xcfx\xa5\x8d9\xba\xe3\x89\x1f%[\xc5\xbc\xfa\xba\xf8qXQ\xe8(\xd7', 'child_num': 2147483648, 'depth': 3, 'public_key': b'\x024\xe3\x8d\xd0\x92\x05@E\x08\x83n\x88o\x96}](G\xa8H\xff!\xd7Y\xeaC>\xaec\xa4g\x03', 'fingerprint': 1387600352}>}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Features: {'patch_version': 1, 'passphrase_cached': False, 'device_id': 'C2BC089840B102DC995159AB', 'minor_version': 6, 'imported': False, 'initialized': True, 'pin_protection': False, 'vendor': 'bitcointrezor.com', 'revision': b'\x95\x88\xe8\xf2sk`\x91oQ\xe4p\xde\xb1\x8fU\x11*n\xbc', 'language': 'english', 'flags': 0, 'passphrase_protection': False, 'pin_cached': False, 'needs_backup': False, 'bootloader_hash': b'c0\xfc\xec\x16r\xfa\xd3\x0bB\x1b`\xf7O\x83\x9a993Ee\xcbp;+\xd7\x18.\xa2\xdd\xa0\x19', 'major_version': 1, 'model': '1'}>do not know
+handler_name:callback_Featuresdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 't'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'node': <HDNodeType: {'depth': 0, 'child_num': 0, 'fingerprint': 0, 'chain_code': b'kq\x99\xb8\xddZu\xbf!R\xd1^\x08"\xe9\xad\xa3\xc6\x9a\x0e\x1aT\xbb\x9b\xbf\xac\xd0\xed\xe13Q\xe6', 'public_key': b'\x03\x05I\xfb!\xcak\xc4\x034\xc8f\xd9\xe6\xfa\xfdO\xb5\x98r%\xfd\xde\x139i\x9f\xb0WU!\xcfq'}>, 'xpub': 'xpub661MyMwAqRbcFcUeqqbxZYSFXf9dYC7LMarjAU9x7EMayetywxyF1UDU8P9fnfz3zN3Mf3dTx2MCdi2xQkmicxNEK2Tv4pTsDvngh1QMWa8'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'node': <HDNodeType: {'depth': 2, 'child_num': 3259581746, 'fingerprint': 2441513255, 'chain_code': b'\x9e\x8d\x1dzY\xb2j\x81\x18\x05\xb6,\x96\xca\x11\x06j\x94\xc7\xbc~q\x04\xban\xc7\xb9\xf4\xd0\x9d\xb5\xc6', 'public_key': b'\x03 \x9bhh\x81d\x17W\xa6\x8em\x1f\xdah\xa5\xb2\x84\x85\x8fk\xc7@\xe5Re\xea\xb2\x9e\x04\xa4a]'}>, 'xpub': 'xpub6AqfxLTdTMZWeX22ZUyv6QEX5sGviZBSMwXhhiyJzr1tCfPLLwp52bQQjhxYd7a3VWne3Wa8YtV387Gjx5vvUy2F8v597QyHhM7K546HSmp'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<Success: {'message': 'electrum pinging device'}>do not know
+handler_name:callback_Successdo not know
+handler:Nonedo not know
+res = call():
+the inner of func:call():
+resp:<PublicKey: {'node': <HDNodeType: {'depth': 3, 'child_num': 2147483648, 'fingerprint': 1387600352, 'chain_code': b'\xc5\xbd\n\xc7\xe3\xc4|\xadBX\xcfx\xa5\x8d9\xba\xe3\x89\x1f%[\xc5\xbc\xfa\xba\xf8qXQ\xe8(\xd7', 'public_key': b'\x024\xe3\x8d\xd0\x92\x05@E\x08\x83n\x88o\x96}](G\xa8H\xff!\xd7Y\xeaC>\xaec\xa4g\x03'}>, 'xpub': 'xpub6CG2a9B2ewA5vEDj7WYj1mMuWvqVLhzRJUvzDTocvKpeVEra5GbBqbkWUgvYyuc1PWJci43ha6Jc2Ah3qSxysK2t5qugxnX4unHb7nDG4YZ'}>do not know
+handler_name:callback_PublicKeydo not know
+handler:Nonedo not know

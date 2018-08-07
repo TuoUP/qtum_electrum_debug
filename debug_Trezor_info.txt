@@ -38,3 +38,89 @@ handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f37b8a0ba68>
 
 handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f37b8a0ba68>
 
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f1e17c404c8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f1e17c404c8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f1e17c404c8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f1e17c404c8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fc3a502d288>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fc8404549d8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f6a537a15e8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7ffa180f6a68>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7ffa180f6a68>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7ffa180f6a68>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7ffa180f6a68>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f42964f7438>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f5ff9858438>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f02aa11a438>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fbd5946d438>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7efcd8383438>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f413dc34ee8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f413dc34ee8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f413dc34ee8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f413dc34ee8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f5d247493a8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f8080ce83a8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7ff91d6743a8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f2e1df8d3a8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fec1fba03a8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fbca75d33a8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fee5c63b3a8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f0d6d11e3a8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fc5036523a8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f7682b224c8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fdfa0401b88>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fdf849969d8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fd2348854c8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f3478013f78>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f3478013f78>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f3478013f78>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fd50c10dca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fd4e809e1f8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fab84b694c8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fd3548d35e8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f7e4fd354c8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f4cf685e4c8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fa4ba7aa438>
+

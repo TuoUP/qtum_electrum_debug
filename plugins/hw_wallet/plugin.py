@@ -29,6 +29,7 @@ from qtum_electrum.i18n import _
 from lib.qtum import is_address,TYPE_SCRIPT
 from lib.util import bfh
 from lib.transaction import opcodes
+from qtum_electrum import constants
 
 
 class HW_PluginBase(BasePlugin):
@@ -62,10 +63,13 @@ class HW_PluginBase(BasePlugin):
         pass  # implemented in child classes
 
     def show_address_helper(self, wallet, address, keystore=None):
+        print('show_address_helper_111:',constants.net)
         if keystore is None:
             keystore = wallet.get_keystore()
+        print('show_address_helper_222:', constants.net)
         if not is_address(address):
-            keystore.handler.show_error(_('Invalid Qtum Address'))
+            print('show_address_helper_333:', constants.net)
+            keystore.handler.show_error(_('2Invalid Qtum Address'))
             return False
         if not wallet.is_mine(address):
             keystore.handler.show_error(_('Address not in wallet.'))

@@ -356,3 +356,101 @@ sign_txin:
 
 {'witness': None, 'height': 186914, 'value': 8548200, 'num_sig': 1, 'prevout_hash': '860f820fa4610afc63d35d6c9bc3bb362adcf4dd956c5c904d6c2002942a69ea', 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c'], 'prevout_n': 11, 'coinbase': True, 'prev_tx': <qtum_electrum.transaction.Transaction object at 0x7f37b8b3ee80>, 'type': 'p2pkh', 'scriptSig': None, 'sequence': 4294967293, 'signatures': ['304502210097325c50c655a98bfa9582c6907b5053abd0d0320ed25e31202bcda2457458a602205c49e5c9f40bc067c80557ca70db138a8c06692ce5802d632016c00df935776701'], 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']}
 
+origin_signatures:
+
+[b'0E\x02!\x00\x8atW\xff\x05\xeb\xd3\x9b\x13\x80\xa0\xee\x14\xf1y\xe8\xf0<\xab\x0e3\x84\xc0s\x7f\xa0"Z\x9boiq\x02 \x14D\xc7 \x1f9\xd0\xf6$\xc6Nh\x85\xd9\xca\xb9A\x0e\x08dS\xd1\'5\xa4\xf7\xd421\xb4\x18C']
+
+add_01_signatures:['30450221008a7457ff05ebd39b1380a0ee14f179e8f03cab0e3384c0737fa0225a9b6f697102201444c7201f39d0f624c64e6885d9cab9410e086453d12735a4f7d43231b4184301']
+pubkeys:
+
+['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']
+
+pre_Hash:
+
+b's2\xf6\xa0\xd2B\x93p\xd8\xec\x96^\xdc-\xc4.m\xecq|\x9c\x14\x97\xb6%)TD\x86\xd7/j'
+
+sig_string:
+
+b'\x8atW\xff\x05\xeb\xd3\x9b\x13\x80\xa0\xee\x14\xf1y\xe8\xf0<\xab\x0e3\x84\xc0s\x7f\xa0"Z\x9boiq\x14D\xc7 \x1f9\xd0\xf6$\xc6Nh\x85\xd9\xca\xb9A\x0e\x08dS\xd1\'5\xa4\xf7\xd421\xb4\x18C'
+
+recid:
+
+0
+
+public_key:
+
+<qtum_electrum.ecc.ECPubkey object at 0x7f1e17b80978>
+
+recid:  
+
+0
+pubkey_hex:
+
+026d36c6d2582744f7dc9610cfb7b702be272fb8efefc7679f9f27e17c5d513b34
+recid:
+
+1
+
+public_key:
+
+<qtum_electrum.ecc.ECPubkey object at 0x7f1e186edef0>
+
+recid:  
+
+1
+pubkey_hex:
+
+0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c
+sign_txin:  
+
+{'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'prevout_hash': '6031153c24e08a5a5d9c1696df3f8d27db3e0105beadd9c1ada43d186a9c7420', 'witness': None, 'value': 279435000, 'coinbase': False, 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000'], 'scriptSig': None, 'signatures': ['30450221008a7457ff05ebd39b1380a0ee14f179e8f03cab0e3384c0737fa0225a9b6f697102201444c7201f39d0f624c64e6885d9cab9410e086453d12735a4f7d43231b4184301'], 'height': 187342, 'type': 'p2pkh', 'num_sig': 1, 'prevout_n': 1, 'prev_tx': <qtum_electrum.transaction.Transaction object at 0x7f1e186ed940>, 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']}
+
+origin_signatures:
+
+[b'0E\x02!\x00\xcb\xe8\x9d\n%I\x8d\x0cb}\x03>c\xc9\xe0q\xce&w\x91\xde\xb8\x1c\xf4)\x1d\xa3Gq`S\xe3\x02 \x08\xcf\x03\x17\xd6\xc2\x03\x99:\xc6\x13\x1bq\xe3\x04Ar`\x8d\xff\xca\xe0\x8d\x08\xfc\x14;+\x10\x10\x7f\xcd']
+
+add_01_signatures:['3045022100cbe89d0a25498d0c627d033e63c9e071ce267791deb81cf4291da347716053e3022008cf0317d6c203993ac6131b71e3044172608dffcae08d08fc143b2b10107fcd01']
+pubkeys:
+
+['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']
+
+pre_Hash:
+
+b'#\xb0\xecvc\xff\x9fJ\x86^\xac\xb6\x91\x08\xbe\x96s\x80\xd4\xb8\xba\xcb\x83\xe2v \xfe\xb4\xe0 $\xc5'
+
+sig_string:
+
+b'\xcb\xe8\x9d\n%I\x8d\x0cb}\x03>c\xc9\xe0q\xce&w\x91\xde\xb8\x1c\xf4)\x1d\xa3Gq`S\xe3\x08\xcf\x03\x17\xd6\xc2\x03\x99:\xc6\x13\x1bq\xe3\x04Ar`\x8d\xff\xca\xe0\x8d\x08\xfc\x14;+\x10\x10\x7f\xcd'
+
+recid:
+
+0
+
+public_key:
+
+<qtum_electrum.ecc.ECPubkey object at 0x7ffa1805a668>
+
+recid:  
+
+0
+pubkey_hex:
+
+03001dc41cdcc56419d3662a2a7c1bef291619c816a590fd6e20e3d46695cda512
+recid:
+
+1
+
+public_key:
+
+<qtum_electrum.ecc.ECPubkey object at 0x7ffa1805a7b8>
+
+recid:  
+
+1
+pubkey_hex:
+
+0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c
+sign_txin:  
+
+{'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'height': 187924, 'scriptSig': None, 'prev_tx': <qtum_electrum.transaction.Transaction object at 0x7ffa1b8bcb38>, 'coinbase': False, 'signatures': ['3045022100cbe89d0a25498d0c627d033e63c9e071ce267791deb81cf4291da347716053e3022008cf0317d6c203993ac6131b71e3044172608dffcae08d08fc143b2b10107fcd01'], 'prevout_hash': '7818f84b1b4da57e24aaa09e58726875aed19fd0a11a7a77694e712e0780ef44', 'num_sig': 1, 'sequence': 4294967293, 'value': 6156203100, 'prevout_n': 1, 'witness': None, 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000'], 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c'], 'type': 'p2pkh'}
+
