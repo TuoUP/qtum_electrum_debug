@@ -107,5 +107,5 @@ def trezor_validate_op_return_output_and_get_data(_type, address, amount):
         raise Exception(_("Amount for OP_RETURN output must be zero."))
     #return script[2:]
     return script[:]
-    #return script[4:]#zijigai
+
 

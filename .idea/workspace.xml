@@ -521,242 +521,80 @@
       <file leaf-file-name="trezor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/trezor/trezor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="180" column="8" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
+            <state relative-caret-position="-8034">
+              <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding>
-                <element signature="e#1129#3137#0" expanded="false" />
-                <element signature="e#1209#1231#0" expanded="false" />
-                <element signature="e#1271#1548#0" expanded="false" />
-                <element signature="e#1601#1648#0" expanded="false" />
-                <element signature="e#1718#1814#0" expanded="false" />
-                <element signature="e#1881#2147#0" expanded="false" />
-                <element signature="e#2203#3137#0" expanded="false" />
-                <element signature="e#2447#3069#0" expanded="false" />
-                <element signature="e#2845#3069#0" expanded="false" />
-                <element signature="e#3179#3205#0" expanded="false" />
-                <element signature="e#3753#5100#0" expanded="false" />
-                <element signature="e#3829#4654#0" expanded="false" />
-                <element signature="e#4027#4123#0" expanded="false" />
-                <element signature="e#4263#4610#0" expanded="false" />
-                <element signature="e#4695#4746#0" expanded="false" />
-                <element signature="e#5135#5273#0" expanded="false" />
-                <element signature="e#5329#6429#0" expanded="false" />
-                <element signature="e#5346#5476#0" expanded="false" />
-                <element signature="e#5524#5606#0" expanded="false" />
-                <element signature="e#5646#5715#0" expanded="false" />
-                <element signature="e#5971#6034#0" expanded="false" />
-                <element signature="e#6111#6406#0" expanded="false" />
-                <element signature="e#6120#6235#0" expanded="false" />
-                <element signature="e#6492#6983#0" expanded="false" />
-                <element signature="e#6626#6736#0" expanded="false" />
-                <element signature="e#9324#9425#0" expanded="false" />
-                <element signature="e#9572#11707#0" expanded="false" />
-                <element signature="e#9747#10128#0" expanded="false" />
-                <element signature="e#9785#10111#0" expanded="false" />
-                <element signature="e#10289#10588#0" expanded="false" />
-                <element signature="e#10637#11214#0" expanded="false" />
-                <element signature="e#11264#11500#0" expanded="false" />
-                <element signature="e#11527#11707#0" expanded="false" />
-                <element signature="e#11765#12164#0" expanded="false" />
-                <element signature="e#13333#13735#0" expanded="false" />
-                <element signature="e#13575#13735#0" expanded="false" />
-                <element signature="e#14144#14728#0" expanded="false" />
-                <element signature="e#14165#14687#0" expanded="false" />
-                <element signature="e#14539#14591#0" expanded="false" />
-                <element signature="e#14795#14902#0" expanded="false" />
-                <element signature="e#15169#15281#0" expanded="false" />
-                <element signature="e#15345#15512#0" expanded="false" />
-                <element signature="e#15636#15748#0" expanded="false" />
-                <element signature="e#15816#15924#0" expanded="false" />
-                <element signature="e#15991#16094#0" expanded="false" />
-                <element signature="e#16203#16304#0" expanded="false" />
-                <element signature="e#17017#17241#0" expanded="false" />
-                <element signature="e#17268#18015#0" expanded="false" />
-                <element signature="e#17297#17347#0" expanded="false" />
-                <element signature="e#18099#21019#0" expanded="false" />
-                <element signature="e#18156#20996#0" expanded="false" />
-                <element signature="e#18254#18332#0" expanded="false" />
-                <element signature="e#18367#20550#0" expanded="false" />
-                <element signature="e#18399#20442#0" expanded="false" />
-                <element signature="e#18497#18896#0" expanded="false" />
-                <element signature="e#18947#20442#0" expanded="false" />
-                <element signature="e#18992#19294#0" expanded="false" />
-                <element signature="e#19149#19229#0" expanded="false" />
-                <element signature="e#20076#20442#0" expanded="false" />
-                <element signature="e#20133#20442#0" expanded="false" />
-                <element signature="e#20262#20442#0" expanded="false" />
-                <element signature="e#20796#20883#0" expanded="false" />
-                <element signature="e#21153#22886#0" expanded="false" />
-                <element signature="e#21224#21860#0" expanded="false" />
-                <element signature="e#21895#22854#0" expanded="false" />
-                <element signature="e#24476#24667#0" expanded="false" />
-                <element signature="e#24889#26348#0" expanded="false" />
-                <element signature="e#25045#25537#0" expanded="false" />
-                <element signature="e#25070#25488#0" expanded="false" />
-                <element signature="e#25607#26124#0" expanded="false" />
-                <element signature="e#25695#25755#0" expanded="false" />
-                <element signature="e#26055#26124#0" expanded="false" />
-                <element signature="e#26423#26999#0" expanded="false" />
-                <element signature="e#26491#26648#0" expanded="false" />
-                <element signature="e#26865#26982#0" expanded="false" />
-                <element signature="e#27109#27181#0" expanded="false" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qtum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/qtum.py">
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5472">
-              <caret line="505" column="40" selection-start-line="505" selection-start-column="40" selection-end-line="505" selection-end-column="40" />
+            <state relative-caret-position="131">
+              <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blockchain.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/blockchain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="343" column="33" selection-start-line="343" selection-start-column="33" selection-end-line="343" selection-end-column="33" />
               <folding>
-                <element signature="e#24#55#1" expanded="false" />
-                <element signature="e#56#70#0" expanded="true" />
-                <element signature="e#1030#1124#0" expanded="false" />
-                <element signature="e#1153#1263#0" expanded="false" />
-                <element signature="e#1290#1397#0" expanded="false" />
-                <element signature="e#1429#1694#0" expanded="false" />
-                <element signature="e#1449#1551#0" expanded="false" />
-                <element signature="e#1580#1690#0" expanded="false" />
-                <element signature="e#2070#2430#0" expanded="false" />
-                <element signature="e#2150#2215#0" expanded="false" />
-                <element signature="e#2241#2430#1" expanded="false" />
-                <element signature="e#2483#2851#0" expanded="false" />
-                <element signature="e#2896#3435#0" expanded="false" />
-                <element signature="e#2896#3114#1" expanded="false" />
-                <element signature="e#3244#3297#0" expanded="false" />
-                <element signature="e#3470#3751#0" expanded="false" />
-                <element signature="e#3794#3923#0" expanded="false" />
-                <element signature="e#3794#3881#1" expanded="false" />
-                <element signature="e#4221#4940#0" expanded="false" />
-                <element signature="e#4221#4490#1" expanded="false" />
-                <element signature="e#4989#5034#0" expanded="false" />
-                <element signature="e#5234#5385#0" expanded="false" />
-                <element signature="e#5415#5833#0" expanded="false" />
-                <element signature="e#5492#5556#0" expanded="false" />
-                <element signature="e#5632#5702#0" expanded="false" />
-                <element signature="e#5858#6144#0" expanded="false" />
-                <element signature="e#5858#5878#0" expanded="false" />
-                <element signature="e#6028#6075#0" expanded="false" />
-                <element signature="e#6598#6663#0" expanded="false" />
-                <element signature="e#6697#6761#0" expanded="false" />
-                <element signature="e#6819#6929#0" expanded="false" />
-                <element signature="e#6819#6847#0" expanded="false" />
-                <element signature="e#6970#7042#0" expanded="false" />
-                <element signature="e#7085#7147#0" expanded="false" />
-                <element signature="e#7192#7250#0" expanded="false" />
-                <element signature="e#7286#7343#0" expanded="false" />
-                <element signature="e#7384#7452#0" expanded="false" />
-                <element signature="e#7500#7574#0" expanded="false" />
-                <element signature="e#7623#7974#0" expanded="false" />
-                <element signature="e#7822#7919#0" expanded="false" />
-                <element signature="e#8037#8401#0" expanded="false" />
-                <element signature="e#8243#8346#0" expanded="false" />
-                <element signature="e#8437#9371#0" expanded="false" />
-                <element signature="e#8542#8729#0" expanded="false" />
-                <element signature="e#8841#9052#0" expanded="false" />
-                <element signature="e#9111#9295#0" expanded="false" />
-                <element signature="e#9410#9482#0" expanded="false" />
-                <element signature="e#9523#9598#0" expanded="false" />
-                <element signature="e#9643#9708#0" expanded="false" />
-                <element signature="e#10809#11686#0" expanded="false" />
-                <element signature="e#11066#11245#0" expanded="false" />
-                <element signature="e#11308#11394#0" expanded="false" />
-                <element signature="e#11462#11533#0" expanded="false" />
-                <element signature="e#11727#11731#0" expanded="false" />
-                <element signature="e#11767#11864#0" expanded="false" />
-                <element signature="e#11899#12167#0" expanded="false" />
-                <element signature="e#12167#12206#0" expanded="false" />
-                <element signature="e#12244#12353#0" expanded="false" />
-                <element signature="e#12431#12526#0" expanded="false" />
-                <element signature="e#12700#13293#0" expanded="false" />
-                <element signature="e#12700#12743#0" expanded="false" />
-                <element signature="e#12866#12990#0" expanded="false" />
-                <element signature="e#13357#14682#0" expanded="false" />
-                <element signature="e#13485#13577#0" expanded="false" />
-                <element signature="e#13658#13777#0" expanded="false" />
-                <element signature="e#13813#14115#0" expanded="false" />
-                <element signature="e#14134#14308#0" expanded="false" />
-                <element signature="e#14713#14747#0" expanded="false" />
-                <element signature="e#14789#15002#0" expanded="false" />
-                <element signature="e#16107#16205#0" expanded="false" />
-                <element signature="e#16389#16493#0" expanded="false" />
-                <element signature="e#16402#16460#0" expanded="false" />
-                <element signature="e#16522#16871#0" expanded="false" />
-                <element signature="e#16738#16855#0" expanded="false" />
-                <element signature="e#16970#17495#0" expanded="false" />
-                <element signature="e#16970#17005#0" expanded="false" />
-                <element signature="e#17536#17555#0" expanded="false" />
-                <element signature="e#17709#18177#0" expanded="false" />
-                <element signature="e#17756#18153#0" expanded="false" />
-                <element signature="e#17801#18153#0" expanded="false" />
-                <element signature="e#17954#18153#0" expanded="false" />
-                <element signature="e#18179#18244#0" expanded="false" />
-                <element signature="e#18781#19184#0" expanded="false" />
-                <element signature="e#18781#18800#0" expanded="false" />
-                <element signature="e#19225#19850#0" expanded="false" />
-                <element signature="e#19852#19913#0" expanded="false" />
-                <element signature="e#20208#20456#0" expanded="false" />
-                <element signature="e#20459#20508#0" expanded="false" />
-                <element signature="e#20616#20889#0" expanded="false" />
-                <element signature="e#21071#21165#0" expanded="false" />
-                <element signature="e#21293#21545#0" expanded="false" />
-                <element signature="e#21655#21779#0" expanded="false" />
-                <element signature="e#21832#22610#0" expanded="false" />
-                <element signature="e#22658#22703#0" expanded="false" />
-                <element signature="e#22750#22794#0" expanded="false" />
-                <element signature="e#22819#22848#0" expanded="false" />
-                <element signature="e#22873#22961#0" expanded="false" />
-                <element signature="e#22886#22928#0" expanded="false" />
-                <element signature="e#22987#23075#0" expanded="false" />
-                <element signature="e#23000#23042#0" expanded="false" />
-                <element signature="e#23108#23316#0" expanded="false" />
-                <element signature="e#23352#23728#0" expanded="false" />
-                <element signature="e#23768#23914#0" expanded="false" />
-                <element signature="e#23946#24123#0" expanded="false" />
-                <element signature="e#24021#24123#0" expanded="false" />
-                <element signature="e#24158#24257#0" expanded="false" />
-                <element signature="e#24171#24223#0" expanded="false" />
-                <element signature="e#24317#25122#0" expanded="false" />
-                <element signature="e#24576#24735#0" expanded="false" />
-                <element signature="e#25182#25638#0" expanded="false" />
-                <element signature="e#25373#25488#0" expanded="false" />
-                <element signature="e#25688#25760#0" expanded="false" />
-                <element signature="e#25795#27565#0" expanded="false" />
-                <element signature="e#25795#26004#1" expanded="false" />
-                <element signature="e#26055#26185#0" expanded="false" />
-                <element signature="e#26220#26300#0" expanded="false" />
-                <element signature="e#26339#26384#0" expanded="false" />
-                <element signature="e#26421#26679#0" expanded="false" />
-                <element signature="e#26720#26859#0" expanded="false" />
-                <element signature="e#26899#26999#0" expanded="false" />
-                <element signature="e#27039#27139#0" expanded="false" />
-                <element signature="e#27180#27281#0" expanded="false" />
-                <element signature="e#27322#27423#0" expanded="false" />
-                <element signature="e#27464#27565#0" expanded="false" />
-                <element signature="e#27597#27791#0" expanded="false" />
-                <element signature="e#27825#28468#0" expanded="false" />
-                <element signature="e#28510#29240#0" expanded="false" />
-                <element signature="e#28675#29227#0" expanded="false" />
-                <element signature="e#29294#29487#0" expanded="false" />
-                <element signature="e#29514#29800#0" expanded="false" />
-                <element signature="e#29856#29975#0" expanded="false" />
-                <element signature="e#30034#30304#0" expanded="false" />
-                <element signature="e#30213#30246#0" expanded="false" />
-                <element signature="e#30353#30695#0" expanded="false" />
-                <element signature="e#30733#31463#0" expanded="false" />
-                <element signature="e#30733#31184#1" expanded="false" />
+                <marker date="1530679848000" expanded="true" signature="3779:3896" ph="CREATE TABLE... IF" />
+                <marker date="1530679848000" expanded="true" signature="4386:4429" ph="SELECT min(h... header" />
+                <marker date="1530679848000" expanded="true" signature="4597:4624" ph="SELECT COUNT... header" />
+                <marker date="1530679848000" expanded="true" signature="6392:6419" ph="SELECT COUNT... header" />
+                <marker date="1530679848000" expanded="true" signature="8317:8363" ph="REPLACE INTO... header" />
+                <marker date="1530679848000" expanded="true" signature="9275:9308" ph="DELETE FROM " />
+                <marker date="1530679848000" expanded="true" signature="10104:10122" ph="DELETE FROM " />
+                <marker date="1530679848000" expanded="true" signature="10786:10824" ph="SELECT data header" />
+                <marker date="1530679848000" expanded="true" signature="12874:12920" ph="REPLACE INTO... header" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bitcoin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/bitcoin.py">
+      <file leaf-file-name="main_window.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/qt/main_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="140">
+              <caret line="3285" column="47" selection-start-line="3285" selection-start-column="47" selection-end-line="3285" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transaction.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/transaction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="1286" column="8" selection-start-line="1286" selection-start-column="8" selection-end-line="1286" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/simple_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/hw_wallet/plugin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -765,8 +603,8 @@
       <file leaf-file-name="qt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/trezor/qt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1779">
-              <caret line="474" column="13" selection-start-line="474" selection-start-column="13" selection-end-line="474" selection-end-column="13" />
+            <state relative-caret-position="121">
+              <caret line="176" column="21" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="21" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -774,11 +612,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qt.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/hw_wallet/qt.py">
+      <file leaf-file-name="clientbase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/trezor/clientbase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="233" column="31" selection-start-line="233" selection-start-column="31" selection-end-line="233" selection-end-column="31" />
+            <state relative-caret-position="720">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -787,32 +625,10 @@
       <file leaf-file-name="constants.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+            <state relative-caret-position="2808">
+              <caret line="118" column="18" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="21" />
               <folding>
                 <element signature="e#1173#1182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keystore.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/keystore.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qtum-electrum" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qtum-electrum">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding>
-                <element signature="e#1188#1197#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -860,9 +676,6 @@
         <option value="$PROJECT_DIR$/lib/bitcoin.py" />
         <option value="$PROJECT_DIR$/gui/qt/paytoedit.py" />
         <option value="$PROJECT_DIR$/gui/qt/token_dialog.py" />
-        <option value="$PROJECT_DIR$/gui/qt/main_window.py" />
-        <option value="$PROJECT_DIR$/plugins/trezor/trezor.py" />
-        <option value="$PROJECT_DIR$/plugins/hw_wallet/plugin.py" />
         <option value="$PROJECT_DIR$/lib/qtum.py" />
         <option value="$PROJECT_DIR$/plugins/hw_wallet/qt.py" />
         <option value="$PROJECT_DIR$/qtum-electrum" />
@@ -870,6 +683,10 @@
         <option value="$PROJECT_DIR$/../../HTML_Quate.html" />
         <option value="$PROJECT_DIR$/plugins/trezor/qt.py" />
         <option value="$PROJECT_DIR$/lib/constants.py" />
+        <option value="$PROJECT_DIR$/plugins/hw_wallet/plugin.py" />
+        <option value="$PROJECT_DIR$/plugins/trezor/clientbase.py" />
+        <option value="$PROJECT_DIR$/gui/qt/main_window.py" />
+        <option value="$PROJECT_DIR$/plugins/trezor/trezor.py" />
       </list>
     </option>
   </component>
@@ -881,9 +698,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="y" value="80" />
+    <option name="width" value="692" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -896,7 +713,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -909,10 +726,16 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../qt5/qtum_from0.18.4.1/qtum-electrum" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -1259,16 +1082,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="80" width="692" height="716" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26421136" sideWeight="0.4574639" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3169182" sideWeight="0.4574639" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.49722" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14285715" sideWeight="0.5202542" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31942216" sideWeight="0.47974584" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31139648" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32605043" sideWeight="0.49722" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22632423" sideWeight="0.49086577" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1477363" sideWeight="0.54253614" order="0" side_tool="true" content_ui="tabs" />
@@ -1347,19 +1170,9 @@
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/plugins/trezor/clientbase.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lib/base_wizard.py</url>
           <line>479</line>
           <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/plugins/trezor/trezor.py</url>
-          <line>391</line>
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1377,61 +1190,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/trustedcoin/cmdline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/plugins.trezor.trezor.TrezorPlugin">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>plugins.trezor.trezor.TrezorPlugin</OriginalElement>
-          <nodes>
-            <node x="110.0" y="0.0">plugins.hw_wallet.plugin.HW_PluginBase</node>
-            <node x="0.0" y="241.0">plugins.trezor.trezor.TrezorPlugin</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="plugins.trezor.trezor.TrezorPlugin" target="plugins.hw_wallet.plugin.HW_PluginBase">
-              <point x="0.0" y="-222.0" />
-              <point x="0.0" y="95.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="93.0" y="268.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Inner Classes</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://Python/#/home/tete/Desktop/testqtum/bug_qtum-electrum-master/plugins/trezor/trezor.py">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#/home/tete/Desktop/testqtum/bug_qtum-electrum-master/plugins/trezor/trezor.py</OriginalElement>
-          <nodes>
-            <node x="" y="">plugins.hw_wallet.plugin.HW_PluginBase</node>
-            <node x="" y="">plugins.trezor.trezor.TrezorKeyStore</node>
-            <node x="" y="">plugins.trezor.trezor.TrezorPlugin</node>
-            <node x="" y="">Hardware_KeyStore</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="169.0" y="-87.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/plugins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -1650,13 +1408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="376" column="37" selection-start-line="376" selection-start-column="37" selection-end-line="376" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/crypto.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1678,24 +1429,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/transaction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14784">
-          <caret line="628" column="22" selection-start-line="628" selection-start-column="22" selection-end-line="628" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/contacts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
           <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui/qt/main_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32400">
-          <caret line="1378" column="36" selection-start-line="1378" selection-start-column="36" selection-end-line="1378" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1868,21 +1605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/hw_wallet/plugin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/trezor/clientbase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="179" column="35" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/wallet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-552">
@@ -1897,9 +1619,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qtum-electrum.desktop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../HTML_Quate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML_Quate.html" />
+    <entry file="file://$PROJECT_DIR$/lib/bitcoin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1304">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/qtum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5472">
+        <state relative-caret-position="352">
           <caret line="505" column="40" selection-start-line="505" selection-start-column="40" selection-end-line="505" selection-end-column="40" />
           <folding>
             <element signature="e#24#55#1" expanded="false" />
@@ -2042,69 +1808,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/bitcoin.py">
+    <entry file="file://$PROJECT_DIR$/plugins/hw_wallet/qt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="568">
+          <caret line="233" column="31" selection-start-line="233" selection-start-column="31" selection-end-line="233" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qtum-electrum.desktop">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/keystore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
+        <state relative-caret-position="352">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../HTML_Quate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Quate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qtum-electrum">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="1824">
           <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
             <element signature="e#1188#1197#0" expanded="true" />
@@ -2112,115 +1834,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/trezor/qt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1779">
-          <caret line="474" column="13" selection-start-line="474" selection-start-column="13" selection-end-line="474" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/hw_wallet/qt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="233" column="31" selection-start-line="233" selection-start-column="31" selection-end-line="233" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+        <state relative-caret-position="2808">
+          <caret line="118" column="18" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="21" />
           <folding>
             <element signature="e#1173#1182#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/trezor/clientbase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/trustedcoin/cmdline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/blockchain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="343" column="33" selection-start-line="343" selection-start-column="33" selection-end-line="343" selection-end-column="33" />
+          <folding>
+            <marker date="1530679848000" expanded="true" signature="3779:3896" ph="CREATE TABLE... IF" />
+            <marker date="1530679848000" expanded="true" signature="4386:4429" ph="SELECT min(h... header" />
+            <marker date="1530679848000" expanded="true" signature="4597:4624" ph="SELECT COUNT... header" />
+            <marker date="1530679848000" expanded="true" signature="6392:6419" ph="SELECT COUNT... header" />
+            <marker date="1530679848000" expanded="true" signature="8317:8363" ph="REPLACE INTO... header" />
+            <marker date="1530679848000" expanded="true" signature="9275:9308" ph="DELETE FROM " />
+            <marker date="1530679848000" expanded="true" signature="10104:10122" ph="DELETE FROM " />
+            <marker date="1530679848000" expanded="true" signature="10786:10824" ph="SELECT data header" />
+            <marker date="1530679848000" expanded="true" signature="12874:12920" ph="REPLACE INTO... header" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/hw_wallet/plugin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="95" column="34" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/trezor/qt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="176" column="21" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/simple_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="129" column="8" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/qt/main_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="3285" column="47" selection-start-line="3285" selection-start-column="47" selection-end-line="3285" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/transaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="1286" column="8" selection-start-line="1286" selection-start-column="8" selection-end-line="1286" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/trezor/trezor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="180" column="8" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
+        <state relative-caret-position="-8034">
+          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding>
-            <element signature="e#1129#3137#0" expanded="false" />
-            <element signature="e#1209#1231#0" expanded="false" />
-            <element signature="e#1271#1548#0" expanded="false" />
-            <element signature="e#1601#1648#0" expanded="false" />
-            <element signature="e#1718#1814#0" expanded="false" />
-            <element signature="e#1881#2147#0" expanded="false" />
-            <element signature="e#2203#3137#0" expanded="false" />
-            <element signature="e#2447#3069#0" expanded="false" />
-            <element signature="e#2845#3069#0" expanded="false" />
-            <element signature="e#3179#3205#0" expanded="false" />
-            <element signature="e#3753#5100#0" expanded="false" />
-            <element signature="e#3829#4654#0" expanded="false" />
-            <element signature="e#4027#4123#0" expanded="false" />
-            <element signature="e#4263#4610#0" expanded="false" />
-            <element signature="e#4695#4746#0" expanded="false" />
-            <element signature="e#5135#5273#0" expanded="false" />
-            <element signature="e#5329#6429#0" expanded="false" />
-            <element signature="e#5346#5476#0" expanded="false" />
-            <element signature="e#5524#5606#0" expanded="false" />
-            <element signature="e#5646#5715#0" expanded="false" />
-            <element signature="e#5971#6034#0" expanded="false" />
-            <element signature="e#6111#6406#0" expanded="false" />
-            <element signature="e#6120#6235#0" expanded="false" />
-            <element signature="e#6492#6983#0" expanded="false" />
-            <element signature="e#6626#6736#0" expanded="false" />
-            <element signature="e#9324#9425#0" expanded="false" />
-            <element signature="e#9572#11707#0" expanded="false" />
-            <element signature="e#9747#10128#0" expanded="false" />
-            <element signature="e#9785#10111#0" expanded="false" />
-            <element signature="e#10289#10588#0" expanded="false" />
-            <element signature="e#10637#11214#0" expanded="false" />
-            <element signature="e#11264#11500#0" expanded="false" />
-            <element signature="e#11527#11707#0" expanded="false" />
-            <element signature="e#11765#12164#0" expanded="false" />
-            <element signature="e#13333#13735#0" expanded="false" />
-            <element signature="e#13575#13735#0" expanded="false" />
-            <element signature="e#14144#14728#0" expanded="false" />
-            <element signature="e#14165#14687#0" expanded="false" />
-            <element signature="e#14539#14591#0" expanded="false" />
-            <element signature="e#14795#14902#0" expanded="false" />
-            <element signature="e#15169#15281#0" expanded="false" />
-            <element signature="e#15345#15512#0" expanded="false" />
-            <element signature="e#15636#15748#0" expanded="false" />
-            <element signature="e#15816#15924#0" expanded="false" />
-            <element signature="e#15991#16094#0" expanded="false" />
-            <element signature="e#16203#16304#0" expanded="false" />
-            <element signature="e#17017#17241#0" expanded="false" />
-            <element signature="e#17268#18015#0" expanded="false" />
-            <element signature="e#17297#17347#0" expanded="false" />
-            <element signature="e#18099#21019#0" expanded="false" />
-            <element signature="e#18156#20996#0" expanded="false" />
-            <element signature="e#18254#18332#0" expanded="false" />
-            <element signature="e#18367#20550#0" expanded="false" />
-            <element signature="e#18399#20442#0" expanded="false" />
-            <element signature="e#18497#18896#0" expanded="false" />
-            <element signature="e#18947#20442#0" expanded="false" />
-            <element signature="e#18992#19294#0" expanded="false" />
-            <element signature="e#19149#19229#0" expanded="false" />
-            <element signature="e#20076#20442#0" expanded="false" />
-            <element signature="e#20133#20442#0" expanded="false" />
-            <element signature="e#20262#20442#0" expanded="false" />
-            <element signature="e#20796#20883#0" expanded="false" />
-            <element signature="e#21153#22886#0" expanded="false" />
-            <element signature="e#21224#21860#0" expanded="false" />
-            <element signature="e#21895#22854#0" expanded="false" />
-            <element signature="e#24476#24667#0" expanded="false" />
-            <element signature="e#24889#26348#0" expanded="false" />
-            <element signature="e#25045#25537#0" expanded="false" />
-            <element signature="e#25070#25488#0" expanded="false" />
-            <element signature="e#25607#26124#0" expanded="false" />
-            <element signature="e#25695#25755#0" expanded="false" />
-            <element signature="e#26055#26124#0" expanded="false" />
-            <element signature="e#26423#26999#0" expanded="false" />
-            <element signature="e#26491#26648#0" expanded="false" />
-            <element signature="e#26865#26982#0" expanded="false" />
-            <element signature="e#27109#27181#0" expanded="false" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

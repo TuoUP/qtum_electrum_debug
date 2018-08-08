@@ -558,3 +558,143 @@ signed_txin:
 
 {'sequence': 4294967293, 'x_pubkeys': ['ff043587cf03f3a8f1b180000000414f8220df7e685e13f28acf1934202551092f87f819c3cd41d3c9723cfd0544028d65579db17cd1e31c6650b8b6442d4595a811bfc59baf61b47ea5cdb89f7c2600001700'], 'prevout_hash': 'fd11ea441409c786db0d749b5f77b4186ef469acdb4229699abb744d4745668b', 'coinbase': False, 'num_sig': 1, 'pubkeys': ['02f2f22ff649314083adaa12597d38b41af56449d0ce39a3c77fd652808acec9f7'], 'address': 'qeadCNxegCSfi6sjhXtW9RdhsUqXohcmRk', 'type': 'p2pkh', 'value': 10000000, 'height': 185587, 'witness': None, 'scriptSig': None, 'signatures': ['3045022100a1ba14c4706cac590883aa802b7d9ebe5a9d16f533165487efac309b15b3a43d022071b8e1a6984aa710e0aee3010db747275c43dc1dbba1c67bbbd3c5dcf3047ebd01'], 'prevout_n': 0}
 
+pubkeys:
+
+['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']
+
+x_pubkeys:
+
+['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']
+
+pre_hash:
+
+b' \xca\x0e}zH\xef\xf0\x18\xca\xc44\xf1L7\x9c\xd6\xa4!\xaen\xc1\x8a$\xab/\x13y\x93xf\x7f'
+
+origin_signatures:
+
+b'0D\x02 Q\x8c\xca\x0c\xbf9\x06\xe4\xc6\x87\xb5\x8e\xc6\xbem^\xb9\xbb\tm\xfb\x9a\x1c\x9f,\xca\xb7}\x15\xee58\x02 8\xf0\x0b\x86\ne\xb9\xc7\xa3Q\x86P\x97\xfeVp\x15\x89w#\xcb\x11\xcar\xb0H\x89Yt\x7f\xdaf'
+
+add_01_signatures:
+
+30440220518cca0cbf3906e4c687b58ec6be6d5eb9bb096dfb9a1c9f2ccab77d15ee3538022038f00b860a65b9c7a351865097fe567015897723cb11ca72b0488959747fda6601
+
+UNsigned_txin:
+
+{'prevout_n': 1, 'signatures': [None], 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000'], 'value': 6156203100, 'height': 187924, 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'type': 'p2pkh', 'prevout_hash': '7818f84b1b4da57e24aaa09e58726875aed19fd0a11a7a77694e712e0780ef44', 'sequence': 4294967293, 'num_sig': 1, 'coinbase': False, 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']}
+
+signed_txin:
+
+{'prevout_n': 1, 'signatures': ['30440220518cca0cbf3906e4c687b58ec6be6d5eb9bb096dfb9a1c9f2ccab77d15ee3538022038f00b860a65b9c7a351865097fe567015897723cb11ca72b0488959747fda6601'], 'scriptSig': None, 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000'], 'witness': None, 'value': 6156203100, 'height': 187924, 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'type': 'p2pkh', 'prevout_hash': '7818f84b1b4da57e24aaa09e58726875aed19fd0a11a7a77694e712e0780ef44', 'sequence': 4294967293, 'num_sig': 1, 'coinbase': False, 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']}
+
+pubkeys:
+
+['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']
+
+x_pubkeys:
+
+['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']
+
+pre_hash:
+
+b'\x8e\x8e\xa3\x8a\xe89\xc3\x9f\x1a\xb9\x8b\xd9\x85\x00\xf8(|\x16mf\xa8\xc9\x11\x8b&\xf0\xf5\xde\xcf\x8d\x9c\x00'
+
+origin_signatures:
+
+b'0D\x02 j\xda\xef,\xe6\xe6f\x96I\xd6\x10\x93\x90\xefm\xb5&\x8b\x843\x9cz\xde\xa3\x7fV\xe1\xa2\x14\x1b\x92_\x02 |Q@\xc6\x94\xaa\t\x13\xeb>\x92\xf4\xc3\x8a\xa0\x94%^^X\xed\xdfF\xe5\xd7\xde\xec\xfc!\xe9z\x12'
+
+add_01_signatures:
+
+304402206adaef2ce6e6669649d6109390ef6db5268b84339c7adea37f56e1a2141b925f02207c5140c694aa0913eb3e92f4c38aa094255e5e58eddf46e5d7deecfc21e97a1201
+
+UNsigned_txin:
+
+{'type': 'p2pkh', 'prevout_hash': '7818f84b1b4da57e24aaa09e58726875aed19fd0a11a7a77694e712e0780ef44', 'value': 6156203100, 'coinbase': False, 'prevout_n': 1, 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c'], 'signatures': [None], 'num_sig': 1, 'sequence': 4294967293, 'height': 187924, 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']}
+
+signed_txin:
+
+{'witness': None, 'type': 'p2pkh', 'prevout_hash': '7818f84b1b4da57e24aaa09e58726875aed19fd0a11a7a77694e712e0780ef44', 'scriptSig': None, 'value': 6156203100, 'coinbase': False, 'prevout_n': 1, 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c'], 'signatures': ['304402206adaef2ce6e6669649d6109390ef6db5268b84339c7adea37f56e1a2141b925f02207c5140c694aa0913eb3e92f4c38aa094255e5e58eddf46e5d7deecfc21e97a1201'], 'num_sig': 1, 'sequence': 4294967293, 'height': 187924, 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']}
+
+pubkeys:
+
+['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']
+
+x_pubkeys:
+
+['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']
+
+pre_hash:
+
+b'\xeb\x8fcv\xe8\xcc\xf0t\xb23!\xec\xe8\xdc\xdc8Q\xb7m\xb2\x15\x96-)\xd1l\xbf\x91\xfe\xeb_z'
+
+origin_signatures:
+
+b'0D\x02 b\xe9\xfcF\xc3%\x89\xa9\x85Z\x1cq\xdd&\x1e\x90\xf5\x0eJjN\xb7\xa5\x7fW\xdfG\x08\xda\x91\xd6X\x02 F^\xb1c\xb7]4o\xe1\x1aS\x85Jl\xa2\xc9\x83G\x9d?\x1c\x95\xfe\x18H\x89\x1e\x1d\xcdVZ\x83'
+
+add_01_signatures:
+
+3044022062e9fc46c32589a9855a1c71dd261e90f50e4a6a4eb7a57f57df4708da91d6580220465eb163b75d346fe11a53854a6ca2c983479d3f1c95fe1848891e1dcd565a8301
+
+UNsigned_txin:
+
+{'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c'], 'type': 'p2pkh', 'prevout_hash': 'ef3d3a4f0bb7d7891d725f6fabf6bbb99265e684172b1b167a125c9b23786fce', 'signatures': [None], 'value': 6816400, 'num_sig': 1, 'coinbase': False, 'prevout_n': 1, 'height': 188122, 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000'], 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA'}
+
+signed_txin:
+
+{'witness': None, 'type': 'p2pkh', 'prevout_hash': 'ef3d3a4f0bb7d7891d725f6fabf6bbb99265e684172b1b167a125c9b23786fce', 'scriptSig': None, 'coinbase': False, 'prevout_n': 1, 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c'], 'signatures': ['3044022062e9fc46c32589a9855a1c71dd261e90f50e4a6a4eb7a57f57df4708da91d6580220465eb163b75d346fe11a53854a6ca2c983479d3f1c95fe1848891e1dcd565a8301'], 'num_sig': 1, 'value': 6816400, 'height': 188122, 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']}
+
+pubkeys:
+
+['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']
+
+x_pubkeys:
+
+['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']
+
+pre_hash:
+
+b'\xaa\xc8\x80\x07_\xc4C\xdbM\xc9\t2\xcd`$\x8e\x94\x14\x8d\x92T\xef#Q?\xc1\xb0\\\xd20\x1e\x07'
+
+origin_signatures:
+
+b'0D\x02 5%H\xf2>\x81u\x12\xe4\x00\xc2\xd0\x1b^\x9f\x87\xee\x15\xb9N\xf1v\x9e!\xc6\x93e\x1f\xa8\x97 O\x02 2\xbe\xb2\x06\x1a\x84W\xc1?L\xfe\x1c\xd6\x16\xf7Y\x8c\xb2\xb1.!\x0e\xf5\xc0\xd7A\xbas\xf9\xb2\xf36'
+
+add_01_signatures:
+
+30440220352548f23e817512e400c2d01b5e9f87ee15b94ef1769e21c693651fa897204f022032beb2061a8457c13f4cfe1cd616f7598cb2b12e210ef5c0d741ba73f9b2f33601
+
+UNsigned_txin:
+
+{'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c'], 'type': 'p2pkh', 'prevout_hash': '7818f84b1b4da57e24aaa09e58726875aed19fd0a11a7a77694e712e0780ef44', 'signatures': [None], 'value': 6156203100, 'num_sig': 1, 'coinbase': False, 'prevout_n': 1, 'height': 187924, 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000'], 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA'}
+
+signed_txin:
+
+{'witness': None, 'type': 'p2pkh', 'prevout_hash': '7818f84b1b4da57e24aaa09e58726875aed19fd0a11a7a77694e712e0780ef44', 'scriptSig': None, 'coinbase': False, 'prevout_n': 1, 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c'], 'signatures': ['30440220352548f23e817512e400c2d01b5e9f87ee15b94ef1769e21c693651fa897204f022032beb2061a8457c13f4cfe1cd616f7598cb2b12e210ef5c0d741ba73f9b2f33601'], 'num_sig': 1, 'value': 6156203100, 'height': 187924, 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']}
+
+pubkeys:
+
+['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']
+
+x_pubkeys:
+
+['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000']
+
+pre_hash:
+
+b'\xa6\x9a\x9a\x91\xb2\xe6/V\x1dLLm\x80Y\x92.\xd4?\x1ey\xa6\xdb\xd7\xc0YV<\xb7\x84\x1d\xb7\xa1'
+
+origin_signatures:
+
+b'0D\x02 p\x906{\xb6\x84\xb4\x98Y\x0f^\x10\xc3c`<i\xf4&\xcd\xf1\xe8\xe7\x87\x8f\xaf\x8e\x12\x8a\xd5\x8dM\x02 j+\x98\x89Zq4\x10\xc1\xe8[\xf788\xeb|\x06\x89@\r\x92x\x8f\xe14G\x98\xd3\x15\xbaPP'
+
+add_01_signatures:
+
+304402207090367bb684b498590f5e10c363603c69f426cdf1e8e7878faf8e128ad58d4d02206a2b98895a713410c1e85bf73838eb7c0689400d92788fe1344798d315ba505001
+
+UNsigned_txin:
+
+{'type': 'p2pkh', 'num_sig': 1, 'prevout_n': 1, 'coinbase': False, 'sequence': 4294967293, 'signatures': [None], 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'height': 188123, 'prevout_hash': 'c04456ee62442cfef289ce0ce02e3fb8ebe7b0dbd81d3c309406c94694a891fc', 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000'], 'value': 6028900, 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']}
+
+signed_txin:
+
+{'scriptSig': None, 'type': 'p2pkh', 'num_sig': 1, 'prevout_n': 1, 'coinbase': False, 'sequence': 4294967293, 'signatures': ['304402207090367bb684b498590f5e10c363603c69f426cdf1e8e7878faf8e128ad58d4d02206a2b98895a713410c1e85bf73838eb7c0689400d92788fe1344798d315ba505001'], 'address': 'qUY1CtQ7ckLBBBNCEEX1urJMnsNYJmFWmA', 'height': 188123, 'witness': None, 'prevout_hash': 'c04456ee62442cfef289ce0ce02e3fb8ebe7b0dbd81d3c309406c94694a891fc', 'x_pubkeys': ['ff043587cf0352b519e080000000c5bd0ac7e3c47cad4258cf78a58d39bae3891f255bc5bcfabaf8715851e828d70234e38dd09205404508836e886f967d5d2847a848ff21d759ea433eae63a4670301000000'], 'value': 6028900, 'pubkeys': ['0224e773f36e5c84b7b7996d904fea4e59187b982e7fd2724580bcabc483ad3c5c']}
+

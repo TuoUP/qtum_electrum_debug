@@ -178,7 +178,8 @@ class TrezorPlugin(HW_PluginBase):
 
     def get_coin_name(self):
         # don't change it to "Qtum" until trezor supports officially
-        return "Testnet" if constants.net.TESTNET else "Bitcoin"
+        #return "Testnet" if constants.net.TESTNET else "Bitcoin"
+        return "Qtestnet" if constants.net.TESTNET else "Qtum"
 
     def initialize_device(self, device_id, wizard, handler):
         # Initialization method
@@ -433,7 +434,7 @@ class TrezorPlugin(HW_PluginBase):
                     if len(x_pubkeys) == 1:
                         x_pubkey = x_pubkeys[0]
                         xpub, s = parse_xpubkey(x_pubkey)
-                        print("xpub, s",xpub,"s",s)
+                        #print("xpub, s",xpub,"s",s)
                         xpub_n = self.client_class.expand_path(self.xpub_path[xpub])
                         txinputtype._extend_address_n(xpub_n + s)
                         txinputtype.script_type = self.get_trezor_input_script_type(script_gen, is_multisig=False)
@@ -521,6 +522,13 @@ class TrezorPlugin(HW_PluginBase):
                     script_type=script_type)
             return txoutputtype
 
+        def add_testnet_mainnet_prefix(script):
+            if constants.net == constants.QtumTestnet:
+                script = '02' + script
+            elif constants.net == constants.QtumMainnet:
+                script = '01' + script
+            return script
+
         def create_output_by_address():
             # qtum diff
             txoutputtype = self.types.TxOutputType()
@@ -535,16 +543,13 @@ class TrezorPlugin(HW_PluginBase):
                 #改过的代码
                 #txoutputtype.op_return_data = address[:]
                 #在这里加入用于判别是Testnet还是Mainnet的数据
-                txoutputtype.op_return_data = trezor_validate_op_return_output_and_get_data(_type, address, amount)
 
-                with open('./Qtum_Trezor_var.txt', 'a') as f:
-                    try:
-                        f.write('############'+'\n')
-                        f.write('我认为这里有问题:'+'\n')
-                        f.write('txoutputtype.op_return_data = address[2:]'+str(address[2:])+'\n')
-                        f.write("address:"+str(address)+'\n')
-                    except:
-                        pass
+                pre_address = add_testnet_mainnet_prefix(address[:])
+
+                txoutputtype.op_return_data = trezor_validate_op_return_output_and_get_data(_type, pre_address, amount)
+                #print("txoutputtype.op_return_data:",txoutputtype.op_return_data)
+                #txoutputtype.op_return_data = trezor_validate_op_return_output_and_get_data(_type, address, amount)
+
                 #这里是将0104改为b'0104'
                 #txoutputtype.op_return_data = str.encode(address[:])
                 #这里是将txoutputtype.op_return_data直接改为b'test of the op_return data'
@@ -621,3 +626,5 @@ class TrezorPlugin(HW_PluginBase):
     def get_tx(self, tx_hash):
         tx = self.prev_tx[tx_hash]
         return self.electrum_tx_to_txtype(tx)
+
+

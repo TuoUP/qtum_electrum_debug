@@ -3258,14 +3258,6 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
                                                        gas_fee=gas_fee,
                                                        sender=sender)#dont know
             #print('tx:',tx)和主链币进行对应,看主链币打印的是什么东西,在函数里面打印
-            with open('./debug_info_var.txt','a') as f:
-                try:
-                    f.write('file:main_window;func:_smart_contr:'+'\n'+'coins:'+ str(coins)+'\n')
-                    f.write("sender:"+str(sender)+'\n')
-                    f.write("gas_fee:"+str(gas_fee)+'\n')
-                    f.write("tx:"+str(tx)+'\n')
-                except:
-                    print('#################NO PRINT############')
 
         except NotEnoughFunds:
             dialog.show_message(_("Insufficient funds"))
@@ -3312,7 +3304,10 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
                     self.show_transaction(tx)
                     self.do_clear()
                 else:
-                    self.broadcast_transaction(tx, desc)
+                    print("sign_done,sign_done,sign_done")
+                    self.show_transaction(tx)
+                    #self.broadcast_transaction(tx, desc)
+
 
         self.sign_tx_with_password(tx, sign_done, password)
 
