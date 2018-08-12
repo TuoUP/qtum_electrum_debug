@@ -1201,3 +1201,52 @@ sign_txin:
 
 {'prevout_n': 1, 'pubkeys': ['024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93'], 'prev_tx': <qtum_electrum.transaction.Transaction object at 0x7fce88632048>, 'address': 'QVQntHGS4PgoaBLgKW3XE3AuJiXsbfzhsL', 'x_pubkeys': ['ff0488b21e03347afe6a8000000060321055e7f4e659137be8ee14d53665678dc141114bd2d3370f9455cb8f4aba037f845f55676b467fe84f3792f7c4033cababa45510dfe6ff3e89863da1b75fed00000700'], 'prevout_hash': 'ad26fd575ac8e25ad5e906f4fef4c6e5f9e745bfe01b39563186102d9f88c371', 'height': 204887, 'sequence': 4294967293, 'coinbase': False, 'signatures': ['3045022100b1cec75fe05f3ef32fa27a9913e8373b71d28deec64111766073562c5a22259d02200bba935adff2db3786bbaca8676582210b7429dc36ee86f30f899dcd7a84117801'], 'num_sig': 1, 'value': 39812500, 'type': 'p2pkh', 'scriptSig': None, 'witness': None}
 
+origin_signatures:
+
+[bytearray(b'0E\x02!\x00\xd9\n\xa9\xea)G\x03x\xc1i\xd8\x8a\xa7\x9c\xbaswv\xb8\xd3\xc0z~\xc5/\xfa\xb3\xad\xbc\xa8^\x89\x02 !\x08\xad\xab\xf3\x84PE\xf7\xb2\xe1Bn\xa3St\x0b\xa9\xb4\xf3{J\xc4V:v\xe0K\xfb\x84?\xca')]
+
+add_01_signatures:['3045022100d90aa9ea29470378c169d88aa79cba737776b8d3c07a7ec52ffab3adbca85e8902202108adabf3845045f7b2e1426ea353740ba9b4f37b4ac4563a76e04bfb843fca01']
+pubkeys:
+
+['024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93']
+
+pre_Hash:
+
+b'\x1f\x8a6\x9az1^\xd9\xadE.\x92\x00\xc9C\xb0\xf8\xce{\xfc^.i\xe2@\xf9\x18\xdc:\xc7\xe3\xf3'
+
+sig_string:
+
+b'\xd9\n\xa9\xea)G\x03x\xc1i\xd8\x8a\xa7\x9c\xbaswv\xb8\xd3\xc0z~\xc5/\xfa\xb3\xad\xbc\xa8^\x89!\x08\xad\xab\xf3\x84PE\xf7\xb2\xe1Bn\xa3St\x0b\xa9\xb4\xf3{J\xc4V:v\xe0K\xfb\x84?\xca'
+
+recid:
+
+0
+
+public_key:
+
+<qtum_electrum.ecc.ECPubkey object at 0x7f99b483c8d0>
+
+recid:  
+
+0
+pubkey_hex:
+
+033e74b397f81524c1a96ee3b0205135249eb22b90ab3aad0e17144d1f271e4bf4
+recid:
+
+1
+
+public_key:
+
+<qtum_electrum.ecc.ECPubkey object at 0x7f99b483ccc0>
+
+recid:  
+
+1
+pubkey_hex:
+
+024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93
+sign_txin:  
+
+{'num_sig': 1, 'prevout_hash': 'ad26fd575ac8e25ad5e906f4fef4c6e5f9e745bfe01b39563186102d9f88c371', 'sequence': 4294967294, 'coinbase': False, 'prevout_n': 1, 'type': 'p2pkh', 'address': 'QVQntHGS4PgoaBLgKW3XE3AuJiXsbfzhsL', 'scriptSig': None, 'signatures': ['3045022100d90aa9ea29470378c169d88aa79cba737776b8d3c07a7ec52ffab3adbca85e8902202108adabf3845045f7b2e1426ea353740ba9b4f37b4ac4563a76e04bfb843fca01'], 'pubkeys': ['024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93'], 'height': 204887, 'prev_tx': <qtum_electrum.transaction.Transaction object at 0x7f99b4941f98>, 'witness': None, 'x_pubkeys': ['ff0488b21e03347afe6a8000000060321055e7f4e659137be8ee14d53665678dc141114bd2d3370f9455cb8f4aba037f845f55676b467fe84f3792f7c4033cababa45510dfe6ff3e89863da1b75fed00000700'], 'value': 39812500}
+

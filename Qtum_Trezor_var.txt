@@ -2165,3 +2165,110 @@ unupdated_sig_tx:45505446ff00010000000171c3889f2d10863156391be0bf45e7f9e5c6f4fef
 nonsig_txin:{'prevout_n': 1, 'pubkeys': ['024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93'], 'prev_tx': <qtum_electrum.transaction.Transaction object at 0x7fce88632048>, 'address': 'QVQntHGS4PgoaBLgKW3XE3AuJiXsbfzhsL', 'x_pubkeys': ['ff0488b21e03347afe6a8000000060321055e7f4e659137be8ee14d53665678dc141114bd2d3370f9455cb8f4aba037f845f55676b467fe84f3792f7c4033cababa45510dfe6ff3e89863da1b75fed00000700'], 'prevout_hash': 'ad26fd575ac8e25ad5e906f4fef4c6e5f9e745bfe01b39563186102d9f88c371', 'height': 204887, 'sequence': 4294967293, 'coinbase': False, 'signatures': [None], 'num_sig': 1, 'value': 39812500, 'type': 'p2pkh'}
 sig_txin:{'prevout_n': 1, 'pubkeys': ['024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93'], 'prev_tx': <qtum_electrum.transaction.Transaction object at 0x7fce88632048>, 'address': 'QVQntHGS4PgoaBLgKW3XE3AuJiXsbfzhsL', 'x_pubkeys': ['ff0488b21e03347afe6a8000000060321055e7f4e659137be8ee14d53665678dc141114bd2d3370f9455cb8f4aba037f845f55676b467fe84f3792f7c4033cababa45510dfe6ff3e89863da1b75fed00000700'], 'prevout_hash': 'ad26fd575ac8e25ad5e906f4fef4c6e5f9e745bfe01b39563186102d9f88c371', 'height': 204887, 'sequence': 4294967293, 'coinbase': False, 'signatures': ['3045022100b1cec75fe05f3ef32fa27a9913e8373b71d28deec64111766073562c5a22259d02200bba935adff2db3786bbaca8676582210b7429dc36ee86f30f899dcd7a84117801'], 'num_sig': 1, 'value': 39812500, 'type': 'p2pkh', 'scriptSig': None, 'witness': None}
 updated_sig_tx:010000000171c3889f2d10863156391be0bf45e7f9e5c6f4fef406e9d55ae2c85a57fd26ad010000006b483045022100b1cec75fe05f3ef32fa27a9913e8373b71d28deec64111766073562c5a22259d02200bba935adff2db3786bbaca8676582210b7429dc36ee86f30f899dcd7a8411780121024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93fdffffff0240420f00000000001976a91410fd3b522d19342fc128ec47ba528ad8b003839188ac60134e02000000001976a914609b2fd0f556478ad932c6d9542e1fac2eb9386288ac00000000
+derivation:m/44'/1'/0'
+tx.outputs():_type0
+应该与热钱包_type一致addr=0 script=2
+
+tx.outputs():addressqdBDeM1aJgbTvLsgZbu6cnk5WCKqhTX8zy
+
+输出了公钥的路径[m/44'/88'/0]
+
+tx.outputs():amount20000000
+
+info:None由address得到的info
+derivation:m/44'/1'/0'
+tx.outputs():_type0
+应该与热钱包_type一致addr=0 script=2
+
+tx.outputs():addressqgSMxMVEDhTo8mqrHJkVLnHmrhpwy1K2U8
+
+输出了公钥的路径[m/44'/88'/0]
+
+tx.outputs():amount849100
+
+info:((True, 4), ('tpubDCdf6NziND7YC2QaZhXpDghGr3w9L6VUr7XHa1rmGEaYEXXH9VSGz3RLij1LWQZFBQqXKdZa7C8eiMBfEJpDkkVB9SezeKBJVjszspMYjSY',), None)由address得到的info
+prev_tx:{'a21c07514b36865870b407554d47ff71ca9c320a0c0800a5af69c77113b85f81': <qtum_electrum.transaction.Transaction object at 0x7f6fcc083710>, '28bdad98d0e6b2ba20c3d9fe1293ef0c6ae6af798d297dec9c0661294b2b7b3e': <qtum_electrum.transaction.Transaction object at 0x7f6fcc083278>, 'f3e2484a0a85323c0976e9493ffdbd475ea493da2205de1fe3b44646e9a89fbe': <qtum_electrum.transaction.Transaction object at 0x7f6fcc083828>}
+
+打印了前一个交易的信息
+
+xpub_path:{'tpubDCdf6NziND7YC2QaZhXpDghGr3w9L6VUr7XHa1rmGEaYEXXH9VSGz3RLij1LWQZFBQqXKdZa7C8eiMBfEJpDkkVB9SezeKBJVjszspMYjSY': "m/44'/1'/0'"}
+
+输出了公钥的路径[m/44'/88'/0]
+
+inputs:[<TxInputType: {'sequence': 4294967294, 'script_type': 0, 'amount': 4017100, 'prev_hash': b'(\xbd\xad\x98\xd0\xe6\xb2\xba \xc3\xd9\xfe\x12\x93\xef\x0cj\xe6\xafy\x8d)}\xec\x9c\x06a)K+{>', 'prev_index': 1, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>, <TxInputType: {'sequence': 4294967294, 'script_type': 0, 'amount': 8548200, 'prev_hash': b'\xf3\xe2HJ\n\x852<\tv\xe9I?\xfd\xbdG^\xa4\x93\xda"\x05\xde\x1f\xe3\xb4FF\xe9\xa8\x9f\xbe', 'prev_index': 11, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>, <TxInputType: {'sequence': 4294967294, 'script_type': 0, 'amount': 8548200, 'prev_hash': b'\xa2\x1c\x07QK6\x86Xp\xb4\x07UMG\xffq\xca\x9c2\n\x0c\x08\x00\xa5\xafi\xc7q\x13\xb8_\x81', 'prev_index': 11, 'address_n': [2147483692, 2147483649, 2147483648, 1, 0]}>]
+
+outputs:[<TxOutputType: {'address': 'qdBDeM1aJgbTvLsgZbu6cnk5WCKqhTX8zy', 'script_type': 0, 'amount': 20000000}>, <TxOutputType: {'address_n': [2147483692, 2147483649, 2147483648, 1, 4], 'script_type': 0, 'amount': 849100}>]
+
+derivation:m/44'/88'/0'
+tx.outputs():_type0
+应该与热钱包_type一致addr=0 script=2
+
+tx.outputs():addressQN9pHDXJto2ZGrFR9Qft39VqxoUN8JBfzF
+
+输出了公钥的路径[m/44'/88'/0]
+
+tx.outputs():amount1000000
+
+info:None由address得到的info
+derivation:m/44'/88'/0'
+tx.outputs():_type0
+应该与热钱包_type一致addr=0 script=2
+
+tx.outputs():addressQVQntHGS4PgoaBLgKW3XE3AuJiXsbfzhsL
+
+输出了公钥的路径[m/44'/88'/0]
+
+tx.outputs():amount38671200
+
+info:((False, 7), ('xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt',), None)由address得到的info
+prev_tx:{'ad26fd575ac8e25ad5e906f4fef4c6e5f9e745bfe01b39563186102d9f88c371': <qtum_electrum.transaction.Transaction object at 0x7f99b4941f98>}
+
+打印了前一个交易的信息
+
+xpub_path:{'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt': "m/44'/88'/0'"}
+
+输出了公钥的路径[m/44'/88'/0]
+
+inputs:[<TxInputType: {'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 0, 7], 'amount': 39812500, 'prev_hash': b'\xad&\xfdWZ\xc8\xe2Z\xd5\xe9\x06\xf4\xfe\xf4\xc6\xe5\xf9\xe7E\xbf\xe0\x1b9V1\x86\x10-\x9f\x88\xc3q', 'script_type': 0, 'prev_index': 1}>]
+
+outputs:[<TxOutputType: {'amount': 1000000, 'script_type': 0, 'address': 'QN9pHDXJto2ZGrFR9Qft39VqxoUN8JBfzF'}>, <TxOutputType: {'amount': 38671200, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 0, 7]}>]
+
+derivation:m/44'/88'/0'
+tx.outputs():_type0
+应该与热钱包_type一致addr=0 script=2
+
+tx.outputs():addressQN9pHDXJto2ZGrFR9Qft39VqxoUN8JBfzF
+
+输出了公钥的路径[m/44'/88'/0]
+
+tx.outputs():amount1000000
+
+info:None由address得到的info
+derivation:m/44'/88'/0'
+tx.outputs():_type0
+应该与热钱包_type一致addr=0 script=2
+
+tx.outputs():addressQVQntHGS4PgoaBLgKW3XE3AuJiXsbfzhsL
+
+输出了公钥的路径[m/44'/88'/0]
+
+tx.outputs():amount38671200
+
+info:((False, 7), ('xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt',), None)由address得到的info
+prev_tx:{'ad26fd575ac8e25ad5e906f4fef4c6e5f9e745bfe01b39563186102d9f88c371': <qtum_electrum.transaction.Transaction object at 0x7f99b4941f98>}
+
+打印了前一个交易的信息
+
+xpub_path:{'xpub6C39BNPTthziQaU1C5ZtUQYQNGmcZbsAbeq4aBDjH7nU2aTs99HA8GVayyzqxzE3zb2obSpfPjJru6yR9Qy5bFBFz4sb279ydwYhWqh7kCt': "m/44'/88'/0'"}
+
+输出了公钥的路径[m/44'/88'/0]
+
+inputs:[<TxInputType: {'sequence': 4294967294, 'address_n': [2147483692, 2147483736, 2147483648, 0, 7], 'amount': 39812500, 'prev_hash': b'\xad&\xfdWZ\xc8\xe2Z\xd5\xe9\x06\xf4\xfe\xf4\xc6\xe5\xf9\xe7E\xbf\xe0\x1b9V1\x86\x10-\x9f\x88\xc3q', 'script_type': 0, 'prev_index': 1}>]
+
+outputs:[<TxOutputType: {'amount': 1000000, 'script_type': 0, 'address': 'QN9pHDXJto2ZGrFR9Qft39VqxoUN8JBfzF'}>, <TxOutputType: {'amount': 38671200, 'script_type': 0, 'address_n': [2147483692, 2147483736, 2147483648, 0, 7]}>]
+
+origin_signatures:[bytearray(b'0E\x02!\x00\xd9\n\xa9\xea)G\x03x\xc1i\xd8\x8a\xa7\x9c\xbaswv\xb8\xd3\xc0z~\xc5/\xfa\xb3\xad\xbc\xa8^\x89\x02 !\x08\xad\xab\xf3\x84PE\xf7\xb2\xe1Bn\xa3St\x0b\xa9\xb4\xf3{J\xc4V:v\xe0K\xfb\x84?\xca')]
+unupdated_sig_tx:45505446ff00010000000171c3889f2d10863156391be0bf45e7f9e5c6f4fef406e9d55ae2c85a57fd26ad010000005601ff53ff0488b21e03347afe6a8000000060321055e7f4e659137be8ee14d53665678dc141114bd2d3370f9455cb8f4aba037f845f55676b467fe84f3792f7c4033cababa45510dfe6ff3e89863da1b75fed00000700feffffff0240420f00000000001976a91410fd3b522d19342fc128ec47ba528ad8b003839188ac60134e02000000001976a914609b2fd0f556478ad932c6d9542e1fac2eb9386288ac00000000
+nonsig_txin:{'num_sig': 1, 'prevout_hash': 'ad26fd575ac8e25ad5e906f4fef4c6e5f9e745bfe01b39563186102d9f88c371', 'sequence': 4294967294, 'coinbase': False, 'prevout_n': 1, 'type': 'p2pkh', 'address': 'QVQntHGS4PgoaBLgKW3XE3AuJiXsbfzhsL', 'signatures': [None], 'pubkeys': ['024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93'], 'height': 204887, 'prev_tx': <qtum_electrum.transaction.Transaction object at 0x7f99b4941f98>, 'x_pubkeys': ['ff0488b21e03347afe6a8000000060321055e7f4e659137be8ee14d53665678dc141114bd2d3370f9455cb8f4aba037f845f55676b467fe84f3792f7c4033cababa45510dfe6ff3e89863da1b75fed00000700'], 'value': 39812500}
+sig_txin:{'num_sig': 1, 'prevout_hash': 'ad26fd575ac8e25ad5e906f4fef4c6e5f9e745bfe01b39563186102d9f88c371', 'sequence': 4294967294, 'coinbase': False, 'prevout_n': 1, 'type': 'p2pkh', 'address': 'QVQntHGS4PgoaBLgKW3XE3AuJiXsbfzhsL', 'scriptSig': None, 'signatures': ['3045022100d90aa9ea29470378c169d88aa79cba737776b8d3c07a7ec52ffab3adbca85e8902202108adabf3845045f7b2e1426ea353740ba9b4f37b4ac4563a76e04bfb843fca01'], 'pubkeys': ['024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93'], 'height': 204887, 'prev_tx': <qtum_electrum.transaction.Transaction object at 0x7f99b4941f98>, 'witness': None, 'x_pubkeys': ['ff0488b21e03347afe6a8000000060321055e7f4e659137be8ee14d53665678dc141114bd2d3370f9455cb8f4aba037f845f55676b467fe84f3792f7c4033cababa45510dfe6ff3e89863da1b75fed00000700'], 'value': 39812500}
+updated_sig_tx:010000000171c3889f2d10863156391be0bf45e7f9e5c6f4fef406e9d55ae2c85a57fd26ad010000006b483045022100d90aa9ea29470378c169d88aa79cba737776b8d3c07a7ec52ffab3adbca85e8902202108adabf3845045f7b2e1426ea353740ba9b4f37b4ac4563a76e04bfb843fca0121024bdc91c5b20e29f1f7200d17c50c989024e7d660168922434d98b27c05dc2d93feffffff0240420f00000000001976a91410fd3b522d19342fc128ec47ba528ad8b003839188ac60134e02000000001976a914609b2fd0f556478ad932c6d9542e1fac2eb9386288ac00000000

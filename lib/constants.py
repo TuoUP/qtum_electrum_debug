@@ -130,4 +130,4 @@ def set_regtest():
     net = QtumRegtest
 
 
-print("netdddddddddddddddddddddd",net)
+#print("netdddddddddddddddddddddd",net)

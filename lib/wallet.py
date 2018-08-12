@@ -1162,13 +1162,13 @@ class Abstract_Wallet(PrintError):
             raise Exception('Dynamic fee estimates not available')
 
         for item in inputs:#打印don't know
-            with open('./debug_info_var.txt', 'a') as f:
+            with open('./add_input_info.txt', 'a') as f:
                 try:
                     f.write('file:wallet,func:add_input_info,var:item:' + str(item) + '\n')
                 except:
                     pass
             self.add_input_info(item)
-            with open('./debug_info_var.txt', 'a') as f:
+            with open('./add_input_info.txt', 'a') as f:
                 try:
                     f.write('file:wallet,var:add_input_info(item)' +str(item)+ '\n')
                 except:
@@ -1204,9 +1204,12 @@ class Abstract_Wallet(PrintError):
                 coin_chooser = coinchooser.CoinChooserQtum()
             else:
                 coin_chooser = coinchooser.get_coin_chooser(config)
+                #print("else_coin_chooser", coin_chooser.__class__.__name__)
             tx = coin_chooser.make_tx(inputs, outputs, change_addrs[:max_change],
-                                      fee_estimator, self.dust_threshold(), sender)
-        else:#i_max 不为 None 时候:
+                                          fee_estimator, self.dust_threshold(), sender)
+            #print("coin_chooser", coin_chooser.__class__.__name__)
+
+        else: #i_max 不为 None 时候:
             sendable = sum(map(lambda x:x['value'], inputs)) #所有输入的地址的UTXO求和
             _type, data, value = outputs[i_max]
             outputs[i_max] = (_type, data, 0)

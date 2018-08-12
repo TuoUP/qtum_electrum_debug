@@ -33,6 +33,7 @@ from .ecc import string_to_number, number_to_string
 from .crypto import pw_decode, pw_encode
 from .mnemonic import Mnemonic, load_wordlist
 from .util import PrintError, InvalidPassword, hfu, WalletFileException, QtumException
+from .util import Print
 
 
 class KeyStore(PrintError):
@@ -74,7 +75,7 @@ class KeyStore(PrintError):
                 if x_signatures[k] is not None:
                     # this pubkey already signed
                     continue
-                # derivation  = 公钥
+                # derivation
                 derivation = self.get_pubkey_derivation(x_pubkey)
                 if not derivation:
                     continue
@@ -88,13 +89,6 @@ class KeyStore(PrintError):
         return keypairs
 
     def can_sign(self, tx):
-        with open('./debug_info_step.txt', 'a') as f:
-            try:
-                f.write(
-                    'file_name:keystore.py,function_name:can_sign:' + '\n' + 'step 2-1: call keystore.can_sign' + '\n')
-            except:
-                f.write(
-                    'file_name:keystore.py,function_name:can_sign:' + '\n' + 'not write')
         if self.is_watching_only():
             return False
         return bool(self.get_tx_derivations(tx))
@@ -314,8 +308,10 @@ class Xpub:#
         assert pubkey[0:2] == 'ff'
         pk = bfh(pubkey)#byte from hex
         pk = pk[1:]
+        #print("pk[0:78]",pk[0:78])
         xkey = bitcoin.EncodeBase58Check(pk[0:78])
         dd = pk[78:]
+        #print("pk[78:]", pk[78:])
         s = []
         while dd:
             n = int(bitcoin.rev_hex(bh2u(dd[0:2])), 16)
@@ -334,6 +330,10 @@ class Xpub:#
         if x_pubkey[0:2] != 'ff':
             return
         xpub, derivation = self.parse_xpubkey(x_pubkey)
+        pubkey = Print("xpubkey")
+
+        pubkey.add_var(x_pubkey = x_pubkey,xpub = xpub,derivation = derivation)
+
         if self.xpub != xpub:
             return
         return derivation

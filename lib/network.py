@@ -1227,7 +1227,7 @@ class Network(util.DaemonThread):
     # NOTE this method handles exceptions and a special edge case, counter to
     # what the other ElectrumX methods do. This is unexpected.
     def broadcast_transaction(self, transaction, callback=None):
-        print('Treazor 执行的broadcast  network.py')
+        #print('Treazor 执行的broadcast  network.py')
         command = 'blockchain.transaction.broadcast'
         invocation = lambda c: self.send([(command, [str(transaction)])], c)
 

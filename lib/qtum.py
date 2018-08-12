@@ -9,6 +9,7 @@ from eth_utils import function_abi_to_4byte_selector
 
 from .util import bfh, bh2u, assert_bytes, to_bytes, inv_dict, print_error, QtumException
 from .util import unpack_uint16_from, unpack_uint32_from, unpack_uint64_from, unpack_int32_from, unpack_int64_from
+from .util import Print
 from . import version
 from . import constants
 from . import segwit_addr
@@ -371,8 +372,12 @@ def base_decode(v, length, base):
     if base == 43:
         chars = __b43chars
     long_value = 0
+
+    #base_encode_file = Print("Base_encode")
+
     for (i, c) in enumerate(v[::-1]):
         digit = chars.find(bytes([c]))
+        #base_encode_file.add_var(c = c,bytes_c = bytes(c),digit = digit)
         if digit == -1:
             raise ValueError('Forbidden character {} for base {}'.format(c, base))
         long_value += digit * (base ** i)
@@ -392,6 +397,9 @@ def base_decode(v, length, base):
     if length is not None and len(result) != length:
         return None
     result.reverse()
+
+    #base_encode_file.add_var(c=c, bytes_c=bytes(c), digit=digit)
+
     return bytes(result)
 
 
@@ -501,7 +509,7 @@ def address_from_private_key(sec):
 
 
 def is_segwit_address(addr):
-    print('segwit_', constants.net)
+    #print('segwit_', constants.net)
     try:
         witver, witprog = segwit_addr.decode(constants.net.SEGWIT_HRP, addr)
         return witprog is not None
@@ -510,25 +518,25 @@ def is_segwit_address(addr):
 
 
 def is_b58_address(addr):
-    print('b58_',constants.net)
+    #print('b58_',constants.net)
     try:
         addrtype, h = b58_address_to_hash160(addr)
-        print('addrtype',addrtype)
-        print(constants.net)
-        print('constants.net.ADDRTYPE_P2PKH',constants.net.ADDRTYPE_P2PKH)
-        print('constants.net.ADDRTYPE_P2SH',constants.net.ADDRTYPE_P2SH)
+        #print('addrtype',addrtype)
+        #print(constants.net)
+        #print('constants.net.ADDRTYPE_P2PKH',constants.net.ADDRTYPE_P2PKH)
+        #print('constants.net.ADDRTYPE_P2SH',constants.net.ADDRTYPE_P2SH)
     except Exception as e:
         return False
     if addrtype not in [constants.net.ADDRTYPE_P2PKH, constants.net.ADDRTYPE_P2SH]:
         return False
-    print('addr == hash160_to',addr == hash160_to_b58_address(h, addrtype))
+    #print('addr == hash160_to',addr == hash160_to_b58_address(h, addrtype))
     return addr == hash160_to_b58_address(h, addrtype)
 
 
 def is_address(addr):
-    print('is_segwit',is_segwit_address(addr))
-    print(addr)
-    print('is_b58_ad',is_b58_address(addr))
+    #print('is_segwit',is_segwit_address(addr))
+    #print(addr)
+    #print('is_b58_ad',is_b58_address(addr))
     return is_segwit_address(addr) or is_b58_address(addr)
 
 

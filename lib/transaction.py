@@ -889,6 +889,7 @@ class Transaction:
         return d
 
     @classmethod
+    #工厂模式
     def from_io(klass, inputs, outputs, locktime=0):
         self = klass(None)
         self._inputs = inputs
@@ -1080,6 +1081,14 @@ class Transaction:
             return None
         prevout_hash = txin['prevout_hash']
         prevout_n = txin['prevout_n']
+
+        Outpoint = Print("Outpoint_from_txin")
+        Outpoint.add_var(prevout_hash = prevout_hash,\
+                        prevout_n = prevout_n)
+
+        Outpoint.read_me("这个文件夹里记录了sign_txin时,serialize_preimage下的"\
+                         "中的serialize_input下的serialize_outpoint的输出内容")
+
         return prevout_hash + ':%d' % prevout_n
 
     @classmethod
@@ -1186,7 +1195,7 @@ class Transaction:
             return network_ser
 
     def serialize_to_network(self, estimate_size=False, witness=True):
-        print("into serialize_to_network!!!")
+        #print("into serialize_to_network!!!")
         nVersion = int_to_hex(self.version, 4)
         nLocktime = int_to_hex(self.locktime, 4)
         inputs = self.inputs()
@@ -1199,11 +1208,11 @@ class Transaction:
             witness = ''.join(self.serialize_witness(x, estimate_size) for x in inputs)
             return nVersion + marker + flag + txins + txouts + witness + nLocktime
         else:
-            print("nVersion:",nVersion)
-            print('txins:',txins)
-            print('txouts:',txouts)
-            print('nLocktime:',nLocktime)
-            print('total:',nVersion + txins + txouts + nLocktime)
+            #print("nVersion:",nVersion)
+            #print('txins:',txins)
+            #print('txouts:',txouts)
+            #print('nLocktime:',nLocktime)
+            #print('total:',nVersion + txins + txouts + nLocktime)
             return nVersion + txins + txouts + nLocktime
 
     def txid(self):
@@ -1314,12 +1323,10 @@ class Transaction:
     def sign(self, keypairs) -> None:
         # keypairs:  (x_)pubkey -> secret_bytes
         #使用公钥和私钥进行签名,公钥是X点坐标
-        for i, txin in enumerate(self.inputs()):#txin:?transactioninput
+        for i, txin in enumerate(self.inputs()):#txin:addresses contains in input
             pubkeys, x_pubkeys = self.get_sorted_pubkeys(txin)#从txin中得到
-
-            token = Print('token')
-            token.add_var(txin = txin,pubkeys = pubkeys,x_pubkeys = x_pubkeys)
-            token.add_step('step test')
+            keystore_Myfile = Print('(x_)pubkeys')
+            keystore_Myfile.add_var(txin = txin,pubkeys = pubkeys,x_pubkeys = x_pubkeys)
 
             with open('./QE_sign.txt','a') as f:
                 try:
@@ -1351,16 +1358,21 @@ class Transaction:
                     continue
                 print_error("adding signature for", _pubkey)#don't know
                 sec, compressed = keypairs.get(_pubkey)   #从keypairs得到私钥和压缩公钥
+
+                keystore_Myfile.add_var(keypairs = keypairs ,sec = sec,compressed = compressed)
+
                 sig = self.sign_txin(i, sec)  #对交易中的输入的第i个地址的私钥进行签名
 
-                token.add_var(sig = sig)
+                keystore_Myfile.add_var(sig = sig)
 
                 with open('./QE_sign.txt', 'a') as f:
                     try:
                         f.write('UNsigned_txin:' + 2 * '\n' + str(txin) + 2 * '\n')
                     except:
                         f.write('Failed written UNsigned_txin!' + 2 * '\n')
+
                 self.add_signature_to_txin(i, j, sig)
+
                 with open('./QE_sign.txt', 'a') as f:
                     try:
                         f.write('signed_txin:' + 2 * '\n' + str(txin) + 2 * '\n')
@@ -1383,6 +1395,8 @@ class Transaction:
         #获取txin[txin_index]的preimage的信息,对这些信息bfh = bytes.fromhex()后
         # ,即将16进制字符串转为bytes(字节)形式进行hash
         privkey = ecc.ECPrivkey(privkey_bytes)
+        #print("privkey",privkey._privkey)
+        #print("pubkey",privkey._pubkey)
         sig = privkey.sign_transaction(pre_hash)#prehash完成私钥签名
 
 

@@ -116,15 +116,17 @@ class CoinChooserBase(PrintError):
         keys = self.keys(coins)#  keys方法在子类中进行了重写 ,Qtum得到地址
         buckets = defaultdict(list)#defaultdict类的初始化函数接受一个类型作为参数，
                                   # 当所访问的键不存在的时候，可以实例化一个值作为默认值
-        for key, coin in zip(keys, coins):
+        for key, coin in zip(keys, coins):#buckets.values() 等于 coins
             buckets[key].append(coin)#{key->str : coin}
 
         def make_Bucket(desc, coins):
             weight = sum(Transaction.estimated_input_weight(coin)
                          for coin in coins)
             size = Transaction.virtual_size_from_weight(weight)#
-            value = sum(coin['value'] for coin in coins)
+            value = sum(coin['value'] for coin in coins)#这里面的coins在我理解看来,其实只有一个coin,单元素
             return Bucket(desc, size, value, coins)
+        print("buckets.keys()",buckets.keys())
+        print("buckets.values()",buckets.values())
 
         return list(map(make_Bucket, buckets.keys(), buckets.values()))
 
@@ -143,16 +145,19 @@ class CoinChooserBase(PrintError):
         max_change = max(max(output_amounts) * 1.25, 0.02 * COIN)
 
         # Use N change outputs
-        for n in range(1, count + 1):#dont know
+        for n in range(1, count + 1):
             # How much is left if we add this many change outputs?
+            #tx.get_fee(): tx.input_value() - tx.output_value()
             change_amount = max(0, tx.get_fee() - fee_estimator(n))
             if change_amount // n <= max_change:
                 break
 
         # Get a handle on the precision of the output amounts; round our
         # change to look similar
+
         def trailing_zeroes(val):
             s = str(val)
+            #return is the length of the zeros of s
             return len(s) - len(s.rstrip('0'))#s.rstrip('0')   删除s末尾的0
 
         zeroes = [trailing_zeroes(i) for i in output_amounts]
@@ -161,7 +166,7 @@ class CoinChooserBase(PrintError):
         zeroes = range(max(0, min_zeroes - 1), (max_zeroes + 1) + 1)
 
         # Calculate change; randomize it a bit if using more than 1 output
-        remaining = change_amount#
+        remaining = change_amount #the value of change
         amounts = []
         while n > 1:
             average = remaining / n
@@ -208,6 +213,7 @@ class CoinChooserBase(PrintError):
         # Deterministic randomness from coins
         #源于coins的确定随机
         utxos = [c['prevout_hash'] + str(c['prevout_n']) for c in coins]
+        #随机数种子生成器
         self.p = PRNG(''.join(sorted(utxos)))#在连接Trazor的时候使用   don't know
 
         # Copy the ouputs so when adding change we don't modify "outputs"
@@ -222,8 +228,8 @@ class CoinChooserBase(PrintError):
                 f.write('file:coinchooser.py,func:from_io,var:tx.output():'+str(tx.outputs())+'\n')
                 #f.write('file:coinchooser.py,var:from_io,var:tx.intput():' + str(tx.intput()) + '\n')
             except:
-                print('##############wrong!!!!!!!!!!')
-                print('##############wrong!!!!!!!!!!')
+                #print('##############wrong!!!!!!!!!!')
+                #print('##############wrong!!!!!!!!!!')
                 print('##############wrong!!!!!!!!!!')
         # Size of the transaction with no inputs and no change
         base_size = tx.estimated_size()
@@ -239,7 +245,9 @@ class CoinChooserBase(PrintError):
             return total_input >= spent_amount + fee_estimator(total_size)
 
         # Collect the coins into buckets, choose a subset of the buckets
-        buckets = self.bucketize_coins(coins)#?
+        buckets = self.bucketize_coins(coins)## ?
+        #print("buckets:",buckets.__class__.__name__)
+        #print('buckets',buckets)
         #bucket中包含了要花费UTXO的地址
         buckets = self.choose_buckets(buckets, sufficient_funds,
                                       self.penalty_func(tx), sender)

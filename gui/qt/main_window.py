@@ -1346,7 +1346,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
         if self.payment_request and self.payment_request.has_expired():
             self.show_error(_('Payment request has expired'))
             return
-        label = self.message_e.text()#?
+        label = self.message_e.text()#在send界面中的Description的内容
 
         if self.payment_request:
             outputs = self.payment_request.get_outputs()
@@ -1386,12 +1386,12 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
         fee = self.fee_e.get_amount() if freeze_fee else None
         coins = self.get_coins()
         ########debug_info##########
-        with open('./debug_info_var.txt', 'a') as f:
+        with open('./read_send_tab.txt', 'a') as f:
             try:
                 f.write('file:main_window.py,func_name:read_send_tab,label:' + str(label))
                 f.write('file:main_window.py,func_name:read_send_tab,outputs:' + str(outputs))
-                f.write('file:main_window.py,func_name:read_send_tab,outputs:' + str(fee))
-                f.write('file:main_window.py,func_name:read_send_tab,outputs:' + str(coins))
+                f.write('file:main_window.py,func_name:read_send_tab,fee:' + str(fee))
+                f.write('file:main_window.py,func_name:read_send_tab,coins:' + str(coins))
             except:
                 pass
 
@@ -1439,6 +1439,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
         try:
             is_sweep = bool(self.tx_external_keypairs)
             #先制造一个无签名交易
+            print("is sweep:",is_sweep)
             tx = self.wallet.make_unsigned_transaction(coins, outputs, self.config, fee, is_sweep=is_sweep)
         except NotEnoughFunds:
             self.show_message(_("Insufficient funds"))
@@ -3246,7 +3247,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
 
     def _smart_contract_broadcast(self, outputs, desc, gas_fee, sender, dialog):
         coins = self.get_coins()#相当于主链币交易中的inputs
-        print("coins",coins)
+        #print("coins",coins)
         try:
             with open('../var/token_addr.txt', 'a') as f:
                 f.write('func:_smart_contract_broadcast:  ' +  '\n')

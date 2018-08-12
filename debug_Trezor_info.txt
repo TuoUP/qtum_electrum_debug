@@ -516,3 +516,25 @@ handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fce886908b8>
 
 handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7fce886908b8>
 
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f6fc4042ee8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f6fc4042ee8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f6fc4042ee8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f6fc4042ee8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f99b488fca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f99b488fca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f99b488fca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f99b488fca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f99b488fca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f99b488fca8>
+
+handler:<qtum_electrum_plugins.trezor.qt.QtHandler object at 0x7f99b488fca8>
+
